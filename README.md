@@ -283,7 +283,3 @@ Some ideas for further development:
 ## 📄 License
 
 MIT License — free to use, modify, and distribute.
-
----
-
-*Built as a portfolio project demonstrating ML engineering applied to FP&A workflows.*
