@@ -28,3 +28,7 @@ Thumbs.db
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Tableau (regenerate with tableau/build_extract.py)
+*.hyper
+hyperd.log
