@@ -117,6 +117,19 @@ ai-variance-analyst/
 │   ├── rag_pipeline.py             # ChromaDB + sentence-transformers RAG
 │   └── llm_analyst.py              # Claude API integration
 │
+├── tests/                          # Deterministic unit tests (pytest, no API calls)
+│   ├── test_variance_engine.py     # Flagging rules, thresholds, dedup, direction logic
+│   └── test_eval_narrative.py      # Tests the eval framework's own parsing logic
+│
+├── eval/
+│   └── eval_narrative.py           # LLM output groundedness + structure eval (calls Claude API)
+│
+├── tableau/
+│   ├── build_extract.py            # Builds the Tableau .hyper extract from variance_engine
+│   ├── extract/                    # Generated budget_variance.hyper (gitignored)
+│   └── dist/
+│       └── budget_variance.twbx    # Packaged Tableau workbook, ready to open
+│
 ├── rag_docs/                       # Company context documents for RAG
 │   ├── budget_assumptions_fy2024.md
 │   ├── company_overview.md
@@ -192,6 +205,18 @@ streamlit run app.py
 ```
 Open [http://localhost:8501](http://localhost:8501) in your browser.
 
+### 8. (Optional) Run the test suite
+```bash
+pytest tests/ -v
+```
+No API key needed — see [Testing & Evaluation](#-testing--evaluation) below.
+
+### 9. (Optional) Build the Tableau extract
+```bash
+python tableau/build_extract.py
+```
+Or just open the pre-built `tableau/dist/budget_variance.twbx` directly — see [Tableau Dashboard](#-tableau-dashboard).
+
 ---
 
 ## 📸 Demo Walkthrough
@@ -240,6 +265,87 @@ This mix of **expected** and **unexpected** variances demonstrates the system's 
 
 ---
 
+## 🧪 Testing & Evaluation
+
+This project has two very different kinds of correctness to check, and tests them differently.
+
+### Deterministic engine tests
+`variance_engine.py`'s flagging logic (rule-based %, Z-score outliers, trend detection, severity
+classification, direction/BEAT-MISS labeling) is pure functions over data — tested like any other
+code, with hand-computed synthetic fixtures and no network calls.
+
+```bash
+pytest tests/ -v
+```
+33 tests, runs in a couple seconds, no API key required. Covers exact threshold boundaries
+(10% / 20% / 30% severity cutoffs, the $5K minimum-dollar floor), Z-score outlier detection
+(hand-verified against `scipy.stats.zscore`), 3-consecutive-period trend firing, dedup when a row
+is flagged by multiple methods at once, and the Revenue BEAT/MISS direction flip.
+
+### LLM narrative groundedness eval
+This README claims *"no hallucination, full auditability."* `eval/eval_narrative.py` is what
+actually tests that claim rather than leaving it asserted: it extracts every `$` amount and `%`
+figure Claude cites in a generated report, and checks each one traces back to the
+`variance_data` / `summary_metrics` JSON that was actually in its prompt (within a small rounding
+tolerance). A number that matches nothing in the source data is flagged as a hallucination
+candidate. It also checks structural compliance — all four required report sections present,
+Executive Summary under the prompt's own 150-word limit.
+
+```bash
+export ANTHROPIC_API_KEY=sk-ant-your-key-here
+python eval/eval_narrative.py
+```
+This calls the real Claude API (a handful of requests) and depends on live data, so it's a manual
+script rather than a CI gate — run it after touching `llm_analyst.py`'s prompts or system rules.
+Its own parsing/matching logic is unit-tested separately in `tests/test_eval_narrative.py` (no API
+key needed), so a bug in the checker can't silently make every groundedness score meaningless.
+
+### Not yet covered
+RAG retrieval quality (`rag_pipeline.py`) — precision/recall@k against a hand-labeled set of
+queries and expected source documents — is the natural next layer. See
+[Extending This Project](#-extending-this-project).
+
+---
+
+## 📊 Tableau Dashboard
+
+The same variance analysis the Streamlit app shows is also available as a Tableau extract, for
+audiences who'd rather work in Tableau than run a Python app — no server, no API key, no per-view
+LLM cost.
+
+`tableau/build_extract.py` reuses `variance_engine.build_variance_report()` directly — it doesn't
+re-derive the analysis — so the workbook always shows exactly the same numbers as the live app. It
+writes `tableau/extract/budget_variance.hyper` with two tables:
+
+| Table | Grain | Powers |
+|---|---|---|
+| `Extract` | period × account × department (wide) | KPI tiles, flagged-variance table, heatmap, severity mix |
+| `Trend` | period × account × department × metric_type (long) | Trend line chart, budget/actual/forecast comparison |
+
+`Trend` rows exist as `Actual` only for closed periods and `Forecast` only for open ones, so a
+Tableau line mark breaks cleanly at the actual/forecast boundary with no null-connect tricks.
+
+```bash
+python tableau/build_extract.py
+```
+
+A pre-built, packaged workbook is checked in at `tableau/dist/budget_variance.twbx` — open it
+directly in Tableau Desktop or Tableau Public, no build step required. It's self-contained (the
+extract is embedded) with seven worksheets — KPI Summary, Variance by Department, Flag Severity
+Mix, Variance Heatmap, Flagged Variances, Trend, Metric Totals — combined into one
+"Budget Variance Overview" dashboard.
+
+> **Note:** this workbook was hand-authored directly against the Tableau `.twb` XML schema (no
+> Tableau Desktop was available in the environment it was built in). Every field reference is
+> validated against the real `.hyper` schema, but visual rendering hasn't been confirmed inside
+> Tableau itself — treat it as a strong first draft, not a GUI-verified export.
+
+The Hyper extract is a snapshot, not a live connection — regenerate it (`python
+tableau/build_extract.py`) any time the underlying data changes. `*.hyper` files are gitignored as
+build artifacts.
+
+---
+
 ## 🛠️ Tech Stack
 
 | Layer | Technology |
@@ -250,6 +356,8 @@ This mix of **expected** and **unexpected** variances demonstrates the system's 
 | LLM | Anthropic Claude (claude-sonnet-4-20250514) |
 | Frontend | Streamlit, Plotly |
 | Storage | CSV / DuckDB-compatible format |
+| Testing | pytest (deterministic engine tests + eval-framework self-tests) |
+| BI extract | Tableau Hyper API (`tableauhyperapi`) |
 
 ---
 
@@ -263,6 +371,8 @@ Some ideas for further development:
 - **Slack/email alerts**: Auto-notify department heads when their accounts exceed thresholds
 - **Multi-company**: Extend RAG index to support multiple subsidiaries or business units
 - **Forecast accuracy tracking**: Build a model that tracks how accurate monthly forecasts have been
+- **RAG retrieval eval**: Precision/recall@k against a hand-labeled query → expected-source-doc set
+- **Tableau Server/Cloud publishing**: Replace the manual `.hyper` snapshot with a scheduled extract refresh
 
 ---
 
@@ -277,6 +387,8 @@ Some ideas for further development:
 | **Financial Domain Knowledge** | GL account modeling, FP&A reporting conventions, GAAP terminology |
 | **Production Engineering** | Modular codebase, caching, error handling, API key management |
 | **Executive Communication** | CFO-level report format, actionable recommendations |
+| **Testing & LLM Evaluation** | Deterministic regression tests + a groundedness eval that verifies the "no hallucination" claim numerically |
+| **BI / Analytics Integration** | Tableau Hyper extract reusing the same engine, so BI and app numbers never diverge |
 
 ---
 
