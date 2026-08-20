@@ -19,9 +19,7 @@ from plotly.subplots import make_subplots
 # Add src to path
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "src"))
 
-# Always regenerate data to ensure CURRENT_PERIOD is applied correctly
 import subprocess
-subprocess.run([sys.executable, "src/generate_data.py"], check=True)
 
 from variance_engine import (
     load_data, build_variance_report, compute_summary_metrics, get_top_variances
@@ -118,6 +116,16 @@ st.markdown("""
 # ── Session state ─────────────────────────────────────────────────────────────
 @st.cache_resource(show_spinner="Loading financial data & RAG index...")
 def load_all():
+    # Regenerate mock data once per server process, guarded by this cache's own
+    # locking -- NOT unconditionally at module scope. Streamlit reruns the whole
+    # script on every widget interaction for every session; running the
+    # subprocess at module top level let concurrent sessions race to overwrite
+    # data/processed/erp_combined.csv mid-write, so a read here could land on a
+    # truncated or empty file. That's what caused the intermittent blank
+    # heatmap / flat trend-chart line in production -- confirmed by reproducing
+    # torn reads locally under concurrent regeneration.
+    subprocess.run([sys.executable, "src/generate_data.py"], check=True)
+
     df = load_data("data/processed/erp_combined.csv")
     report = build_variance_report(df)
     metrics = compute_summary_metrics(df)
