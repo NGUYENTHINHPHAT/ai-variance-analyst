@@ -76,7 +76,11 @@ def build_vector_store(docs: list[dict], persist_dir: str = CHROMA_DIR):
     except Exception:
         pass
 
-    collection = client.create_collection(COLLECTION_NAME)
+    # Explicit cosine distance -- sentence-transformer embeddings are best compared
+    # by direction, not magnitude. Chroma's default is squared L2, which happens to
+    # rank similarly for MiniLM's roughly-uniform-magnitude output but isn't the
+    # metric actually intended here.
+    collection = client.create_collection(COLLECTION_NAME, metadata={"hnsw:space": "cosine"})
 
     texts    = [d["text"]     for d in docs]
     ids      = [d["chunk_id"] for d in docs]
