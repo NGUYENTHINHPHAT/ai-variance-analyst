@@ -1,829 +1,829 @@
 period,account_id,account_name,account_type,department_id,department_name,budget_amount,actual_amount,forecast_amount
-2024-01,4001,Product Revenue - SaaS,Revenue,D02,Sales,361250.0,368427.52,367097.62
-2024-01,4001,Product Revenue - SaaS,Revenue,D03,Marketing,144500.0,143700.83,145366.8
-2024-01,4001,Product Revenue - SaaS,Revenue,D05,Customer Success,144500.0,148243.64,146641.03
-2024-01,4001,Product Revenue - SaaS,Revenue,D06,Product,72250.0,76651.56,77123.68
-2024-02,4001,Product Revenue - SaaS,Revenue,D02,Sales,374000.0,370497.07,372694.49
-2024-02,4001,Product Revenue - SaaS,Revenue,D03,Marketing,149600.0,148198.92,147740.18
-2024-02,4001,Product Revenue - SaaS,Revenue,D05,Customer Success,149600.0,159050.01,159568.72
-2024-02,4001,Product Revenue - SaaS,Revenue,D06,Product,74800.0,77096.16,76131.6
-2024-03,4001,Product Revenue - SaaS,Revenue,D02,Sales,403750.0,396167.99,399828.69
-2024-03,4001,Product Revenue - SaaS,Revenue,D03,Marketing,161500.0,165004.94,164699.84
-2024-03,4001,Product Revenue - SaaS,Revenue,D05,Customer Success,161500.0,158506.32,157677.77
-2024-03,4001,Product Revenue - SaaS,Revenue,D06,Product,80750.0,79245.69,80076.98
-2024-04,4001,Product Revenue - SaaS,Revenue,D02,Sales,416500.0,420531.09,417569.11
-2024-04,4001,Product Revenue - SaaS,Revenue,D03,Marketing,166600.0,153849.9,151682.98
-2024-04,4001,Product Revenue - SaaS,Revenue,D05,Customer Success,166600.0,155105.15,152690.74
-2024-04,4001,Product Revenue - SaaS,Revenue,D06,Product,83300.0,81426.46,81919.91
-2024-05,4001,Product Revenue - SaaS,Revenue,D02,Sales,433500.0,415937.51,410611.72
-2024-05,4001,Product Revenue - SaaS,Revenue,D03,Marketing,173400.0,175579.62,178660.68
-2024-05,4001,Product Revenue - SaaS,Revenue,D05,Customer Success,173400.0,167101.95,163623.01
-2024-05,4001,Product Revenue - SaaS,Revenue,D06,Product,86700.0,81802.13,83189.87
-2024-06,4001,Product Revenue - SaaS,Revenue,D02,Sales,446250.0,472411.83,473408.7
-2024-06,4001,Product Revenue - SaaS,Revenue,D03,Marketing,178500.0,176887.96,176716.89
-2024-06,4001,Product Revenue - SaaS,Revenue,D05,Customer Success,178500.0,178982.15,178006.84
-2024-06,4001,Product Revenue - SaaS,Revenue,D06,Product,89250.0,84163.65,84499.58
-2024-07,4001,Product Revenue - SaaS,Revenue,D02,Sales,459000.0,366385.13,366247.24
-2024-07,4001,Product Revenue - SaaS,Revenue,D03,Marketing,183600.0,184414.62,186449.27
-2024-07,4001,Product Revenue - SaaS,Revenue,D05,Customer Success,183600.0,175147.1,175347.17
-2024-07,4001,Product Revenue - SaaS,Revenue,D06,Product,91800.0,93179.56,93319.61
-2024-08,4001,Product Revenue - SaaS,Revenue,D02,Sales,467500.0,358093.06,356790.99
-2024-08,4001,Product Revenue - SaaS,Revenue,D03,Marketing,187000.0,184818.13,184712.88
-2024-08,4001,Product Revenue - SaaS,Revenue,D05,Customer Success,187000.0,182499.23,183060.97
-2024-08,4001,Product Revenue - SaaS,Revenue,D06,Product,93500.0,100427.52,98710.04
-2024-09,4001,Product Revenue - SaaS,Revenue,D02,Sales,476000.0,404343.01,398891.72
-2024-09,4001,Product Revenue - SaaS,Revenue,D03,Marketing,190400.0,182344.47,183699.77
-2024-09,4001,Product Revenue - SaaS,Revenue,D05,Customer Success,190400.0,196664.5,197000.53
-2024-09,4001,Product Revenue - SaaS,Revenue,D06,Product,95200.0,90551.03,90384.43
-2024-10,4001,Product Revenue - SaaS,Revenue,D02,Sales,488750.0,492833.28,492924.13
-2024-10,4001,Product Revenue - SaaS,Revenue,D03,Marketing,195500.0,180175.38,180801.64
-2024-10,4001,Product Revenue - SaaS,Revenue,D05,Customer Success,195500.0,185113.59,184114.42
-2024-10,4001,Product Revenue - SaaS,Revenue,D06,Product,97750.0,98519.73,97752.95
-2024-11,4001,Product Revenue - SaaS,Revenue,D02,Sales,501500.0,,476425.0
-2024-11,4001,Product Revenue - SaaS,Revenue,D03,Marketing,200600.0,,190570.0
-2024-11,4001,Product Revenue - SaaS,Revenue,D05,Customer Success,200600.0,,190570.0
-2024-11,4001,Product Revenue - SaaS,Revenue,D06,Product,100300.0,,95285.0
+2024-01,4001,Product Revenue - SaaS,Revenue,D02,Sales,361250.0,368427.52,371007.65
+2024-01,4001,Product Revenue - SaaS,Revenue,D03,Marketing,144500.0,143700.83,142873.63
+2024-01,4001,Product Revenue - SaaS,Revenue,D05,Customer Success,144500.0,148243.64,148424.51
+2024-01,4001,Product Revenue - SaaS,Revenue,D06,Product,72250.0,76651.56,78613.9
+2024-02,4001,Product Revenue - SaaS,Revenue,D02,Sales,374000.0,370497.07,370141.17
+2024-02,4001,Product Revenue - SaaS,Revenue,D03,Marketing,149600.0,148198.92,149902.13
+2024-02,4001,Product Revenue - SaaS,Revenue,D05,Customer Success,149600.0,159050.01,157931.61
+2024-02,4001,Product Revenue - SaaS,Revenue,D06,Product,74800.0,77096.16,77069.19
+2024-03,4001,Product Revenue - SaaS,Revenue,D02,Sales,403750.0,396167.99,403183.34
+2024-03,4001,Product Revenue - SaaS,Revenue,D03,Marketing,161500.0,165004.94,163970.41
+2024-03,4001,Product Revenue - SaaS,Revenue,D05,Customer Success,161500.0,158506.32,161379.17
+2024-03,4001,Product Revenue - SaaS,Revenue,D06,Product,80750.0,79245.69,79806.55
+2024-04,4001,Product Revenue - SaaS,Revenue,D02,Sales,416500.0,420531.09,418165.74
+2024-04,4001,Product Revenue - SaaS,Revenue,D03,Marketing,166600.0,153849.9,154822.86
+2024-04,4001,Product Revenue - SaaS,Revenue,D05,Customer Success,166600.0,155105.15,156613.63
+2024-04,4001,Product Revenue - SaaS,Revenue,D06,Product,83300.0,81426.46,81932.78
+2024-05,4001,Product Revenue - SaaS,Revenue,D02,Sales,433500.0,415937.51,409406.36
+2024-05,4001,Product Revenue - SaaS,Revenue,D03,Marketing,173400.0,175579.62,174302.92
+2024-05,4001,Product Revenue - SaaS,Revenue,D05,Customer Success,173400.0,167101.95,166688.34
+2024-05,4001,Product Revenue - SaaS,Revenue,D06,Product,86700.0,81802.13,81741.24
+2024-06,4001,Product Revenue - SaaS,Revenue,D02,Sales,446250.0,472411.83,475343.96
+2024-06,4001,Product Revenue - SaaS,Revenue,D03,Marketing,178500.0,176887.96,177202.29
+2024-06,4001,Product Revenue - SaaS,Revenue,D05,Customer Success,178500.0,178982.15,176592.12
+2024-06,4001,Product Revenue - SaaS,Revenue,D06,Product,89250.0,84163.65,84483.64
+2024-07,4001,Product Revenue - SaaS,Revenue,D02,Sales,459000.0,366385.13,368622.23
+2024-07,4001,Product Revenue - SaaS,Revenue,D03,Marketing,183600.0,184414.62,185446.96
+2024-07,4001,Product Revenue - SaaS,Revenue,D05,Customer Success,183600.0,175147.1,177040.06
+2024-07,4001,Product Revenue - SaaS,Revenue,D06,Product,91800.0,93179.56,93956.6
+2024-08,4001,Product Revenue - SaaS,Revenue,D02,Sales,467500.0,358093.06,359737.35
+2024-08,4001,Product Revenue - SaaS,Revenue,D03,Marketing,187000.0,184818.13,184688.45
+2024-08,4001,Product Revenue - SaaS,Revenue,D05,Customer Success,187000.0,182499.23,179467.99
+2024-08,4001,Product Revenue - SaaS,Revenue,D06,Product,93500.0,100427.52,100858.97
+2024-09,4001,Product Revenue - SaaS,Revenue,D02,Sales,476000.0,404343.01,405182.78
+2024-09,4001,Product Revenue - SaaS,Revenue,D03,Marketing,190400.0,182344.47,182839.68
+2024-09,4001,Product Revenue - SaaS,Revenue,D05,Customer Success,190400.0,196664.5,194153.59
+2024-09,4001,Product Revenue - SaaS,Revenue,D06,Product,95200.0,90551.03,89572.12
+2024-10,4001,Product Revenue - SaaS,Revenue,D02,Sales,488750.0,492833.28,498023.57
+2024-10,4001,Product Revenue - SaaS,Revenue,D03,Marketing,195500.0,180175.38,180104.11
+2024-10,4001,Product Revenue - SaaS,Revenue,D05,Customer Success,195500.0,185113.59,186375.14
+2024-10,4001,Product Revenue - SaaS,Revenue,D06,Product,97750.0,98519.73,98547.63
+2024-11,4001,Product Revenue - SaaS,Revenue,D02,Sales,501500.0,516313.64,516467.28
+2024-11,4001,Product Revenue - SaaS,Revenue,D03,Marketing,200600.0,201975.06,203870.16
+2024-11,4001,Product Revenue - SaaS,Revenue,D05,Customer Success,200600.0,199672.04,198641.64
+2024-11,4001,Product Revenue - SaaS,Revenue,D06,Product,100300.0,99091.97,99187.22
 2024-12,4001,Product Revenue - SaaS,Revenue,D02,Sales,510000.0,,484500.0
 2024-12,4001,Product Revenue - SaaS,Revenue,D03,Marketing,204000.0,,193800.0
 2024-12,4001,Product Revenue - SaaS,Revenue,D05,Customer Success,204000.0,,193800.0
 2024-12,4001,Product Revenue - SaaS,Revenue,D06,Product,102000.0,,96900.0
-2024-01,4002,Professional Services Revenue,Revenue,D02,Sales,75600.0,77833.12,77985.55
-2024-01,4002,Professional Services Revenue,Revenue,D05,Customer Success,37800.0,38059.11,37686.75
-2024-01,4002,Professional Services Revenue,Revenue,D06,Product,12600.0,12541.71,12592.91
-2024-02,4002,Professional Services Revenue,Revenue,D02,Sales,86400.0,85359.39,83906.08
-2024-02,4002,Professional Services Revenue,Revenue,D05,Customer Success,43200.0,40645.11,41063.41
-2024-02,4002,Professional Services Revenue,Revenue,D06,Product,14400.0,13985.37,14051.46
-2024-03,4002,Professional Services Revenue,Revenue,D02,Sales,108000.0,106010.04,106281.46
-2024-03,4002,Professional Services Revenue,Revenue,D05,Customer Success,54000.0,56283.38,56836.47
-2024-03,4002,Professional Services Revenue,Revenue,D06,Product,18000.0,18247.41,18551.32
-2024-04,4002,Professional Services Revenue,Revenue,D02,Sales,118800.0,110422.03,111542.12
-2024-04,4002,Professional Services Revenue,Revenue,D05,Customer Success,59400.0,60170.02,59062.37
-2024-04,4002,Professional Services Revenue,Revenue,D06,Product,19800.0,19495.01,19245.56
-2024-05,4002,Professional Services Revenue,Revenue,D02,Sales,113400.0,110329.48,109640.12
-2024-05,4002,Professional Services Revenue,Revenue,D05,Customer Success,56700.0,58087.28,58102.44
-2024-05,4002,Professional Services Revenue,Revenue,D06,Product,18900.0,19679.44,19781.31
-2024-06,4002,Professional Services Revenue,Revenue,D02,Sales,108000.0,112023.13,111210.13
-2024-06,4002,Professional Services Revenue,Revenue,D05,Customer Success,54000.0,52187.29,52284.76
-2024-06,4002,Professional Services Revenue,Revenue,D06,Product,18000.0,17777.37,17643.08
-2024-07,4002,Professional Services Revenue,Revenue,D02,Sales,97200.0,98487.95,97885.68
-2024-07,4002,Professional Services Revenue,Revenue,D05,Customer Success,48600.0,50496.46,49786.15
-2024-07,4002,Professional Services Revenue,Revenue,D06,Product,16200.0,15889.5,15742.8
-2024-08,4002,Professional Services Revenue,Revenue,D02,Sales,102600.0,101838.06,100461.53
-2024-08,4002,Professional Services Revenue,Revenue,D05,Customer Success,51300.0,49029.8,48551.33
-2024-08,4002,Professional Services Revenue,Revenue,D06,Product,17100.0,16281.79,16453.34
-2024-09,4002,Professional Services Revenue,Revenue,D02,Sales,118800.0,122661.12,121496.58
-2024-09,4002,Professional Services Revenue,Revenue,D05,Customer Success,59400.0,62622.43,64270.89
-2024-09,4002,Professional Services Revenue,Revenue,D06,Product,19800.0,19742.97,19840.37
-2024-10,4002,Professional Services Revenue,Revenue,D02,Sales,124200.0,158993.55,159287.43
-2024-10,4002,Professional Services Revenue,Revenue,D05,Customer Success,62100.0,62998.3,62457.55
-2024-10,4002,Professional Services Revenue,Revenue,D06,Product,20700.0,20165.84,20307.06
-2024-11,4002,Professional Services Revenue,Revenue,D02,Sales,118800.0,,117432.28
-2024-11,4002,Professional Services Revenue,Revenue,D05,Customer Success,59400.0,,59544.95
-2024-11,4002,Professional Services Revenue,Revenue,D06,Product,19800.0,,20813.79
-2024-12,4002,Professional Services Revenue,Revenue,D02,Sales,124200.0,,123961.39
-2024-12,4002,Professional Services Revenue,Revenue,D05,Customer Success,62100.0,,63527.4
-2024-12,4002,Professional Services Revenue,Revenue,D06,Product,20700.0,,20408.88
-2024-01,4003,Support & Maintenance Revenue,Revenue,D02,Sales,21600.0,21912.25,21904.58
-2024-01,4003,Support & Maintenance Revenue,Revenue,D05,Customer Success,75600.0,80251.02,81672.11
-2024-01,4003,Support & Maintenance Revenue,Revenue,D06,Product,10800.0,10784.52,10716.9
-2024-02,4003,Support & Maintenance Revenue,Revenue,D02,Sales,21600.0,22951.85,23367.84
-2024-02,4003,Support & Maintenance Revenue,Revenue,D05,Customer Success,75600.0,67677.89,68156.88
-2024-02,4003,Support & Maintenance Revenue,Revenue,D06,Product,10800.0,11155.06,11092.32
-2024-03,4003,Support & Maintenance Revenue,Revenue,D02,Sales,22800.0,22879.39,23024.08
-2024-03,4003,Support & Maintenance Revenue,Revenue,D05,Customer Success,79800.0,78845.57,79612.39
-2024-03,4003,Support & Maintenance Revenue,Revenue,D06,Product,11400.0,11441.84,11512.99
-2024-04,4003,Support & Maintenance Revenue,Revenue,D02,Sales,24000.0,22091.93,21745.04
-2024-04,4003,Support & Maintenance Revenue,Revenue,D05,Customer Success,84000.0,83261.9,82656.47
-2024-04,4003,Support & Maintenance Revenue,Revenue,D06,Product,12000.0,12171.41,12141.28
-2024-05,4003,Support & Maintenance Revenue,Revenue,D02,Sales,24000.0,25418.78,25399.86
-2024-05,4003,Support & Maintenance Revenue,Revenue,D05,Customer Success,84000.0,82258.61,82769.17
-2024-05,4003,Support & Maintenance Revenue,Revenue,D06,Product,12000.0,11611.92,11632.55
-2024-06,4003,Support & Maintenance Revenue,Revenue,D02,Sales,24000.0,23518.31,23204.26
-2024-06,4003,Support & Maintenance Revenue,Revenue,D05,Customer Success,84000.0,87075.75,87406.81
-2024-06,4003,Support & Maintenance Revenue,Revenue,D06,Product,12000.0,12157.8,12232.03
-2024-07,4003,Support & Maintenance Revenue,Revenue,D02,Sales,24000.0,23491.43,23622.93
-2024-07,4003,Support & Maintenance Revenue,Revenue,D05,Customer Success,84000.0,85724.58,86651.07
-2024-07,4003,Support & Maintenance Revenue,Revenue,D06,Product,12000.0,12046.6,12147.06
-2024-08,4003,Support & Maintenance Revenue,Revenue,D02,Sales,24000.0,24929.9,25044.37
-2024-08,4003,Support & Maintenance Revenue,Revenue,D05,Customer Success,84000.0,81641.1,81583.82
-2024-08,4003,Support & Maintenance Revenue,Revenue,D06,Product,12000.0,11842.72,11646.02
-2024-09,4003,Support & Maintenance Revenue,Revenue,D02,Sales,25200.0,24804.75,24911.32
-2024-09,4003,Support & Maintenance Revenue,Revenue,D05,Customer Success,88200.0,83036.72,83209.18
-2024-09,4003,Support & Maintenance Revenue,Revenue,D06,Product,12600.0,12749.24,12783.86
-2024-10,4003,Support & Maintenance Revenue,Revenue,D02,Sales,25200.0,25463.14,25138.04
-2024-10,4003,Support & Maintenance Revenue,Revenue,D05,Customer Success,88200.0,88218.04,87264.35
-2024-10,4003,Support & Maintenance Revenue,Revenue,D06,Product,12600.0,12481.77,12613.22
-2024-11,4003,Support & Maintenance Revenue,Revenue,D02,Sales,25200.0,,25180.06
-2024-11,4003,Support & Maintenance Revenue,Revenue,D05,Customer Success,88200.0,,89402.17
-2024-11,4003,Support & Maintenance Revenue,Revenue,D06,Product,12600.0,,12607.14
-2024-12,4003,Support & Maintenance Revenue,Revenue,D02,Sales,26400.0,,26415.71
-2024-12,4003,Support & Maintenance Revenue,Revenue,D05,Customer Success,92400.0,,94133.95
-2024-12,4003,Support & Maintenance Revenue,Revenue,D06,Product,13200.0,,13063.76
-2024-01,5001,Cloud Infrastructure Costs,COGS,D01,Engineering,47500.0,44810.8,44853.87
-2024-01,5001,Cloud Infrastructure Costs,COGS,D02,Sales,9500.0,9340.15,9296.97
-2024-01,5001,Cloud Infrastructure Costs,COGS,D03,Marketing,9500.0,9369.77,9329.06
-2024-01,5001,Cloud Infrastructure Costs,COGS,D04,G&A,9500.0,9195.13,9166.7
-2024-01,5001,Cloud Infrastructure Costs,COGS,D05,Customer Success,9500.0,9438.71,9459.68
-2024-01,5001,Cloud Infrastructure Costs,COGS,D06,Product,9500.0,9653.54,9607.32
-2024-02,5001,Cloud Infrastructure Costs,COGS,D01,Engineering,47500.0,51083.75,51725.24
-2024-02,5001,Cloud Infrastructure Costs,COGS,D02,Sales,9500.0,9566.34,9480.76
-2024-02,5001,Cloud Infrastructure Costs,COGS,D03,Marketing,9500.0,9597.87,9579.93
-2024-02,5001,Cloud Infrastructure Costs,COGS,D04,G&A,9500.0,9471.71,9430.06
-2024-02,5001,Cloud Infrastructure Costs,COGS,D05,Customer Success,9500.0,8770.87,8897.78
-2024-02,5001,Cloud Infrastructure Costs,COGS,D06,Product,9500.0,9489.92,9508.57
-2024-03,5001,Cloud Infrastructure Costs,COGS,D01,Engineering,47500.0,47614.44,48105.75
-2024-03,5001,Cloud Infrastructure Costs,COGS,D02,Sales,9500.0,10436.03,10281.0
-2024-03,5001,Cloud Infrastructure Costs,COGS,D03,Marketing,9500.0,9426.9,9452.07
-2024-03,5001,Cloud Infrastructure Costs,COGS,D04,G&A,9500.0,9614.59,9700.12
-2024-03,5001,Cloud Infrastructure Costs,COGS,D05,Customer Success,9500.0,9486.81,9494.62
-2024-03,5001,Cloud Infrastructure Costs,COGS,D06,Product,9500.0,9055.9,9152.39
-2024-04,5001,Cloud Infrastructure Costs,COGS,D01,Engineering,47500.0,49671.36,49414.42
-2024-04,5001,Cloud Infrastructure Costs,COGS,D02,Sales,9500.0,9785.73,9923.64
-2024-04,5001,Cloud Infrastructure Costs,COGS,D03,Marketing,9500.0,9800.59,10025.9
-2024-04,5001,Cloud Infrastructure Costs,COGS,D04,G&A,9500.0,9154.43,9121.21
-2024-04,5001,Cloud Infrastructure Costs,COGS,D05,Customer Success,9500.0,10033.06,9988.36
-2024-04,5001,Cloud Infrastructure Costs,COGS,D06,Product,9500.0,8967.3,9097.63
-2024-05,5001,Cloud Infrastructure Costs,COGS,D01,Engineering,47500.0,48615.03,49382.94
-2024-05,5001,Cloud Infrastructure Costs,COGS,D02,Sales,9500.0,10332.37,10278.35
-2024-05,5001,Cloud Infrastructure Costs,COGS,D03,Marketing,9500.0,9123.6,9085.26
-2024-05,5001,Cloud Infrastructure Costs,COGS,D04,G&A,9500.0,9284.81,9258.65
-2024-05,5001,Cloud Infrastructure Costs,COGS,D05,Customer Success,9500.0,9537.87,9409.64
-2024-05,5001,Cloud Infrastructure Costs,COGS,D06,Product,9500.0,9308.68,9223.17
-2024-06,5001,Cloud Infrastructure Costs,COGS,D01,Engineering,47500.0,44553.74,44106.36
-2024-06,5001,Cloud Infrastructure Costs,COGS,D02,Sales,9500.0,9526.05,9452.91
-2024-06,5001,Cloud Infrastructure Costs,COGS,D03,Marketing,9500.0,9096.32,9093.16
-2024-06,5001,Cloud Infrastructure Costs,COGS,D04,G&A,9500.0,9679.97,9702.64
-2024-06,5001,Cloud Infrastructure Costs,COGS,D05,Customer Success,9500.0,9150.62,9292.5
-2024-06,5001,Cloud Infrastructure Costs,COGS,D06,Product,9500.0,10088.98,9988.26
-2024-07,5001,Cloud Infrastructure Costs,COGS,D01,Engineering,47500.0,46011.82,46464.72
-2024-07,5001,Cloud Infrastructure Costs,COGS,D02,Sales,9500.0,9377.62,9357.55
-2024-07,5001,Cloud Infrastructure Costs,COGS,D03,Marketing,9500.0,9809.14,9804.29
-2024-07,5001,Cloud Infrastructure Costs,COGS,D04,G&A,9500.0,9032.27,9093.22
-2024-07,5001,Cloud Infrastructure Costs,COGS,D05,Customer Success,9500.0,9586.43,9478.8
-2024-07,5001,Cloud Infrastructure Costs,COGS,D06,Product,9500.0,9996.71,10034.94
-2024-08,5001,Cloud Infrastructure Costs,COGS,D01,Engineering,47500.0,44445.78,44519.76
-2024-08,5001,Cloud Infrastructure Costs,COGS,D02,Sales,9500.0,9570.16,9617.29
-2024-08,5001,Cloud Infrastructure Costs,COGS,D03,Marketing,9500.0,9598.76,9626.52
-2024-08,5001,Cloud Infrastructure Costs,COGS,D04,G&A,9500.0,9797.09,10037.64
-2024-08,5001,Cloud Infrastructure Costs,COGS,D05,Customer Success,9500.0,9029.96,8972.37
-2024-08,5001,Cloud Infrastructure Costs,COGS,D06,Product,9500.0,8998.23,8950.45
-2024-09,5001,Cloud Infrastructure Costs,COGS,D01,Engineering,47500.0,48491.69,48189.52
-2024-09,5001,Cloud Infrastructure Costs,COGS,D02,Sales,9500.0,9612.85,9559.45
-2024-09,5001,Cloud Infrastructure Costs,COGS,D03,Marketing,9500.0,9595.19,9534.03
-2024-09,5001,Cloud Infrastructure Costs,COGS,D04,G&A,9500.0,9631.65,9746.17
-2024-09,5001,Cloud Infrastructure Costs,COGS,D05,Customer Success,9500.0,9241.59,9372.87
-2024-09,5001,Cloud Infrastructure Costs,COGS,D06,Product,9500.0,9588.26,9533.54
-2024-10,5001,Cloud Infrastructure Costs,COGS,D01,Engineering,47500.0,62781.84,62259.27
-2024-10,5001,Cloud Infrastructure Costs,COGS,D02,Sales,9500.0,9228.55,9272.05
-2024-10,5001,Cloud Infrastructure Costs,COGS,D03,Marketing,9500.0,10208.99,10152.61
-2024-10,5001,Cloud Infrastructure Costs,COGS,D04,G&A,9500.0,9680.06,9741.33
-2024-10,5001,Cloud Infrastructure Costs,COGS,D05,Customer Success,9500.0,9047.3,9065.66
-2024-10,5001,Cloud Infrastructure Costs,COGS,D06,Product,9500.0,9749.49,9601.71
-2024-11,5001,Cloud Infrastructure Costs,COGS,D01,Engineering,47500.0,,48970.13
-2024-11,5001,Cloud Infrastructure Costs,COGS,D02,Sales,9500.0,,9841.22
-2024-11,5001,Cloud Infrastructure Costs,COGS,D03,Marketing,9500.0,,9383.57
-2024-11,5001,Cloud Infrastructure Costs,COGS,D04,G&A,9500.0,,9426.34
-2024-11,5001,Cloud Infrastructure Costs,COGS,D05,Customer Success,9500.0,,9554.31
-2024-11,5001,Cloud Infrastructure Costs,COGS,D06,Product,9500.0,,9563.55
-2024-12,5001,Cloud Infrastructure Costs,COGS,D01,Engineering,47500.0,,48125.62
-2024-12,5001,Cloud Infrastructure Costs,COGS,D02,Sales,9500.0,,9881.94
-2024-12,5001,Cloud Infrastructure Costs,COGS,D03,Marketing,9500.0,,9466.38
-2024-12,5001,Cloud Infrastructure Costs,COGS,D04,G&A,9500.0,,9348.32
-2024-12,5001,Cloud Infrastructure Costs,COGS,D05,Customer Success,9500.0,,9237.93
-2024-12,5001,Cloud Infrastructure Costs,COGS,D06,Product,9500.0,,9361.12
-2024-01,5002,Third-Party Software Licenses,COGS,D01,Engineering,16800.0,16145.01,16139.66
-2024-01,5002,Third-Party Software Licenses,COGS,D02,Sales,4200.0,4332.23,4409.97
-2024-01,5002,Third-Party Software Licenses,COGS,D03,Marketing,4200.0,4394.64,4371.89
-2024-01,5002,Third-Party Software Licenses,COGS,D04,G&A,4200.0,4062.13,4071.22
-2024-01,5002,Third-Party Software Licenses,COGS,D05,Customer Success,8400.0,8723.69,8722.26
-2024-01,5002,Third-Party Software Licenses,COGS,D06,Product,4200.0,4269.35,4320.09
-2024-02,5002,Third-Party Software Licenses,COGS,D01,Engineering,16800.0,17352.42,17790.9
-2024-02,5002,Third-Party Software Licenses,COGS,D02,Sales,4200.0,4518.66,4494.67
-2024-02,5002,Third-Party Software Licenses,COGS,D03,Marketing,4200.0,4158.77,4138.42
-2024-02,5002,Third-Party Software Licenses,COGS,D04,G&A,4200.0,4073.37,4115.9
-2024-02,5002,Third-Party Software Licenses,COGS,D05,Customer Success,8400.0,8101.12,8156.36
-2024-02,5002,Third-Party Software Licenses,COGS,D06,Product,4200.0,4062.94,4137.97
-2024-03,5002,Third-Party Software Licenses,COGS,D01,Engineering,16800.0,16748.19,16845.99
-2024-03,5002,Third-Party Software Licenses,COGS,D02,Sales,4200.0,4257.31,4242.01
-2024-03,5002,Third-Party Software Licenses,COGS,D03,Marketing,4200.0,4246.48,4271.56
-2024-03,5002,Third-Party Software Licenses,COGS,D04,G&A,4200.0,4338.97,4387.08
-2024-03,5002,Third-Party Software Licenses,COGS,D05,Customer Success,8400.0,8404.37,8473.33
-2024-03,5002,Third-Party Software Licenses,COGS,D06,Product,4200.0,4444.19,4466.73
-2024-04,5002,Third-Party Software Licenses,COGS,D01,Engineering,16800.0,16622.15,16799.45
-2024-04,5002,Third-Party Software Licenses,COGS,D02,Sales,4200.0,4656.99,4711.44
-2024-04,5002,Third-Party Software Licenses,COGS,D03,Marketing,4200.0,4305.11,4364.61
-2024-04,5002,Third-Party Software Licenses,COGS,D04,G&A,4200.0,4056.0,4082.31
-2024-04,5002,Third-Party Software Licenses,COGS,D05,Customer Success,8400.0,8040.18,8026.74
-2024-04,5002,Third-Party Software Licenses,COGS,D06,Product,4200.0,4281.06,4287.34
-2024-05,5002,Third-Party Software Licenses,COGS,D01,Engineering,16800.0,16649.83,16850.71
-2024-05,5002,Third-Party Software Licenses,COGS,D02,Sales,4200.0,4319.95,4284.66
-2024-05,5002,Third-Party Software Licenses,COGS,D03,Marketing,4200.0,4279.5,4295.28
-2024-05,5002,Third-Party Software Licenses,COGS,D04,G&A,4200.0,4187.76,4171.29
-2024-05,5002,Third-Party Software Licenses,COGS,D05,Customer Success,8400.0,8115.48,8117.81
-2024-05,5002,Third-Party Software Licenses,COGS,D06,Product,4200.0,3945.51,3995.95
-2024-06,5002,Third-Party Software Licenses,COGS,D01,Engineering,16800.0,16499.94,16531.47
-2024-06,5002,Third-Party Software Licenses,COGS,D02,Sales,4200.0,4343.87,4345.89
-2024-06,5002,Third-Party Software Licenses,COGS,D03,Marketing,4200.0,4235.97,4178.37
-2024-06,5002,Third-Party Software Licenses,COGS,D04,G&A,4200.0,3990.72,4020.5
-2024-06,5002,Third-Party Software Licenses,COGS,D05,Customer Success,8400.0,8458.19,8512.79
-2024-06,5002,Third-Party Software Licenses,COGS,D06,Product,4200.0,4264.73,4356.99
-2024-07,5002,Third-Party Software Licenses,COGS,D01,Engineering,16800.0,16206.05,16156.17
-2024-07,5002,Third-Party Software Licenses,COGS,D02,Sales,4200.0,4225.83,4235.09
-2024-07,5002,Third-Party Software Licenses,COGS,D03,Marketing,4200.0,4209.78,4220.28
-2024-07,5002,Third-Party Software Licenses,COGS,D04,G&A,4200.0,4007.98,4071.2
-2024-07,5002,Third-Party Software Licenses,COGS,D05,Customer Success,8400.0,8520.22,8512.1
-2024-07,5002,Third-Party Software Licenses,COGS,D06,Product,4200.0,4294.21,4306.19
-2024-08,5002,Third-Party Software Licenses,COGS,D01,Engineering,16800.0,17527.81,17634.36
-2024-08,5002,Third-Party Software Licenses,COGS,D02,Sales,4200.0,4377.04,4385.21
-2024-08,5002,Third-Party Software Licenses,COGS,D03,Marketing,4200.0,3968.55,3950.83
-2024-08,5002,Third-Party Software Licenses,COGS,D04,G&A,4200.0,4042.45,4050.3
-2024-08,5002,Third-Party Software Licenses,COGS,D05,Customer Success,8400.0,8573.05,8665.09
-2024-08,5002,Third-Party Software Licenses,COGS,D06,Product,4200.0,4286.32,4242.32
-2024-09,5002,Third-Party Software Licenses,COGS,D01,Engineering,16800.0,17146.11,17168.91
-2024-09,5002,Third-Party Software Licenses,COGS,D02,Sales,4200.0,4847.26,4813.32
-2024-09,5002,Third-Party Software Licenses,COGS,D03,Marketing,4200.0,4295.91,4347.25
-2024-09,5002,Third-Party Software Licenses,COGS,D04,G&A,4200.0,4390.78,4323.9
-2024-09,5002,Third-Party Software Licenses,COGS,D05,Customer Success,8400.0,8720.54,8671.8
-2024-09,5002,Third-Party Software Licenses,COGS,D06,Product,4200.0,4309.43,4325.69
-2024-10,5002,Third-Party Software Licenses,COGS,D01,Engineering,16800.0,16588.14,16847.83
-2024-10,5002,Third-Party Software Licenses,COGS,D02,Sales,4200.0,4327.51,4324.66
-2024-10,5002,Third-Party Software Licenses,COGS,D03,Marketing,4200.0,4070.17,4047.57
-2024-10,5002,Third-Party Software Licenses,COGS,D04,G&A,4200.0,4160.21,4238.47
-2024-10,5002,Third-Party Software Licenses,COGS,D05,Customer Success,8400.0,8236.92,8117.65
-2024-10,5002,Third-Party Software Licenses,COGS,D06,Product,4200.0,4213.75,4121.1
-2024-11,5002,Third-Party Software Licenses,COGS,D01,Engineering,16800.0,,16947.84
-2024-11,5002,Third-Party Software Licenses,COGS,D02,Sales,4200.0,,4157.83
-2024-11,5002,Third-Party Software Licenses,COGS,D03,Marketing,4200.0,,4114.22
-2024-11,5002,Third-Party Software Licenses,COGS,D04,G&A,4200.0,,4259.5
-2024-11,5002,Third-Party Software Licenses,COGS,D05,Customer Success,8400.0,,8440.96
-2024-11,5002,Third-Party Software Licenses,COGS,D06,Product,4200.0,,4152.62
-2024-12,5002,Third-Party Software Licenses,COGS,D01,Engineering,16800.0,,16369.82
-2024-12,5002,Third-Party Software Licenses,COGS,D02,Sales,4200.0,,4273.29
-2024-12,5002,Third-Party Software Licenses,COGS,D03,Marketing,4200.0,,4254.62
-2024-12,5002,Third-Party Software Licenses,COGS,D04,G&A,4200.0,,4191.67
-2024-12,5002,Third-Party Software Licenses,COGS,D05,Customer Success,8400.0,,8710.24
-2024-12,5002,Third-Party Software Licenses,COGS,D06,Product,4200.0,,4110.11
-2024-01,5003,Professional Services COGS,COGS,D01,Engineering,19800.0,21633.21,21303.19
-2024-01,5003,Professional Services COGS,COGS,D02,Sales,6600.0,6107.04,6064.78
-2024-01,5003,Professional Services COGS,COGS,D05,Customer Success,33000.0,33905.86,33890.4
-2024-01,5003,Professional Services COGS,COGS,D06,Product,6600.0,6174.24,6189.26
-2024-02,5003,Professional Services COGS,COGS,D01,Engineering,22440.0,22016.39,21963.28
-2024-02,5003,Professional Services COGS,COGS,D02,Sales,7480.0,7805.81,7833.29
-2024-02,5003,Professional Services COGS,COGS,D05,Customer Success,37400.0,37496.16,37026.88
-2024-02,5003,Professional Services COGS,COGS,D06,Product,7480.0,7157.54,7260.88
-2024-03,5003,Professional Services COGS,COGS,D01,Engineering,26400.0,25644.64,25623.57
-2024-03,5003,Professional Services COGS,COGS,D02,Sales,8800.0,9039.22,9140.21
-2024-03,5003,Professional Services COGS,COGS,D05,Customer Success,44000.0,42714.55,42860.94
-2024-03,5003,Professional Services COGS,COGS,D06,Product,8800.0,8876.19,8916.73
-2024-04,5003,Professional Services COGS,COGS,D01,Engineering,29040.0,29092.94,29258.7
-2024-04,5003,Professional Services COGS,COGS,D02,Sales,9680.0,9427.7,9469.91
-2024-04,5003,Professional Services COGS,COGS,D05,Customer Success,48400.0,52550.68,52888.44
-2024-04,5003,Professional Services COGS,COGS,D06,Product,9680.0,9925.45,10057.37
-2024-05,5003,Professional Services COGS,COGS,D01,Engineering,27720.0,25474.52,25524.58
-2024-05,5003,Professional Services COGS,COGS,D02,Sales,9240.0,9308.91,9374.91
-2024-05,5003,Professional Services COGS,COGS,D05,Customer Success,46200.0,44977.02,44936.66
-2024-05,5003,Professional Services COGS,COGS,D06,Product,9240.0,9555.06,9692.66
-2024-06,5003,Professional Services COGS,COGS,D01,Engineering,26400.0,25563.1,25390.19
-2024-06,5003,Professional Services COGS,COGS,D02,Sales,8800.0,8759.61,8917.37
-2024-06,5003,Professional Services COGS,COGS,D05,Customer Success,44000.0,44888.78,44870.75
-2024-06,5003,Professional Services COGS,COGS,D06,Product,8800.0,9104.75,8974.48
-2024-07,5003,Professional Services COGS,COGS,D01,Engineering,23760.0,22619.24,22648.22
-2024-07,5003,Professional Services COGS,COGS,D02,Sales,7920.0,7814.03,7760.81
-2024-07,5003,Professional Services COGS,COGS,D05,Customer Success,39600.0,38847.69,39174.26
-2024-07,5003,Professional Services COGS,COGS,D06,Product,7920.0,7713.03,7662.69
-2024-08,5003,Professional Services COGS,COGS,D01,Engineering,25080.0,26851.1,26731.29
-2024-08,5003,Professional Services COGS,COGS,D02,Sales,8360.0,8495.43,8334.91
-2024-08,5003,Professional Services COGS,COGS,D05,Customer Success,41800.0,39691.8,39512.27
-2024-08,5003,Professional Services COGS,COGS,D06,Product,8360.0,8666.93,8456.85
-2024-09,5003,Professional Services COGS,COGS,D01,Engineering,29040.0,31505.1,31006.09
-2024-09,5003,Professional Services COGS,COGS,D02,Sales,9680.0,10079.77,10156.42
-2024-09,5003,Professional Services COGS,COGS,D05,Customer Success,48400.0,45458.5,45815.71
-2024-09,5003,Professional Services COGS,COGS,D06,Product,9680.0,9492.5,9532.89
-2024-10,5003,Professional Services COGS,COGS,D01,Engineering,29040.0,30511.64,30216.6
-2024-10,5003,Professional Services COGS,COGS,D02,Sales,9680.0,9405.99,9401.5
-2024-10,5003,Professional Services COGS,COGS,D05,Customer Success,48400.0,49259.23,49257.46
-2024-10,5003,Professional Services COGS,COGS,D06,Product,9680.0,9979.94,9864.34
-2024-11,5003,Professional Services COGS,COGS,D01,Engineering,27720.0,,28553.48
-2024-11,5003,Professional Services COGS,COGS,D02,Sales,9240.0,,9402.14
-2024-11,5003,Professional Services COGS,COGS,D05,Customer Success,46200.0,,45995.83
-2024-11,5003,Professional Services COGS,COGS,D06,Product,9240.0,,9244.97
-2024-12,5003,Professional Services COGS,COGS,D01,Engineering,30360.0,,30486.53
-2024-12,5003,Professional Services COGS,COGS,D02,Sales,10120.0,,9706.75
-2024-12,5003,Professional Services COGS,COGS,D05,Customer Success,50600.0,,50349.86
-2024-12,5003,Professional Services COGS,COGS,D06,Product,10120.0,,9981.97
-2024-01,6001,Salaries & Benefits,OpEx,D01,Engineering,108500.0,104477.12,103430.66
-2024-01,6001,Salaries & Benefits,OpEx,D02,Sales,62000.0,61852.38,61678.51
-2024-01,6001,Salaries & Benefits,OpEx,D03,Marketing,37200.0,32376.99,32959.03
-2024-01,6001,Salaries & Benefits,OpEx,D04,G&A,31000.0,29729.76,29920.28
-2024-01,6001,Salaries & Benefits,OpEx,D05,Customer Success,40300.0,39892.86,39665.0
-2024-01,6001,Salaries & Benefits,OpEx,D06,Product,31000.0,29452.75,29621.39
-2024-02,6001,Salaries & Benefits,OpEx,D01,Engineering,108500.0,115584.67,117202.11
-2024-02,6001,Salaries & Benefits,OpEx,D02,Sales,62000.0,58453.25,58993.73
-2024-02,6001,Salaries & Benefits,OpEx,D03,Marketing,37200.0,36545.21,36567.0
-2024-02,6001,Salaries & Benefits,OpEx,D04,G&A,31000.0,31162.12,30960.52
-2024-02,6001,Salaries & Benefits,OpEx,D05,Customer Success,40300.0,42623.33,42920.94
-2024-02,6001,Salaries & Benefits,OpEx,D06,Product,31000.0,29219.53,29334.5
-2024-03,6001,Salaries & Benefits,OpEx,D01,Engineering,108500.0,113548.13,114564.61
-2024-03,6001,Salaries & Benefits,OpEx,D02,Sales,62000.0,62025.38,62419.35
-2024-03,6001,Salaries & Benefits,OpEx,D03,Marketing,37200.0,35739.52,36114.63
-2024-03,6001,Salaries & Benefits,OpEx,D04,G&A,31000.0,31573.01,31404.02
-2024-03,6001,Salaries & Benefits,OpEx,D05,Customer Success,40300.0,40620.88,41156.02
-2024-03,6001,Salaries & Benefits,OpEx,D06,Product,31000.0,30255.73,30315.52
-2024-04,6001,Salaries & Benefits,OpEx,D01,Engineering,108500.0,108802.94,111060.88
-2024-04,6001,Salaries & Benefits,OpEx,D02,Sales,62000.0,61044.42,60623.71
-2024-04,6001,Salaries & Benefits,OpEx,D03,Marketing,37200.0,37368.91,38017.62
-2024-04,6001,Salaries & Benefits,OpEx,D04,G&A,31000.0,31821.04,31884.02
-2024-04,6001,Salaries & Benefits,OpEx,D05,Customer Success,40300.0,42856.66,42577.48
-2024-04,6001,Salaries & Benefits,OpEx,D06,Product,31000.0,29465.11,29322.53
-2024-05,6001,Salaries & Benefits,OpEx,D01,Engineering,108500.0,117757.36,117380.13
-2024-05,6001,Salaries & Benefits,OpEx,D02,Sales,62000.0,57158.82,57401.27
-2024-05,6001,Salaries & Benefits,OpEx,D03,Marketing,37200.0,36974.14,37167.45
-2024-05,6001,Salaries & Benefits,OpEx,D04,G&A,31000.0,31729.51,31547.48
-2024-05,6001,Salaries & Benefits,OpEx,D05,Customer Success,40300.0,40752.96,40743.03
-2024-05,6001,Salaries & Benefits,OpEx,D06,Product,31000.0,30227.85,30875.41
-2024-06,6001,Salaries & Benefits,OpEx,D01,Engineering,108500.0,107596.75,109455.53
-2024-06,6001,Salaries & Benefits,OpEx,D02,Sales,62000.0,60777.36,61042.55
-2024-06,6001,Salaries & Benefits,OpEx,D03,Marketing,37200.0,36323.03,36336.83
-2024-06,6001,Salaries & Benefits,OpEx,D04,G&A,31000.0,32053.51,32091.98
-2024-06,6001,Salaries & Benefits,OpEx,D05,Customer Success,40300.0,40875.51,41126.29
-2024-06,6001,Salaries & Benefits,OpEx,D06,Product,31000.0,30140.79,29832.51
-2024-07,6001,Salaries & Benefits,OpEx,D01,Engineering,108500.0,112404.26,112114.96
-2024-07,6001,Salaries & Benefits,OpEx,D02,Sales,62000.0,62762.1,61714.86
-2024-07,6001,Salaries & Benefits,OpEx,D03,Marketing,37200.0,38409.54,38562.88
-2024-07,6001,Salaries & Benefits,OpEx,D04,G&A,31000.0,31780.74,31986.42
-2024-07,6001,Salaries & Benefits,OpEx,D05,Customer Success,40300.0,38963.66,38775.39
-2024-07,6001,Salaries & Benefits,OpEx,D06,Product,31000.0,30305.38,30782.38
-2024-08,6001,Salaries & Benefits,OpEx,D01,Engineering,108500.0,111743.25,110373.54
-2024-08,6001,Salaries & Benefits,OpEx,D02,Sales,62000.0,63513.72,62583.64
-2024-08,6001,Salaries & Benefits,OpEx,D03,Marketing,37200.0,37168.9,37252.33
-2024-08,6001,Salaries & Benefits,OpEx,D04,G&A,31000.0,31145.49,31471.61
-2024-08,6001,Salaries & Benefits,OpEx,D05,Customer Success,40300.0,42359.6,43072.91
-2024-08,6001,Salaries & Benefits,OpEx,D06,Product,31000.0,30266.45,30127.56
-2024-09,6001,Salaries & Benefits,OpEx,D01,Engineering,108500.0,110874.4,112070.38
-2024-09,6001,Salaries & Benefits,OpEx,D02,Sales,62000.0,61498.56,61474.88
-2024-09,6001,Salaries & Benefits,OpEx,D03,Marketing,37200.0,36876.09,36812.43
-2024-09,6001,Salaries & Benefits,OpEx,D04,G&A,31000.0,32362.48,32648.45
-2024-09,6001,Salaries & Benefits,OpEx,D05,Customer Success,40300.0,41630.57,41902.14
-2024-09,6001,Salaries & Benefits,OpEx,D06,Product,31000.0,32008.75,31504.17
-2024-10,6001,Salaries & Benefits,OpEx,D01,Engineering,108500.0,114165.78,115851.48
-2024-10,6001,Salaries & Benefits,OpEx,D02,Sales,62000.0,62052.09,62908.47
-2024-10,6001,Salaries & Benefits,OpEx,D03,Marketing,37200.0,38214.75,37975.69
-2024-10,6001,Salaries & Benefits,OpEx,D04,G&A,31000.0,30615.27,30736.45
-2024-10,6001,Salaries & Benefits,OpEx,D05,Customer Success,40300.0,40822.56,41024.24
-2024-10,6001,Salaries & Benefits,OpEx,D06,Product,31000.0,30838.62,30919.01
-2024-11,6001,Salaries & Benefits,OpEx,D01,Engineering,108500.0,,107305.84
-2024-11,6001,Salaries & Benefits,OpEx,D02,Sales,62000.0,,61167.19
-2024-11,6001,Salaries & Benefits,OpEx,D03,Marketing,37200.0,,37180.99
-2024-11,6001,Salaries & Benefits,OpEx,D04,G&A,31000.0,,31727.09
-2024-11,6001,Salaries & Benefits,OpEx,D05,Customer Success,40300.0,,40738.14
-2024-11,6001,Salaries & Benefits,OpEx,D06,Product,31000.0,,30770.22
-2024-12,6001,Salaries & Benefits,OpEx,D01,Engineering,108500.0,,110174.59
-2024-12,6001,Salaries & Benefits,OpEx,D02,Sales,62000.0,,58467.81
-2024-12,6001,Salaries & Benefits,OpEx,D03,Marketing,37200.0,,38054.68
-2024-12,6001,Salaries & Benefits,OpEx,D04,G&A,31000.0,,29921.38
-2024-12,6001,Salaries & Benefits,OpEx,D05,Customer Success,40300.0,,40007.87
-2024-12,6001,Salaries & Benefits,OpEx,D06,Product,31000.0,,30305.8
-2024-01,6002,Sales Commissions,OpEx,D02,Sales,38080.0,38227.74,37732.81
-2024-01,6002,Sales Commissions,OpEx,D05,Customer Success,9520.0,9746.64,9859.78
-2024-02,6002,Sales Commissions,OpEx,D02,Sales,43520.0,42095.64,41898.76
-2024-02,6002,Sales Commissions,OpEx,D05,Customer Success,10880.0,11790.61,11831.46
-2024-03,6002,Sales Commissions,OpEx,D02,Sales,54400.0,52210.91,52186.41
-2024-03,6002,Sales Commissions,OpEx,D05,Customer Success,13600.0,12939.48,13001.21
-2024-04,6002,Sales Commissions,OpEx,D02,Sales,59840.0,62612.05,62660.15
-2024-04,6002,Sales Commissions,OpEx,D05,Customer Success,14960.0,15433.73,15235.72
-2024-05,6002,Sales Commissions,OpEx,D02,Sales,57120.0,58545.99,59129.26
-2024-05,6002,Sales Commissions,OpEx,D05,Customer Success,14280.0,14638.91,14566.63
-2024-06,6002,Sales Commissions,OpEx,D02,Sales,54400.0,54373.35,53526.98
-2024-06,6002,Sales Commissions,OpEx,D05,Customer Success,13600.0,13111.89,13055.76
-2024-07,6002,Sales Commissions,OpEx,D02,Sales,48960.0,49108.46,49845.46
-2024-07,6002,Sales Commissions,OpEx,D05,Customer Success,12240.0,11908.46,12009.71
-2024-08,6002,Sales Commissions,OpEx,D02,Sales,51680.0,53695.77,53508.56
-2024-08,6002,Sales Commissions,OpEx,D05,Customer Success,12920.0,12844.0,12799.14
-2024-09,6002,Sales Commissions,OpEx,D02,Sales,59840.0,57864.09,57677.98
-2024-09,6002,Sales Commissions,OpEx,D05,Customer Success,14960.0,14767.68,15074.37
-2024-10,6002,Sales Commissions,OpEx,D02,Sales,62560.0,63593.32,63836.21
-2024-10,6002,Sales Commissions,OpEx,D05,Customer Success,15640.0,15287.33,15353.07
-2024-11,6002,Sales Commissions,OpEx,D02,Sales,59840.0,,61073.04
-2024-11,6002,Sales Commissions,OpEx,D05,Customer Success,14960.0,,15031.45
-2024-12,6002,Sales Commissions,OpEx,D02,Sales,62560.0,,62235.89
-2024-12,6002,Sales Commissions,OpEx,D05,Customer Success,15640.0,,15578.58
-2024-01,6003,Marketing & Advertising,OpEx,D02,Sales,8550.0,8268.8,8262.88
-2024-01,6003,Marketing & Advertising,OpEx,D03,Marketing,39900.0,40288.92,40273.92
-2024-01,6003,Marketing & Advertising,OpEx,D04,G&A,2850.0,2877.93,2898.87
-2024-01,6003,Marketing & Advertising,OpEx,D05,Customer Success,2850.0,2792.21,2793.66
-2024-01,6003,Marketing & Advertising,OpEx,D06,Product,2850.0,2796.3,2816.79
-2024-02,6003,Marketing & Advertising,OpEx,D02,Sales,9975.0,10067.59,10059.46
-2024-02,6003,Marketing & Advertising,OpEx,D03,Marketing,46550.0,43853.67,43888.15
-2024-02,6003,Marketing & Advertising,OpEx,D04,G&A,3325.0,3137.81,3075.11
-2024-02,6003,Marketing & Advertising,OpEx,D05,Customer Success,3325.0,3229.45,3259.04
-2024-02,6003,Marketing & Advertising,OpEx,D06,Product,3325.0,3296.61,3308.03
-2024-03,6003,Marketing & Advertising,OpEx,D02,Sales,12825.0,12984.5,13114.09
-2024-03,6003,Marketing & Advertising,OpEx,D03,Marketing,59850.0,63382.0,61546.3
-2024-03,6003,Marketing & Advertising,OpEx,D04,G&A,4275.0,4421.66,4514.0
-2024-03,6003,Marketing & Advertising,OpEx,D05,Customer Success,4275.0,4247.65,4241.72
-2024-03,6003,Marketing & Advertising,OpEx,D06,Product,4275.0,4271.75,4319.09
-2024-04,6003,Marketing & Advertising,OpEx,D02,Sales,14250.0,13678.56,13536.32
-2024-04,6003,Marketing & Advertising,OpEx,D03,Marketing,66500.0,66450.76,66857.95
-2024-04,6003,Marketing & Advertising,OpEx,D04,G&A,4750.0,4695.15,4645.69
-2024-04,6003,Marketing & Advertising,OpEx,D05,Customer Success,4750.0,4811.32,4781.31
-2024-04,6003,Marketing & Advertising,OpEx,D06,Product,4750.0,4592.83,4680.74
-2024-05,6003,Marketing & Advertising,OpEx,D02,Sales,15675.0,16000.63,15970.12
-2024-05,6003,Marketing & Advertising,OpEx,D03,Marketing,73150.0,77634.79,77803.59
-2024-05,6003,Marketing & Advertising,OpEx,D04,G&A,5225.0,5202.27,5247.53
-2024-05,6003,Marketing & Advertising,OpEx,D05,Customer Success,5225.0,5308.96,5335.28
-2024-05,6003,Marketing & Advertising,OpEx,D06,Product,5225.0,5369.24,5377.32
-2024-06,6003,Marketing & Advertising,OpEx,D02,Sales,17100.0,16825.57,16886.98
-2024-06,6003,Marketing & Advertising,OpEx,D03,Marketing,79800.0,80515.3,82450.42
-2024-06,6003,Marketing & Advertising,OpEx,D04,G&A,5700.0,5702.87,5699.58
-2024-06,6003,Marketing & Advertising,OpEx,D05,Customer Success,5700.0,5722.27,5733.78
-2024-06,6003,Marketing & Advertising,OpEx,D06,Product,5700.0,5523.75,5581.79
-2024-07,6003,Marketing & Advertising,OpEx,D02,Sales,18525.0,18543.16,18748.16
-2024-07,6003,Marketing & Advertising,OpEx,D03,Marketing,86450.0,124481.08,125958.71
-2024-07,6003,Marketing & Advertising,OpEx,D04,G&A,6175.0,6533.43,6575.16
-2024-07,6003,Marketing & Advertising,OpEx,D05,Customer Success,6175.0,6411.94,6338.65
-2024-07,6003,Marketing & Advertising,OpEx,D06,Product,6175.0,6706.84,6816.39
-2024-08,6003,Marketing & Advertising,OpEx,D02,Sales,17100.0,16575.13,16385.12
-2024-08,6003,Marketing & Advertising,OpEx,D03,Marketing,79800.0,112908.45,113250.15
-2024-08,6003,Marketing & Advertising,OpEx,D04,G&A,5700.0,5741.8,5698.49
-2024-08,6003,Marketing & Advertising,OpEx,D05,Customer Success,5700.0,6199.28,6195.3
-2024-08,6003,Marketing & Advertising,OpEx,D06,Product,5700.0,5515.71,5533.84
-2024-09,6003,Marketing & Advertising,OpEx,D02,Sales,15675.0,15148.49,15197.17
-2024-09,6003,Marketing & Advertising,OpEx,D03,Marketing,73150.0,89683.68,90062.07
-2024-09,6003,Marketing & Advertising,OpEx,D04,G&A,5225.0,4781.11,4858.26
-2024-09,6003,Marketing & Advertising,OpEx,D05,Customer Success,5225.0,5115.12,5138.32
-2024-09,6003,Marketing & Advertising,OpEx,D06,Product,5225.0,5066.34,5053.97
-2024-10,6003,Marketing & Advertising,OpEx,D02,Sales,14250.0,14335.72,14473.93
-2024-10,6003,Marketing & Advertising,OpEx,D03,Marketing,66500.0,67409.07,68210.88
-2024-10,6003,Marketing & Advertising,OpEx,D04,G&A,4750.0,5106.47,5043.78
-2024-10,6003,Marketing & Advertising,OpEx,D05,Customer Success,4750.0,4930.58,4960.04
-2024-10,6003,Marketing & Advertising,OpEx,D06,Product,4750.0,4640.39,4672.93
-2024-11,6003,Marketing & Advertising,OpEx,D02,Sales,12825.0,,12748.67
-2024-11,6003,Marketing & Advertising,OpEx,D03,Marketing,59850.0,,61496.72
-2024-11,6003,Marketing & Advertising,OpEx,D04,G&A,4275.0,,4262.17
-2024-11,6003,Marketing & Advertising,OpEx,D05,Customer Success,4275.0,,4285.74
-2024-11,6003,Marketing & Advertising,OpEx,D06,Product,4275.0,,4260.2
-2024-12,6003,Marketing & Advertising,OpEx,D02,Sales,12825.0,,12829.0
-2024-12,6003,Marketing & Advertising,OpEx,D03,Marketing,59850.0,,58537.76
-2024-12,6003,Marketing & Advertising,OpEx,D04,G&A,4275.0,,4151.88
-2024-12,6003,Marketing & Advertising,OpEx,D05,Customer Success,4275.0,,4411.33
-2024-12,6003,Marketing & Advertising,OpEx,D06,Product,4275.0,,4202.58
-2024-01,6004,Travel & Entertainment,OpEx,D01,Engineering,3520.0,3393.5,3359.86
-2024-01,6004,Travel & Entertainment,OpEx,D02,Sales,6160.0,6281.21,6145.95
-2024-01,6004,Travel & Entertainment,OpEx,D03,Marketing,2640.0,2500.58,2484.6
-2024-01,6004,Travel & Entertainment,OpEx,D04,G&A,1760.0,1888.93,1863.94
-2024-01,6004,Travel & Entertainment,OpEx,D05,Customer Success,1760.0,1843.03,1873.29
-2024-01,6004,Travel & Entertainment,OpEx,D06,Product,1760.0,1726.97,1744.41
-2024-02,6004,Travel & Entertainment,OpEx,D01,Engineering,3520.0,3278.79,3256.23
-2024-02,6004,Travel & Entertainment,OpEx,D02,Sales,6160.0,6493.59,6639.85
-2024-02,6004,Travel & Entertainment,OpEx,D03,Marketing,2640.0,2627.9,2653.7
-2024-02,6004,Travel & Entertainment,OpEx,D04,G&A,1760.0,1847.14,1841.14
-2024-02,6004,Travel & Entertainment,OpEx,D05,Customer Success,1760.0,1647.75,1606.57
-2024-02,6004,Travel & Entertainment,OpEx,D06,Product,1760.0,1717.8,1757.15
-2024-03,6004,Travel & Entertainment,OpEx,D01,Engineering,4840.0,4841.02,4773.75
-2024-03,6004,Travel & Entertainment,OpEx,D02,Sales,8470.0,8485.92,8346.29
-2024-03,6004,Travel & Entertainment,OpEx,D03,Marketing,3630.0,3564.65,3601.1
-2024-03,6004,Travel & Entertainment,OpEx,D04,G&A,2420.0,2480.29,2540.8
-2024-03,6004,Travel & Entertainment,OpEx,D05,Customer Success,2420.0,2316.65,2348.72
-2024-03,6004,Travel & Entertainment,OpEx,D06,Product,2420.0,2406.22,2419.79
-2024-04,6004,Travel & Entertainment,OpEx,D01,Engineering,5280.0,5305.41,5336.96
-2024-04,6004,Travel & Entertainment,OpEx,D02,Sales,9240.0,14512.14,14635.99
-2024-04,6004,Travel & Entertainment,OpEx,D03,Marketing,3960.0,4072.72,4103.63
-2024-04,6004,Travel & Entertainment,OpEx,D04,G&A,2640.0,2521.24,2528.33
-2024-04,6004,Travel & Entertainment,OpEx,D05,Customer Success,2640.0,2478.0,2480.58
-2024-04,6004,Travel & Entertainment,OpEx,D06,Product,2640.0,2774.92,2773.18
-2024-05,6004,Travel & Entertainment,OpEx,D01,Engineering,4840.0,4904.34,4867.36
-2024-05,6004,Travel & Entertainment,OpEx,D02,Sales,8470.0,8216.41,8193.35
-2024-05,6004,Travel & Entertainment,OpEx,D03,Marketing,3630.0,3855.23,3789.96
-2024-05,6004,Travel & Entertainment,OpEx,D04,G&A,2420.0,2431.2,2428.81
-2024-05,6004,Travel & Entertainment,OpEx,D05,Customer Success,2420.0,2534.16,2509.11
-2024-05,6004,Travel & Entertainment,OpEx,D06,Product,2420.0,2426.54,2399.76
-2024-06,6004,Travel & Entertainment,OpEx,D01,Engineering,3960.0,4286.42,4294.13
-2024-06,6004,Travel & Entertainment,OpEx,D02,Sales,6930.0,7416.58,7519.82
-2024-06,6004,Travel & Entertainment,OpEx,D03,Marketing,2970.0,2940.42,2967.42
-2024-06,6004,Travel & Entertainment,OpEx,D04,G&A,1980.0,2056.95,2024.65
-2024-06,6004,Travel & Entertainment,OpEx,D05,Customer Success,1980.0,2031.11,2011.01
-2024-06,6004,Travel & Entertainment,OpEx,D06,Product,1980.0,2088.4,2108.05
-2024-07,6004,Travel & Entertainment,OpEx,D01,Engineering,3080.0,2961.12,2932.03
-2024-07,6004,Travel & Entertainment,OpEx,D02,Sales,5390.0,5537.91,5525.47
-2024-07,6004,Travel & Entertainment,OpEx,D03,Marketing,2310.0,2407.8,2421.04
-2024-07,6004,Travel & Entertainment,OpEx,D04,G&A,1540.0,1431.66,1417.8
-2024-07,6004,Travel & Entertainment,OpEx,D05,Customer Success,1540.0,1467.11,1468.66
-2024-07,6004,Travel & Entertainment,OpEx,D06,Product,1540.0,1414.38,1395.51
-2024-08,6004,Travel & Entertainment,OpEx,D01,Engineering,3520.0,3482.07,3461.13
-2024-08,6004,Travel & Entertainment,OpEx,D02,Sales,6160.0,6336.8,6357.06
-2024-08,6004,Travel & Entertainment,OpEx,D03,Marketing,2640.0,2798.65,2754.07
-2024-08,6004,Travel & Entertainment,OpEx,D04,G&A,1760.0,1765.22,1773.0
-2024-08,6004,Travel & Entertainment,OpEx,D05,Customer Success,1760.0,1874.65,1874.28
-2024-08,6004,Travel & Entertainment,OpEx,D06,Product,1760.0,1662.84,1672.03
-2024-09,6004,Travel & Entertainment,OpEx,D01,Engineering,5280.0,4920.25,4931.27
-2024-09,6004,Travel & Entertainment,OpEx,D02,Sales,9240.0,9219.47,9345.24
-2024-09,6004,Travel & Entertainment,OpEx,D03,Marketing,3960.0,4020.84,4025.88
-2024-09,6004,Travel & Entertainment,OpEx,D04,G&A,2640.0,2636.55,2625.23
-2024-09,6004,Travel & Entertainment,OpEx,D05,Customer Success,2640.0,2421.68,2424.64
-2024-09,6004,Travel & Entertainment,OpEx,D06,Product,2640.0,2630.59,2644.88
-2024-10,6004,Travel & Entertainment,OpEx,D01,Engineering,5280.0,5004.5,5006.95
-2024-10,6004,Travel & Entertainment,OpEx,D02,Sales,9240.0,9487.51,9491.36
-2024-10,6004,Travel & Entertainment,OpEx,D03,Marketing,3960.0,4018.07,3989.86
-2024-10,6004,Travel & Entertainment,OpEx,D04,G&A,2640.0,2540.75,2523.91
-2024-10,6004,Travel & Entertainment,OpEx,D05,Customer Success,2640.0,2585.74,2549.47
-2024-10,6004,Travel & Entertainment,OpEx,D06,Product,2640.0,2528.15,2572.38
-2024-11,6004,Travel & Entertainment,OpEx,D01,Engineering,4840.0,,4719.59
-2024-11,6004,Travel & Entertainment,OpEx,D02,Sales,8470.0,,8352.62
-2024-11,6004,Travel & Entertainment,OpEx,D03,Marketing,3630.0,,3577.84
-2024-11,6004,Travel & Entertainment,OpEx,D04,G&A,2420.0,,2463.31
-2024-11,6004,Travel & Entertainment,OpEx,D05,Customer Success,2420.0,,2405.72
-2024-11,6004,Travel & Entertainment,OpEx,D06,Product,2420.0,,2480.39
-2024-12,6004,Travel & Entertainment,OpEx,D01,Engineering,3960.0,,3906.66
-2024-12,6004,Travel & Entertainment,OpEx,D02,Sales,6930.0,,6968.67
-2024-12,6004,Travel & Entertainment,OpEx,D03,Marketing,2970.0,,2920.38
-2024-12,6004,Travel & Entertainment,OpEx,D04,G&A,1980.0,,2064.95
-2024-12,6004,Travel & Entertainment,OpEx,D05,Customer Success,1980.0,,1932.97
-2024-12,6004,Travel & Entertainment,OpEx,D06,Product,1980.0,,1992.27
-2024-01,6005,Software & Tools,OpEx,D01,Engineering,5400.0,5386.46,5420.6
-2024-01,6005,Software & Tools,OpEx,D02,Sales,2700.0,2803.16,2814.76
-2024-01,6005,Software & Tools,OpEx,D03,Marketing,2700.0,2593.54,2588.73
-2024-01,6005,Software & Tools,OpEx,D04,G&A,1800.0,1836.29,1833.91
-2024-01,6005,Software & Tools,OpEx,D05,Customer Success,2700.0,2642.73,2643.89
-2024-01,6005,Software & Tools,OpEx,D06,Product,2700.0,2614.37,2610.53
-2024-02,6005,Software & Tools,OpEx,D01,Engineering,5400.0,5376.88,5428.71
-2024-02,6005,Software & Tools,OpEx,D02,Sales,2700.0,2588.19,2645.4
-2024-02,6005,Software & Tools,OpEx,D03,Marketing,2700.0,2640.21,2625.49
-2024-02,6005,Software & Tools,OpEx,D04,G&A,1800.0,1713.75,1690.28
-2024-02,6005,Software & Tools,OpEx,D05,Customer Success,2700.0,2912.19,2909.62
-2024-02,6005,Software & Tools,OpEx,D06,Product,2700.0,2703.81,2773.56
-2024-03,6005,Software & Tools,OpEx,D01,Engineering,5400.0,5248.86,5206.68
-2024-03,6005,Software & Tools,OpEx,D02,Sales,2700.0,2723.11,2767.74
-2024-03,6005,Software & Tools,OpEx,D03,Marketing,2700.0,2687.87,2732.96
-2024-03,6005,Software & Tools,OpEx,D04,G&A,1800.0,1784.09,1774.21
-2024-03,6005,Software & Tools,OpEx,D05,Customer Success,2700.0,2766.33,2782.07
-2024-03,6005,Software & Tools,OpEx,D06,Product,2700.0,2781.81,2827.11
-2024-04,6005,Software & Tools,OpEx,D01,Engineering,5400.0,5285.41,5265.37
-2024-04,6005,Software & Tools,OpEx,D02,Sales,2700.0,2637.81,2632.44
-2024-04,6005,Software & Tools,OpEx,D03,Marketing,2700.0,2670.29,2654.76
-2024-04,6005,Software & Tools,OpEx,D04,G&A,1800.0,1634.26,1617.68
-2024-04,6005,Software & Tools,OpEx,D05,Customer Success,2700.0,2536.36,2519.89
-2024-04,6005,Software & Tools,OpEx,D06,Product,2700.0,2847.62,2812.77
-2024-05,6005,Software & Tools,OpEx,D01,Engineering,5400.0,5755.31,5757.27
-2024-05,6005,Software & Tools,OpEx,D02,Sales,2700.0,2673.1,2652.52
-2024-05,6005,Software & Tools,OpEx,D03,Marketing,2700.0,2762.27,2768.73
-2024-05,6005,Software & Tools,OpEx,D04,G&A,1800.0,1822.41,1794.06
-2024-05,6005,Software & Tools,OpEx,D05,Customer Success,2700.0,3032.52,3042.55
-2024-05,6005,Software & Tools,OpEx,D06,Product,2700.0,2820.91,2844.42
-2024-06,6005,Software & Tools,OpEx,D01,Engineering,5400.0,5372.37,5265.26
-2024-06,6005,Software & Tools,OpEx,D02,Sales,2700.0,2596.8,2606.51
-2024-06,6005,Software & Tools,OpEx,D03,Marketing,2700.0,2526.5,2557.52
-2024-06,6005,Software & Tools,OpEx,D04,G&A,1800.0,1814.65,1792.7
-2024-06,6005,Software & Tools,OpEx,D05,Customer Success,2700.0,2618.31,2662.1
-2024-06,6005,Software & Tools,OpEx,D06,Product,2700.0,2546.4,2557.07
-2024-07,6005,Software & Tools,OpEx,D01,Engineering,5400.0,5260.34,5223.25
-2024-07,6005,Software & Tools,OpEx,D02,Sales,2700.0,2583.19,2581.75
-2024-07,6005,Software & Tools,OpEx,D03,Marketing,2700.0,2882.21,2898.3
-2024-07,6005,Software & Tools,OpEx,D04,G&A,1800.0,1863.48,1864.9
-2024-07,6005,Software & Tools,OpEx,D05,Customer Success,2700.0,2699.14,2713.68
-2024-07,6005,Software & Tools,OpEx,D06,Product,2700.0,2859.83,2833.5
-2024-08,6005,Software & Tools,OpEx,D01,Engineering,5400.0,5416.71,5425.88
-2024-08,6005,Software & Tools,OpEx,D02,Sales,2700.0,2606.98,2570.12
-2024-08,6005,Software & Tools,OpEx,D03,Marketing,2700.0,2864.5,2861.31
-2024-08,6005,Software & Tools,OpEx,D04,G&A,1800.0,1838.8,1822.18
-2024-08,6005,Software & Tools,OpEx,D05,Customer Success,2700.0,2587.98,2568.94
-2024-08,6005,Software & Tools,OpEx,D06,Product,2700.0,2679.44,2712.56
-2024-09,6005,Software & Tools,OpEx,D01,Engineering,5400.0,5210.87,5267.74
-2024-09,6005,Software & Tools,OpEx,D02,Sales,2700.0,2550.66,2566.2
-2024-09,6005,Software & Tools,OpEx,D03,Marketing,2700.0,2800.03,2769.44
-2024-09,6005,Software & Tools,OpEx,D04,G&A,1800.0,1937.48,1931.35
-2024-09,6005,Software & Tools,OpEx,D05,Customer Success,2700.0,2548.95,2579.87
-2024-09,6005,Software & Tools,OpEx,D06,Product,2700.0,2760.8,2764.71
-2024-10,6005,Software & Tools,OpEx,D01,Engineering,5400.0,5259.46,5381.44
-2024-10,6005,Software & Tools,OpEx,D02,Sales,2700.0,2647.39,2657.8
-2024-10,6005,Software & Tools,OpEx,D03,Marketing,2700.0,2636.02,2641.08
-2024-10,6005,Software & Tools,OpEx,D04,G&A,1800.0,1737.79,1732.42
-2024-10,6005,Software & Tools,OpEx,D05,Customer Success,2700.0,2705.24,2708.85
-2024-10,6005,Software & Tools,OpEx,D06,Product,2700.0,2610.26,2606.28
-2024-11,6005,Software & Tools,OpEx,D01,Engineering,5400.0,,5476.48
-2024-11,6005,Software & Tools,OpEx,D02,Sales,2700.0,,2751.66
-2024-11,6005,Software & Tools,OpEx,D03,Marketing,2700.0,,2657.56
-2024-11,6005,Software & Tools,OpEx,D04,G&A,1800.0,,1752.08
-2024-11,6005,Software & Tools,OpEx,D05,Customer Success,2700.0,,2600.84
-2024-11,6005,Software & Tools,OpEx,D06,Product,2700.0,,2727.43
-2024-12,6005,Software & Tools,OpEx,D01,Engineering,5400.0,,5280.84
-2024-12,6005,Software & Tools,OpEx,D02,Sales,2700.0,,2583.74
-2024-12,6005,Software & Tools,OpEx,D03,Marketing,2700.0,,2720.98
-2024-12,6005,Software & Tools,OpEx,D04,G&A,1800.0,,1889.75
-2024-12,6005,Software & Tools,OpEx,D05,Customer Success,2700.0,,2699.67
-2024-12,6005,Software & Tools,OpEx,D06,Product,2700.0,,2745.28
-2024-01,6006,Depreciation & Amortization,OpEx,D01,Engineering,6250.0,6317.61,6322.78
-2024-01,6006,Depreciation & Amortization,OpEx,D02,Sales,3750.0,3742.46,3738.76
-2024-01,6006,Depreciation & Amortization,OpEx,D03,Marketing,3750.0,3714.16,3748.3
-2024-01,6006,Depreciation & Amortization,OpEx,D04,G&A,3750.0,3613.87,3603.38
-2024-01,6006,Depreciation & Amortization,OpEx,D05,Customer Success,3750.0,3663.48,3673.28
-2024-01,6006,Depreciation & Amortization,OpEx,D06,Product,3750.0,3863.31,3875.74
-2024-02,6006,Depreciation & Amortization,OpEx,D01,Engineering,6250.0,6375.23,6332.64
-2024-02,6006,Depreciation & Amortization,OpEx,D02,Sales,3750.0,3603.37,3639.12
-2024-02,6006,Depreciation & Amortization,OpEx,D03,Marketing,3750.0,3764.9,3758.31
-2024-02,6006,Depreciation & Amortization,OpEx,D04,G&A,3750.0,3862.71,3833.52
-2024-02,6006,Depreciation & Amortization,OpEx,D05,Customer Success,3750.0,3499.59,3518.37
-2024-02,6006,Depreciation & Amortization,OpEx,D06,Product,3750.0,3831.5,3797.08
-2024-03,6006,Depreciation & Amortization,OpEx,D01,Engineering,6250.0,6084.34,6086.05
-2024-03,6006,Depreciation & Amortization,OpEx,D02,Sales,3750.0,3835.59,3835.24
-2024-03,6006,Depreciation & Amortization,OpEx,D03,Marketing,3750.0,3635.51,3674.99
-2024-03,6006,Depreciation & Amortization,OpEx,D04,G&A,3750.0,3479.27,3495.79
-2024-03,6006,Depreciation & Amortization,OpEx,D05,Customer Success,3750.0,3505.87,3504.99
-2024-03,6006,Depreciation & Amortization,OpEx,D06,Product,3750.0,3757.21,3787.94
-2024-04,6006,Depreciation & Amortization,OpEx,D01,Engineering,6250.0,6314.93,6402.72
-2024-04,6006,Depreciation & Amortization,OpEx,D02,Sales,3750.0,3614.35,3634.51
-2024-04,6006,Depreciation & Amortization,OpEx,D03,Marketing,3750.0,3845.79,3846.19
-2024-04,6006,Depreciation & Amortization,OpEx,D04,G&A,3750.0,3500.77,3454.85
-2024-04,6006,Depreciation & Amortization,OpEx,D05,Customer Success,3750.0,3740.09,3700.25
-2024-04,6006,Depreciation & Amortization,OpEx,D06,Product,3750.0,3568.35,3557.46
-2024-05,6006,Depreciation & Amortization,OpEx,D01,Engineering,6250.0,6087.04,6049.94
-2024-05,6006,Depreciation & Amortization,OpEx,D02,Sales,3750.0,3757.11,3750.09
-2024-05,6006,Depreciation & Amortization,OpEx,D03,Marketing,3750.0,3620.94,3622.99
-2024-05,6006,Depreciation & Amortization,OpEx,D04,G&A,3750.0,3692.32,3711.88
-2024-05,6006,Depreciation & Amortization,OpEx,D05,Customer Success,3750.0,3900.94,3898.19
-2024-05,6006,Depreciation & Amortization,OpEx,D06,Product,3750.0,3663.47,3681.29
-2024-06,6006,Depreciation & Amortization,OpEx,D01,Engineering,6250.0,6458.92,6463.08
-2024-06,6006,Depreciation & Amortization,OpEx,D02,Sales,3750.0,3580.54,3509.81
-2024-06,6006,Depreciation & Amortization,OpEx,D03,Marketing,3750.0,3829.47,3793.5
-2024-06,6006,Depreciation & Amortization,OpEx,D04,G&A,3750.0,3966.24,3960.53
-2024-06,6006,Depreciation & Amortization,OpEx,D05,Customer Success,3750.0,3379.25,3338.37
-2024-06,6006,Depreciation & Amortization,OpEx,D06,Product,3750.0,3630.47,3652.25
-2024-07,6006,Depreciation & Amortization,OpEx,D01,Engineering,6250.0,6394.27,6492.15
-2024-07,6006,Depreciation & Amortization,OpEx,D02,Sales,3750.0,3719.54,3764.87
-2024-07,6006,Depreciation & Amortization,OpEx,D03,Marketing,3750.0,3805.67,3797.55
-2024-07,6006,Depreciation & Amortization,OpEx,D04,G&A,3750.0,3659.4,3713.95
-2024-07,6006,Depreciation & Amortization,OpEx,D05,Customer Success,3750.0,3762.99,3768.58
-2024-07,6006,Depreciation & Amortization,OpEx,D06,Product,3750.0,3726.65,3714.09
-2024-08,6006,Depreciation & Amortization,OpEx,D01,Engineering,6250.0,6541.95,6501.82
-2024-08,6006,Depreciation & Amortization,OpEx,D02,Sales,3750.0,3788.16,3776.7
-2024-08,6006,Depreciation & Amortization,OpEx,D03,Marketing,3750.0,3800.64,3785.89
-2024-08,6006,Depreciation & Amortization,OpEx,D04,G&A,3750.0,3688.22,3694.51
-2024-08,6006,Depreciation & Amortization,OpEx,D05,Customer Success,3750.0,3676.86,3682.76
-2024-08,6006,Depreciation & Amortization,OpEx,D06,Product,3750.0,3685.12,3685.23
-2024-09,6006,Depreciation & Amortization,OpEx,D01,Engineering,6250.0,6348.61,6376.35
-2024-09,6006,Depreciation & Amortization,OpEx,D02,Sales,3750.0,3686.85,3730.75
-2024-09,6006,Depreciation & Amortization,OpEx,D03,Marketing,3750.0,3793.47,3829.49
-2024-09,6006,Depreciation & Amortization,OpEx,D04,G&A,3750.0,4061.31,4001.0
-2024-09,6006,Depreciation & Amortization,OpEx,D05,Customer Success,3750.0,3880.67,3781.56
-2024-09,6006,Depreciation & Amortization,OpEx,D06,Product,3750.0,3701.1,3735.68
-2024-10,6006,Depreciation & Amortization,OpEx,D01,Engineering,6250.0,6550.3,6460.77
-2024-10,6006,Depreciation & Amortization,OpEx,D02,Sales,3750.0,3688.79,3680.5
-2024-10,6006,Depreciation & Amortization,OpEx,D03,Marketing,3750.0,3444.28,3403.98
-2024-10,6006,Depreciation & Amortization,OpEx,D04,G&A,3750.0,3598.79,3533.94
-2024-10,6006,Depreciation & Amortization,OpEx,D05,Customer Success,3750.0,3469.38,3488.17
-2024-10,6006,Depreciation & Amortization,OpEx,D06,Product,3750.0,3697.27,3725.34
-2024-11,6006,Depreciation & Amortization,OpEx,D01,Engineering,6250.0,,6177.94
-2024-11,6006,Depreciation & Amortization,OpEx,D02,Sales,3750.0,,3555.67
-2024-11,6006,Depreciation & Amortization,OpEx,D03,Marketing,3750.0,,3709.03
-2024-11,6006,Depreciation & Amortization,OpEx,D04,G&A,3750.0,,3779.39
-2024-11,6006,Depreciation & Amortization,OpEx,D05,Customer Success,3750.0,,3639.08
-2024-11,6006,Depreciation & Amortization,OpEx,D06,Product,3750.0,,3763.75
-2024-12,6006,Depreciation & Amortization,OpEx,D01,Engineering,6250.0,,6248.09
-2024-12,6006,Depreciation & Amortization,OpEx,D02,Sales,3750.0,,3793.45
-2024-12,6006,Depreciation & Amortization,OpEx,D03,Marketing,3750.0,,3758.97
-2024-12,6006,Depreciation & Amortization,OpEx,D04,G&A,3750.0,,3677.02
-2024-12,6006,Depreciation & Amortization,OpEx,D05,Customer Success,3750.0,,3839.74
-2024-12,6006,Depreciation & Amortization,OpEx,D06,Product,3750.0,,3738.11
-2024-01,6007,Rent & Facilities,OpEx,D01,Engineering,7000.0,7005.16,7003.25
-2024-01,6007,Rent & Facilities,OpEx,D02,Sales,5250.0,5602.05,5549.77
-2024-01,6007,Rent & Facilities,OpEx,D03,Marketing,5250.0,5318.65,5295.07
-2024-01,6007,Rent & Facilities,OpEx,D04,G&A,7000.0,6938.65,6877.26
-2024-01,6007,Rent & Facilities,OpEx,D05,Customer Success,5250.0,5424.18,5414.8
-2024-01,6007,Rent & Facilities,OpEx,D06,Product,5250.0,4785.66,4867.58
-2024-02,6007,Rent & Facilities,OpEx,D01,Engineering,7000.0,7065.97,6969.03
-2024-02,6007,Rent & Facilities,OpEx,D02,Sales,5250.0,5411.88,5324.56
-2024-02,6007,Rent & Facilities,OpEx,D03,Marketing,5250.0,4939.5,5012.17
-2024-02,6007,Rent & Facilities,OpEx,D04,G&A,7000.0,7320.25,7304.93
-2024-02,6007,Rent & Facilities,OpEx,D05,Customer Success,5250.0,5321.08,5285.48
-2024-02,6007,Rent & Facilities,OpEx,D06,Product,5250.0,5162.79,5216.48
-2024-03,6007,Rent & Facilities,OpEx,D01,Engineering,7000.0,7177.18,7133.71
-2024-03,6007,Rent & Facilities,OpEx,D02,Sales,5250.0,5726.85,5831.42
-2024-03,6007,Rent & Facilities,OpEx,D03,Marketing,5250.0,5288.19,5324.04
-2024-03,6007,Rent & Facilities,OpEx,D04,G&A,7000.0,7069.5,7035.01
-2024-03,6007,Rent & Facilities,OpEx,D05,Customer Success,5250.0,5153.53,5264.71
-2024-03,6007,Rent & Facilities,OpEx,D06,Product,5250.0,5071.53,5040.81
-2024-04,6007,Rent & Facilities,OpEx,D01,Engineering,7000.0,7232.49,7286.16
-2024-04,6007,Rent & Facilities,OpEx,D02,Sales,5250.0,5070.22,5085.39
-2024-04,6007,Rent & Facilities,OpEx,D03,Marketing,5250.0,5265.03,5333.57
-2024-04,6007,Rent & Facilities,OpEx,D04,G&A,7000.0,6866.26,6973.48
-2024-04,6007,Rent & Facilities,OpEx,D05,Customer Success,5250.0,5350.59,5352.3
-2024-04,6007,Rent & Facilities,OpEx,D06,Product,5250.0,5320.07,5279.99
-2024-05,6007,Rent & Facilities,OpEx,D01,Engineering,7000.0,7290.51,7324.04
-2024-05,6007,Rent & Facilities,OpEx,D02,Sales,5250.0,5142.9,5108.05
-2024-05,6007,Rent & Facilities,OpEx,D03,Marketing,5250.0,5193.33,5297.89
-2024-05,6007,Rent & Facilities,OpEx,D04,G&A,7000.0,6725.95,6735.13
-2024-05,6007,Rent & Facilities,OpEx,D05,Customer Success,5250.0,5156.7,5137.86
-2024-05,6007,Rent & Facilities,OpEx,D06,Product,5250.0,5329.23,5339.07
-2024-06,6007,Rent & Facilities,OpEx,D01,Engineering,7000.0,7211.96,7114.81
-2024-06,6007,Rent & Facilities,OpEx,D02,Sales,5250.0,5056.35,5007.22
-2024-06,6007,Rent & Facilities,OpEx,D03,Marketing,5250.0,5432.62,5497.83
-2024-06,6007,Rent & Facilities,OpEx,D04,G&A,7000.0,7379.58,7331.1
-2024-06,6007,Rent & Facilities,OpEx,D05,Customer Success,5250.0,5336.82,5280.95
-2024-06,6007,Rent & Facilities,OpEx,D06,Product,5250.0,5644.13,5674.42
-2024-07,6007,Rent & Facilities,OpEx,D01,Engineering,7000.0,6783.34,6863.77
-2024-07,6007,Rent & Facilities,OpEx,D02,Sales,5250.0,4988.62,5024.49
-2024-07,6007,Rent & Facilities,OpEx,D03,Marketing,5250.0,4876.47,4925.04
-2024-07,6007,Rent & Facilities,OpEx,D04,G&A,7000.0,7418.89,7362.74
-2024-07,6007,Rent & Facilities,OpEx,D05,Customer Success,5250.0,5387.42,5310.82
-2024-07,6007,Rent & Facilities,OpEx,D06,Product,5250.0,5238.33,5316.97
-2024-08,6007,Rent & Facilities,OpEx,D01,Engineering,7000.0,7078.39,7055.55
-2024-08,6007,Rent & Facilities,OpEx,D02,Sales,5250.0,5013.65,5001.07
-2024-08,6007,Rent & Facilities,OpEx,D03,Marketing,5250.0,5763.61,5840.16
-2024-08,6007,Rent & Facilities,OpEx,D04,G&A,7000.0,7036.18,7075.32
-2024-08,6007,Rent & Facilities,OpEx,D05,Customer Success,5250.0,5272.97,5297.01
-2024-08,6007,Rent & Facilities,OpEx,D06,Product,5250.0,5402.41,5519.37
-2024-09,6007,Rent & Facilities,OpEx,D01,Engineering,7000.0,7134.68,7088.77
-2024-09,6007,Rent & Facilities,OpEx,D02,Sales,5250.0,5297.02,5346.17
-2024-09,6007,Rent & Facilities,OpEx,D03,Marketing,5250.0,5084.0,5086.9
-2024-09,6007,Rent & Facilities,OpEx,D04,G&A,7000.0,7132.01,7151.17
-2024-09,6007,Rent & Facilities,OpEx,D05,Customer Success,5250.0,5645.23,5731.52
-2024-09,6007,Rent & Facilities,OpEx,D06,Product,5250.0,5532.54,5560.64
-2024-10,6007,Rent & Facilities,OpEx,D01,Engineering,7000.0,7446.09,7486.17
-2024-10,6007,Rent & Facilities,OpEx,D02,Sales,5250.0,5142.64,5197.8
-2024-10,6007,Rent & Facilities,OpEx,D03,Marketing,5250.0,5042.18,5023.78
-2024-10,6007,Rent & Facilities,OpEx,D04,G&A,7000.0,6964.78,6906.33
-2024-10,6007,Rent & Facilities,OpEx,D05,Customer Success,5250.0,5261.7,5206.73
-2024-10,6007,Rent & Facilities,OpEx,D06,Product,5250.0,5479.78,5372.03
-2024-11,6007,Rent & Facilities,OpEx,D01,Engineering,7000.0,,7287.87
-2024-11,6007,Rent & Facilities,OpEx,D02,Sales,5250.0,,5134.16
-2024-11,6007,Rent & Facilities,OpEx,D03,Marketing,5250.0,,5226.77
-2024-11,6007,Rent & Facilities,OpEx,D04,G&A,7000.0,,6961.25
-2024-11,6007,Rent & Facilities,OpEx,D05,Customer Success,5250.0,,5282.28
-2024-11,6007,Rent & Facilities,OpEx,D06,Product,5250.0,,5335.65
-2024-12,6007,Rent & Facilities,OpEx,D01,Engineering,7000.0,,7120.47
-2024-12,6007,Rent & Facilities,OpEx,D02,Sales,5250.0,,5188.78
-2024-12,6007,Rent & Facilities,OpEx,D03,Marketing,5250.0,,5232.45
-2024-12,6007,Rent & Facilities,OpEx,D04,G&A,7000.0,,7039.56
-2024-12,6007,Rent & Facilities,OpEx,D05,Customer Success,5250.0,,5223.89
-2024-12,6007,Rent & Facilities,OpEx,D06,Product,5250.0,,5418.77
-2024-01,6008,Legal & Professional Fees,OpEx,D01,Engineering,2800.0,2610.44,2623.26
-2024-01,6008,Legal & Professional Fees,OpEx,D02,Sales,2800.0,2971.31,2993.15
-2024-01,6008,Legal & Professional Fees,OpEx,D03,Marketing,2800.0,2782.3,2800.74
-2024-01,6008,Legal & Professional Fees,OpEx,D04,G&A,14000.0,13760.95,13922.43
-2024-01,6008,Legal & Professional Fees,OpEx,D05,Customer Success,2800.0,2686.64,2691.5
-2024-01,6008,Legal & Professional Fees,OpEx,D06,Product,2800.0,2614.66,2580.75
-2024-02,6008,Legal & Professional Fees,OpEx,D01,Engineering,2800.0,2892.2,2903.76
-2024-02,6008,Legal & Professional Fees,OpEx,D02,Sales,2800.0,2808.21,2789.92
-2024-02,6008,Legal & Professional Fees,OpEx,D03,Marketing,2800.0,2655.52,2641.48
-2024-02,6008,Legal & Professional Fees,OpEx,D04,G&A,14000.0,13274.76,13352.6
-2024-02,6008,Legal & Professional Fees,OpEx,D05,Customer Success,2800.0,2762.39,2796.6
-2024-02,6008,Legal & Professional Fees,OpEx,D06,Product,2800.0,2986.93,2987.57
-2024-03,6008,Legal & Professional Fees,OpEx,D01,Engineering,2800.0,2770.93,2779.49
-2024-03,6008,Legal & Professional Fees,OpEx,D02,Sales,2800.0,2631.65,2676.45
-2024-03,6008,Legal & Professional Fees,OpEx,D03,Marketing,2800.0,2772.48,2779.15
-2024-03,6008,Legal & Professional Fees,OpEx,D04,G&A,14000.0,13847.27,14207.53
-2024-03,6008,Legal & Professional Fees,OpEx,D05,Customer Success,2800.0,2497.95,2512.08
-2024-03,6008,Legal & Professional Fees,OpEx,D06,Product,2800.0,2793.92,2744.73
-2024-04,6008,Legal & Professional Fees,OpEx,D01,Engineering,2800.0,2774.14,2795.04
-2024-04,6008,Legal & Professional Fees,OpEx,D02,Sales,2800.0,2877.98,2888.95
-2024-04,6008,Legal & Professional Fees,OpEx,D03,Marketing,2800.0,3007.08,3045.86
-2024-04,6008,Legal & Professional Fees,OpEx,D04,G&A,14000.0,14630.88,14729.37
-2024-04,6008,Legal & Professional Fees,OpEx,D05,Customer Success,2800.0,2769.88,2766.04
-2024-04,6008,Legal & Professional Fees,OpEx,D06,Product,2800.0,2676.07,2643.31
-2024-05,6008,Legal & Professional Fees,OpEx,D01,Engineering,2800.0,3088.22,3081.76
-2024-05,6008,Legal & Professional Fees,OpEx,D02,Sales,2800.0,2806.63,2782.76
-2024-05,6008,Legal & Professional Fees,OpEx,D03,Marketing,2800.0,2801.56,2785.3
-2024-05,6008,Legal & Professional Fees,OpEx,D04,G&A,14000.0,13986.49,14068.81
-2024-05,6008,Legal & Professional Fees,OpEx,D05,Customer Success,2800.0,2822.19,2869.32
-2024-05,6008,Legal & Professional Fees,OpEx,D06,Product,2800.0,2783.83,2794.82
-2024-06,6008,Legal & Professional Fees,OpEx,D01,Engineering,2800.0,2735.75,2703.03
-2024-06,6008,Legal & Professional Fees,OpEx,D02,Sales,2800.0,2738.75,2750.93
-2024-06,6008,Legal & Professional Fees,OpEx,D03,Marketing,2800.0,2796.33,2829.79
-2024-06,6008,Legal & Professional Fees,OpEx,D04,G&A,14000.0,13695.68,13612.17
-2024-06,6008,Legal & Professional Fees,OpEx,D05,Customer Success,2800.0,2720.16,2716.51
-2024-06,6008,Legal & Professional Fees,OpEx,D06,Product,2800.0,2811.92,2812.33
-2024-07,6008,Legal & Professional Fees,OpEx,D01,Engineering,2800.0,2771.44,2749.69
-2024-07,6008,Legal & Professional Fees,OpEx,D02,Sales,2800.0,2968.45,2987.69
-2024-07,6008,Legal & Professional Fees,OpEx,D03,Marketing,2800.0,2503.09,2500.06
-2024-07,6008,Legal & Professional Fees,OpEx,D04,G&A,14000.0,14611.24,14672.54
-2024-07,6008,Legal & Professional Fees,OpEx,D05,Customer Success,2800.0,2939.56,2913.47
-2024-07,6008,Legal & Professional Fees,OpEx,D06,Product,2800.0,2567.78,2556.55
-2024-08,6008,Legal & Professional Fees,OpEx,D01,Engineering,2800.0,2761.62,2781.57
-2024-08,6008,Legal & Professional Fees,OpEx,D02,Sales,2800.0,2758.4,2748.12
-2024-08,6008,Legal & Professional Fees,OpEx,D03,Marketing,2800.0,2642.36,2687.99
-2024-08,6008,Legal & Professional Fees,OpEx,D04,G&A,14000.0,13564.42,13510.21
-2024-08,6008,Legal & Professional Fees,OpEx,D05,Customer Success,2800.0,2675.62,2681.63
-2024-08,6008,Legal & Professional Fees,OpEx,D06,Product,2800.0,2996.25,3024.19
-2024-09,6008,Legal & Professional Fees,OpEx,D01,Engineering,2800.0,2904.8,2863.6
-2024-09,6008,Legal & Professional Fees,OpEx,D02,Sales,2800.0,2942.41,2890.6
-2024-09,6008,Legal & Professional Fees,OpEx,D03,Marketing,2800.0,2880.83,2836.88
-2024-09,6008,Legal & Professional Fees,OpEx,D04,G&A,14000.0,13367.73,13536.51
-2024-09,6008,Legal & Professional Fees,OpEx,D05,Customer Success,2800.0,2741.25,2726.12
-2024-09,6008,Legal & Professional Fees,OpEx,D06,Product,2800.0,2854.81,2927.84
-2024-10,6008,Legal & Professional Fees,OpEx,D01,Engineering,2800.0,2663.12,2648.09
-2024-10,6008,Legal & Professional Fees,OpEx,D02,Sales,2800.0,2879.86,2885.17
-2024-10,6008,Legal & Professional Fees,OpEx,D03,Marketing,2800.0,2773.08,2815.84
-2024-10,6008,Legal & Professional Fees,OpEx,D04,G&A,14000.0,13790.1,14066.74
-2024-10,6008,Legal & Professional Fees,OpEx,D05,Customer Success,2800.0,2879.63,2938.99
-2024-10,6008,Legal & Professional Fees,OpEx,D06,Product,2800.0,2849.76,2884.2
-2024-11,6008,Legal & Professional Fees,OpEx,D01,Engineering,2800.0,,2857.35
-2024-11,6008,Legal & Professional Fees,OpEx,D02,Sales,2800.0,,2833.18
-2024-11,6008,Legal & Professional Fees,OpEx,D03,Marketing,2800.0,,2843.59
-2024-11,6008,Legal & Professional Fees,OpEx,D04,G&A,14000.0,,13845.67
-2024-11,6008,Legal & Professional Fees,OpEx,D05,Customer Success,2800.0,,2754.18
-2024-11,6008,Legal & Professional Fees,OpEx,D06,Product,2800.0,,2799.81
-2024-12,6008,Legal & Professional Fees,OpEx,D01,Engineering,2800.0,,2790.47
-2024-12,6008,Legal & Professional Fees,OpEx,D02,Sales,2800.0,,2774.62
-2024-12,6008,Legal & Professional Fees,OpEx,D03,Marketing,2800.0,,2839.0
-2024-12,6008,Legal & Professional Fees,OpEx,D04,G&A,14000.0,,14267.49
-2024-12,6008,Legal & Professional Fees,OpEx,D05,Customer Success,2800.0,,2804.95
-2024-12,6008,Legal & Professional Fees,OpEx,D06,Product,2800.0,,2882.74
+2024-01,4002,Professional Services Revenue,Revenue,D02,Sales,75600.0,71128.95,70800.14
+2024-01,4002,Professional Services Revenue,Revenue,D05,Customer Success,37800.0,36711.6,36552.09
+2024-01,4002,Professional Services Revenue,Revenue,D06,Product,12600.0,12367.84,12329.6
+2024-02,4002,Professional Services Revenue,Revenue,D02,Sales,86400.0,90053.41,90253.45
+2024-02,4002,Professional Services Revenue,Revenue,D05,Customer Success,43200.0,43793.77,43584.11
+2024-02,4002,Professional Services Revenue,Revenue,D06,Product,14400.0,13384.49,13552.57
+2024-03,4002,Professional Services Revenue,Revenue,D02,Sales,108000.0,109400.04,108421.34
+2024-03,4002,Professional Services Revenue,Revenue,D05,Customer Success,54000.0,53168.22,53068.86
+2024-03,4002,Professional Services Revenue,Revenue,D06,Product,18000.0,17512.62,17435.61
+2024-04,4002,Professional Services Revenue,Revenue,D02,Sales,118800.0,121706.69,123467.76
+2024-04,4002,Professional Services Revenue,Revenue,D05,Customer Success,59400.0,61849.65,61971.22
+2024-04,4002,Professional Services Revenue,Revenue,D06,Product,19800.0,20537.57,20749.49
+2024-05,4002,Professional Services Revenue,Revenue,D02,Sales,113400.0,109593.31,107965.24
+2024-05,4002,Professional Services Revenue,Revenue,D05,Customer Success,56700.0,55998.71,56148.25
+2024-05,4002,Professional Services Revenue,Revenue,D06,Product,18900.0,19150.44,19320.81
+2024-06,4002,Professional Services Revenue,Revenue,D02,Sales,108000.0,112214.35,112306.68
+2024-06,4002,Professional Services Revenue,Revenue,D05,Customer Success,54000.0,52964.98,53529.31
+2024-06,4002,Professional Services Revenue,Revenue,D06,Product,18000.0,17866.33,17773.91
+2024-07,4002,Professional Services Revenue,Revenue,D02,Sales,97200.0,92898.57,94207.83
+2024-07,4002,Professional Services Revenue,Revenue,D05,Customer Success,48600.0,46274.57,47338.38
+2024-07,4002,Professional Services Revenue,Revenue,D06,Product,16200.0,16726.52,16665.83
+2024-08,4002,Professional Services Revenue,Revenue,D02,Sales,102600.0,108166.01,107684.13
+2024-08,4002,Professional Services Revenue,Revenue,D05,Customer Success,51300.0,51152.24,51895.68
+2024-08,4002,Professional Services Revenue,Revenue,D06,Product,17100.0,17786.42,18067.37
+2024-09,4002,Professional Services Revenue,Revenue,D02,Sales,118800.0,120518.49,119888.35
+2024-09,4002,Professional Services Revenue,Revenue,D05,Customer Success,59400.0,57867.2,57624.05
+2024-09,4002,Professional Services Revenue,Revenue,D06,Product,19800.0,20086.23,20029.63
+2024-10,4002,Professional Services Revenue,Revenue,D02,Sales,124200.0,161648.97,159475.68
+2024-10,4002,Professional Services Revenue,Revenue,D05,Customer Success,62100.0,62011.01,61441.34
+2024-10,4002,Professional Services Revenue,Revenue,D06,Product,20700.0,21995.52,21774.65
+2024-11,4002,Professional Services Revenue,Revenue,D02,Sales,118800.0,128922.97,127933.1
+2024-11,4002,Professional Services Revenue,Revenue,D05,Customer Success,59400.0,61352.84,61331.56
+2024-11,4002,Professional Services Revenue,Revenue,D06,Product,19800.0,19868.94,19915.48
+2024-12,4002,Professional Services Revenue,Revenue,D02,Sales,124200.0,,128051.44
+2024-12,4002,Professional Services Revenue,Revenue,D05,Customer Success,62100.0,,60860.04
+2024-12,4002,Professional Services Revenue,Revenue,D06,Product,20700.0,,21107.51
+2024-01,4003,Support & Maintenance Revenue,Revenue,D02,Sales,21600.0,21341.66,21295.99
+2024-01,4003,Support & Maintenance Revenue,Revenue,D05,Customer Success,75600.0,75877.48,75839.95
+2024-01,4003,Support & Maintenance Revenue,Revenue,D06,Product,10800.0,9941.37,10008.46
+2024-02,4003,Support & Maintenance Revenue,Revenue,D02,Sales,21600.0,21410.2,21169.82
+2024-02,4003,Support & Maintenance Revenue,Revenue,D05,Customer Success,75600.0,76679.91,76973.14
+2024-02,4003,Support & Maintenance Revenue,Revenue,D06,Product,10800.0,11438.45,11457.49
+2024-03,4003,Support & Maintenance Revenue,Revenue,D02,Sales,22800.0,22327.34,22437.29
+2024-03,4003,Support & Maintenance Revenue,Revenue,D05,Customer Success,79800.0,77219.29,77442.58
+2024-03,4003,Support & Maintenance Revenue,Revenue,D06,Product,11400.0,11171.2,11445.49
+2024-04,4003,Support & Maintenance Revenue,Revenue,D02,Sales,24000.0,24878.79,24720.13
+2024-04,4003,Support & Maintenance Revenue,Revenue,D05,Customer Success,84000.0,85104.6,84652.7
+2024-04,4003,Support & Maintenance Revenue,Revenue,D06,Product,12000.0,11745.72,11672.53
+2024-05,4003,Support & Maintenance Revenue,Revenue,D02,Sales,24000.0,24492.74,24356.69
+2024-05,4003,Support & Maintenance Revenue,Revenue,D05,Customer Success,84000.0,84326.18,83788.7
+2024-05,4003,Support & Maintenance Revenue,Revenue,D06,Product,12000.0,12464.95,12613.16
+2024-06,4003,Support & Maintenance Revenue,Revenue,D02,Sales,24000.0,23326.03,23657.38
+2024-06,4003,Support & Maintenance Revenue,Revenue,D05,Customer Success,84000.0,82899.06,82425.92
+2024-06,4003,Support & Maintenance Revenue,Revenue,D06,Product,12000.0,11811.79,11713.47
+2024-07,4003,Support & Maintenance Revenue,Revenue,D02,Sales,24000.0,22595.03,22701.55
+2024-07,4003,Support & Maintenance Revenue,Revenue,D05,Customer Success,84000.0,84994.96,84525.6
+2024-07,4003,Support & Maintenance Revenue,Revenue,D06,Product,12000.0,12125.31,12202.05
+2024-08,4003,Support & Maintenance Revenue,Revenue,D02,Sales,24000.0,24004.91,24053.62
+2024-08,4003,Support & Maintenance Revenue,Revenue,D05,Customer Success,84000.0,83211.79,81950.51
+2024-08,4003,Support & Maintenance Revenue,Revenue,D06,Product,12000.0,11320.62,11495.81
+2024-09,4003,Support & Maintenance Revenue,Revenue,D02,Sales,25200.0,24775.99,25220.94
+2024-09,4003,Support & Maintenance Revenue,Revenue,D05,Customer Success,88200.0,86990.9,86457.83
+2024-09,4003,Support & Maintenance Revenue,Revenue,D06,Product,12600.0,12195.65,12148.37
+2024-10,4003,Support & Maintenance Revenue,Revenue,D02,Sales,25200.0,25037.42,25108.99
+2024-10,4003,Support & Maintenance Revenue,Revenue,D05,Customer Success,88200.0,89625.49,89925.25
+2024-10,4003,Support & Maintenance Revenue,Revenue,D06,Product,12600.0,13550.64,13639.88
+2024-11,4003,Support & Maintenance Revenue,Revenue,D02,Sales,25200.0,25375.97,25886.08
+2024-11,4003,Support & Maintenance Revenue,Revenue,D05,Customer Success,88200.0,89108.64,88950.96
+2024-11,4003,Support & Maintenance Revenue,Revenue,D06,Product,12600.0,12562.48,12462.19
+2024-12,4003,Support & Maintenance Revenue,Revenue,D02,Sales,26400.0,,25671.72
+2024-12,4003,Support & Maintenance Revenue,Revenue,D05,Customer Success,92400.0,,91049.24
+2024-12,4003,Support & Maintenance Revenue,Revenue,D06,Product,13200.0,,13191.25
+2024-01,5001,Cloud Infrastructure Costs,COGS,D01,Engineering,47500.0,43854.33,44641.32
+2024-01,5001,Cloud Infrastructure Costs,COGS,D02,Sales,9500.0,9489.92,9440.8
+2024-01,5001,Cloud Infrastructure Costs,COGS,D03,Marketing,9500.0,9522.89,9544.2
+2024-01,5001,Cloud Infrastructure Costs,COGS,D04,G&A,9500.0,10436.03,10434.32
+2024-01,5001,Cloud Infrastructure Costs,COGS,D05,Customer Success,9500.0,9426.9,9538.93
+2024-01,5001,Cloud Infrastructure Costs,COGS,D06,Product,9500.0,9614.59,9857.54
+2024-02,5001,Cloud Infrastructure Costs,COGS,D01,Engineering,47500.0,47434.05,47182.24
+2024-02,5001,Cloud Infrastructure Costs,COGS,D02,Sales,9500.0,9055.9,9011.58
+2024-02,5001,Cloud Infrastructure Costs,COGS,D03,Marketing,9500.0,9934.27,10038.0
+2024-02,5001,Cloud Infrastructure Costs,COGS,D04,G&A,9500.0,9785.73,9852.46
+2024-02,5001,Cloud Infrastructure Costs,COGS,D05,Customer Success,9500.0,9800.59,9981.58
+2024-02,5001,Cloud Infrastructure Costs,COGS,D06,Product,9500.0,9154.43,9207.89
+2024-03,5001,Cloud Infrastructure Costs,COGS,D01,Engineering,47500.0,50165.31,49985.07
+2024-03,5001,Cloud Infrastructure Costs,COGS,D02,Sales,9500.0,8967.3,9020.27
+2024-03,5001,Cloud Infrastructure Costs,COGS,D03,Marketing,9500.0,9723.01,9830.81
+2024-03,5001,Cloud Infrastructure Costs,COGS,D04,G&A,9500.0,10332.37,10417.15
+2024-03,5001,Cloud Infrastructure Costs,COGS,D05,Customer Success,9500.0,9123.6,9169.88
+2024-03,5001,Cloud Infrastructure Costs,COGS,D06,Product,9500.0,9284.81,9383.85
+2024-04,5001,Cloud Infrastructure Costs,COGS,D01,Engineering,47500.0,47689.34,48246.97
+2024-04,5001,Cloud Infrastructure Costs,COGS,D02,Sales,9500.0,9308.68,9437.34
+2024-04,5001,Cloud Infrastructure Costs,COGS,D03,Marketing,9500.0,8910.75,8968.55
+2024-04,5001,Cloud Infrastructure Costs,COGS,D04,G&A,9500.0,9526.05,9510.13
+2024-04,5001,Cloud Infrastructure Costs,COGS,D05,Customer Success,9500.0,9096.32,9109.67
+2024-04,5001,Cloud Infrastructure Costs,COGS,D06,Product,9500.0,9679.97,9796.76
+2024-05,5001,Cloud Infrastructure Costs,COGS,D01,Engineering,47500.0,45753.09,45379.32
+2024-05,5001,Cloud Infrastructure Costs,COGS,D02,Sales,9500.0,10088.98,10126.18
+2024-05,5001,Cloud Infrastructure Costs,COGS,D03,Marketing,9500.0,9202.36,9166.16
+2024-05,5001,Cloud Infrastructure Costs,COGS,D04,G&A,9500.0,9377.62,9380.32
+2024-05,5001,Cloud Infrastructure Costs,COGS,D05,Customer Success,9500.0,9809.14,9934.55
+2024-05,5001,Cloud Infrastructure Costs,COGS,D06,Product,9500.0,9032.27,9049.53
+2024-06,5001,Cloud Infrastructure Costs,COGS,D01,Engineering,47500.0,47932.17,47954.43
+2024-06,5001,Cloud Infrastructure Costs,COGS,D02,Sales,9500.0,9996.71,9860.77
+2024-06,5001,Cloud Infrastructure Costs,COGS,D03,Marketing,9500.0,8889.16,8955.5
+2024-06,5001,Cloud Infrastructure Costs,COGS,D04,G&A,9500.0,9570.16,9631.93
+2024-06,5001,Cloud Infrastructure Costs,COGS,D05,Customer Success,9500.0,9598.76,9806.41
+2024-06,5001,Cloud Infrastructure Costs,COGS,D06,Product,9500.0,9797.09,9766.94
+2024-07,5001,Cloud Infrastructure Costs,COGS,D01,Engineering,47500.0,45149.79,45248.74
+2024-07,5001,Cloud Infrastructure Costs,COGS,D02,Sales,9500.0,8998.23,9020.67
+2024-07,5001,Cloud Infrastructure Costs,COGS,D03,Marketing,9500.0,9698.34,9851.33
+2024-07,5001,Cloud Infrastructure Costs,COGS,D04,G&A,9500.0,9612.85,9603.69
+2024-07,5001,Cloud Infrastructure Costs,COGS,D05,Customer Success,9500.0,9595.19,9621.96
+2024-07,5001,Cloud Infrastructure Costs,COGS,D06,Product,9500.0,9631.65,9690.2
+2024-08,5001,Cloud Infrastructure Costs,COGS,D01,Engineering,47500.0,46207.95,46294.18
+2024-08,5001,Cloud Infrastructure Costs,COGS,D02,Sales,9500.0,9588.26,9545.45
+2024-08,5001,Cloud Infrastructure Costs,COGS,D03,Marketing,9500.0,9611.37,9630.02
+2024-08,5001,Cloud Infrastructure Costs,COGS,D04,G&A,9500.0,9228.55,9327.63
+2024-08,5001,Cloud Infrastructure Costs,COGS,D05,Customer Success,9500.0,10208.99,10104.19
+2024-08,5001,Cloud Infrastructure Costs,COGS,D06,Product,9500.0,9680.06,9692.93
+2024-09,5001,Cloud Infrastructure Costs,COGS,D01,Engineering,47500.0,45236.52,44919.81
+2024-09,5001,Cloud Infrastructure Costs,COGS,D02,Sales,9500.0,9749.49,9866.0
+2024-09,5001,Cloud Infrastructure Costs,COGS,D03,Marketing,9500.0,9129.62,8990.56
+2024-09,5001,Cloud Infrastructure Costs,COGS,D04,G&A,9500.0,9799.09,9744.32
+2024-09,5001,Cloud Infrastructure Costs,COGS,D05,Customer Success,9500.0,9940.27,9977.77
+2024-09,5001,Cloud Infrastructure Costs,COGS,D06,Product,9500.0,9188.14,9331.98
+2024-10,5001,Cloud Infrastructure Costs,COGS,D01,Engineering,47500.0,64055.41,64013.29
+2024-10,5001,Cloud Infrastructure Costs,COGS,D02,Sales,9500.0,9656.86,9603.25
+2024-10,5001,Cloud Infrastructure Costs,COGS,D03,Marketing,9500.0,9812.38,9996.97
+2024-10,5001,Cloud Infrastructure Costs,COGS,D04,G&A,9500.0,10220.78,10072.78
+2024-10,5001,Cloud Infrastructure Costs,COGS,D05,Customer Success,9500.0,9406.75,9199.91
+2024-10,5001,Cloud Infrastructure Costs,COGS,D06,Product,9500.0,9213.58,9254.12
+2024-11,5001,Cloud Infrastructure Costs,COGS,D01,Engineering,47500.0,59109.92,58813.16
+2024-11,5001,Cloud Infrastructure Costs,COGS,D02,Sales,9500.0,9189.99,9096.14
+2024-11,5001,Cloud Infrastructure Costs,COGS,D03,Marketing,9500.0,9470.7,9537.79
+2024-11,5001,Cloud Infrastructure Costs,COGS,D04,G&A,9500.0,9629.64,9653.12
+2024-11,5001,Cloud Infrastructure Costs,COGS,D05,Customer Success,9500.0,9605.14,9550.96
+2024-11,5001,Cloud Infrastructure Costs,COGS,D06,Product,9500.0,9814.33,9688.68
+2024-12,5001,Cloud Infrastructure Costs,COGS,D01,Engineering,47500.0,,48328.83
+2024-12,5001,Cloud Infrastructure Costs,COGS,D02,Sales,9500.0,,9623.54
+2024-12,5001,Cloud Infrastructure Costs,COGS,D03,Marketing,9500.0,,9481.16
+2024-12,5001,Cloud Infrastructure Costs,COGS,D04,G&A,9500.0,,9850.86
+2024-12,5001,Cloud Infrastructure Costs,COGS,D05,Customer Success,9500.0,,9296.68
+2024-12,5001,Cloud Infrastructure Costs,COGS,D06,Product,9500.0,,9210.15
+2024-01,5002,Third-Party Software Licenses,COGS,D01,Engineering,16800.0,16808.74,16692.44
+2024-01,5002,Third-Party Software Licenses,COGS,D02,Sales,4200.0,4444.19,4442.16
+2024-01,5002,Third-Party Software Licenses,COGS,D03,Marketing,4200.0,4155.54,4165.65
+2024-01,5002,Third-Party Software Licenses,COGS,D04,G&A,4200.0,4656.99,4645.76
+2024-01,5002,Third-Party Software Licenses,COGS,D05,Customer Success,8400.0,8610.22,8640.53
+2024-01,5002,Third-Party Software Licenses,COGS,D06,Product,4200.0,4056.0,4005.24
+2024-02,5002,Third-Party Software Licenses,COGS,D01,Engineering,16800.0,16080.36,16312.52
+2024-02,5002,Third-Party Software Licenses,COGS,D02,Sales,4200.0,4281.06,4277.54
+2024-02,5002,Third-Party Software Licenses,COGS,D03,Marketing,4200.0,4162.46,4208.97
+2024-02,5002,Third-Party Software Licenses,COGS,D04,G&A,4200.0,4319.95,4334.76
+2024-02,5002,Third-Party Software Licenses,COGS,D05,Customer Success,8400.0,8559.01,8598.1
+2024-02,5002,Third-Party Software Licenses,COGS,D06,Product,4200.0,4187.76,4211.62
+2024-03,5002,Third-Party Software Licenses,COGS,D01,Engineering,16800.0,16230.95,16303.62
+2024-03,5002,Third-Party Software Licenses,COGS,D02,Sales,4200.0,3945.51,3970.87
+2024-03,5002,Third-Party Software Licenses,COGS,D03,Marketing,4200.0,4124.99,4179.82
+2024-03,5002,Third-Party Software Licenses,COGS,D04,G&A,4200.0,4343.87,4352.41
+2024-03,5002,Third-Party Software Licenses,COGS,D05,Customer Success,8400.0,8471.94,8532.01
+2024-03,5002,Third-Party Software Licenses,COGS,D06,Product,4200.0,3990.72,3987.14
+2024-04,5002,Third-Party Software Licenses,COGS,D01,Engineering,16800.0,16916.38,17160.0
+2024-04,5002,Third-Party Software Licenses,COGS,D02,Sales,4200.0,4264.73,4235.88
+2024-04,5002,Third-Party Software Licenses,COGS,D03,Marketing,4200.0,4051.51,4124.48
+2024-04,5002,Third-Party Software Licenses,COGS,D04,G&A,4200.0,4225.83,4224.13
+2024-04,5002,Third-Party Software Licenses,COGS,D05,Customer Success,8400.0,8419.56,8299.1
+2024-04,5002,Third-Party Software Licenses,COGS,D06,Product,4200.0,4007.98,4013.11
+2024-05,5002,Third-Party Software Licenses,COGS,D01,Engineering,16800.0,17040.43,16924.38
+2024-05,5002,Third-Party Software Licenses,COGS,D02,Sales,4200.0,4294.21,4330.31
+2024-05,5002,Third-Party Software Licenses,COGS,D03,Marketing,4200.0,4381.95,4353.35
+2024-05,5002,Third-Party Software Licenses,COGS,D04,G&A,4200.0,4377.04,4357.51
+2024-05,5002,Third-Party Software Licenses,COGS,D05,Customer Success,8400.0,7937.1,7787.13
+2024-05,5002,Third-Party Software Licenses,COGS,D06,Product,4200.0,4042.45,4024.17
+2024-06,5002,Third-Party Software Licenses,COGS,D01,Engineering,16800.0,17146.1,16730.5
+2024-06,5002,Third-Party Software Licenses,COGS,D02,Sales,4200.0,4286.32,4218.43
+2024-06,5002,Third-Party Software Licenses,COGS,D03,Marketing,4200.0,4286.53,4319.13
+2024-06,5002,Third-Party Software Licenses,COGS,D04,G&A,4200.0,4847.26,4885.35
+2024-06,5002,Third-Party Software Licenses,COGS,D05,Customer Success,8400.0,8591.82,8628.37
+2024-06,5002,Third-Party Software Licenses,COGS,D06,Product,4200.0,4390.78,4348.32
+2024-07,5002,Third-Party Software Licenses,COGS,D01,Engineering,16800.0,17441.09,17432.77
+2024-07,5002,Third-Party Software Licenses,COGS,D02,Sales,4200.0,4309.43,4309.27
+2024-07,5002,Third-Party Software Licenses,COGS,D03,Marketing,4200.0,4147.03,4098.99
+2024-07,5002,Third-Party Software Licenses,COGS,D04,G&A,4200.0,4327.51,4392.57
+2024-07,5002,Third-Party Software Licenses,COGS,D05,Customer Success,8400.0,8140.33,8211.75
+2024-07,5002,Third-Party Software Licenses,COGS,D06,Product,4200.0,4160.21,4151.02
+2024-08,5002,Third-Party Software Licenses,COGS,D01,Engineering,16800.0,16473.84,16478.27
+2024-08,5002,Third-Party Software Licenses,COGS,D02,Sales,4200.0,4213.75,4222.53
+2024-08,5002,Third-Party Software Licenses,COGS,D03,Marketing,4200.0,4588.86,4495.17
+2024-08,5002,Third-Party Software Licenses,COGS,D04,G&A,4200.0,3886.3,3876.69
+2024-08,5002,Third-Party Software Licenses,COGS,D05,Customer Success,8400.0,8630.58,8571.72
+2024-08,5002,Third-Party Software Licenses,COGS,D06,Product,4200.0,3929.06,3889.71
+2024-09,5002,Third-Party Software Licenses,COGS,D01,Engineering,16800.0,16482.86,16436.53
+2024-09,5002,Third-Party Software Licenses,COGS,D02,Sales,4200.0,4382.94,4461.73
+2024-09,5002,Third-Party Software Licenses,COGS,D03,Marketing,4200.0,4210.8,4237.78
+2024-09,5002,Third-Party Software Licenses,COGS,D04,G&A,4200.0,4018.94,3995.98
+2024-09,5002,Third-Party Software Licenses,COGS,D05,Customer Success,8400.0,8159.66,8206.38
+2024-09,5002,Third-Party Software Licenses,COGS,D06,Product,4200.0,4314.17,4374.54
+2024-10,5002,Third-Party Software Licenses,COGS,D01,Engineering,16800.0,16309.19,16459.99
+2024-10,5002,Third-Party Software Licenses,COGS,D02,Sales,4200.0,4236.37,4238.9
+2024-10,5002,Third-Party Software Licenses,COGS,D03,Marketing,4200.0,4207.66,4180.44
+2024-10,5002,Third-Party Software Licenses,COGS,D04,G&A,4200.0,4090.53,4119.09
+2024-10,5002,Third-Party Software Licenses,COGS,D05,Customer Success,8400.0,9120.37,9156.26
+2024-10,5002,Third-Party Software Licenses,COGS,D06,Product,4200.0,4306.5,4345.05
+2024-11,5002,Third-Party Software Licenses,COGS,D01,Engineering,16800.0,15439.1,15537.16
+2024-11,5002,Third-Party Software Licenses,COGS,D02,Sales,4200.0,4231.32,4275.73
+2024-11,5002,Third-Party Software Licenses,COGS,D03,Marketing,4200.0,4088.82,4066.94
+2024-11,5002,Third-Party Software Licenses,COGS,D04,G&A,4200.0,4343.21,4400.43
+2024-11,5002,Third-Party Software Licenses,COGS,D05,Customer Success,8400.0,8133.71,8149.78
+2024-11,5002,Third-Party Software Licenses,COGS,D06,Product,4200.0,4180.72,4267.48
+2024-12,5002,Third-Party Software Licenses,COGS,D01,Engineering,16800.0,,16568.43
+2024-12,5002,Third-Party Software Licenses,COGS,D02,Sales,4200.0,,4345.82
+2024-12,5002,Third-Party Software Licenses,COGS,D03,Marketing,4200.0,,4216.62
+2024-12,5002,Third-Party Software Licenses,COGS,D04,G&A,4200.0,,4145.28
+2024-12,5002,Third-Party Software Licenses,COGS,D05,Customer Success,8400.0,,8318.71
+2024-12,5002,Third-Party Software Licenses,COGS,D06,Product,4200.0,,4173.09
+2024-01,5003,Professional Services COGS,COGS,D01,Engineering,19800.0,20199.95,20285.63
+2024-01,5003,Professional Services COGS,COGS,D02,Sales,6600.0,6828.56,6864.26
+2024-01,5003,Professional Services COGS,COGS,D05,Customer Success,33000.0,31415.61,31235.38
+2024-01,5003,Professional Services COGS,COGS,D06,Product,6600.0,6511.69,6510.1
+2024-02,5003,Professional Services COGS,COGS,D01,Engineering,22440.0,22013.69,22485.28
+2024-02,5003,Professional Services COGS,COGS,D02,Sales,7480.0,7284.52,7410.36
+2024-02,5003,Professional Services COGS,COGS,D05,Customer Success,37400.0,40041.12,40215.83
+2024-02,5003,Professional Services COGS,COGS,D06,Product,7480.0,7601.17,7604.06
+2024-03,5003,Professional Services COGS,COGS,D01,Engineering,26400.0,25068.51,25098.6
+2024-03,5003,Professional Services COGS,COGS,D02,Sales,8800.0,9123.09,9179.06
+2024-03,5003,Professional Services COGS,COGS,D05,Customer Success,44000.0,47734.99,47246.76
+2024-03,5003,Professional Services COGS,COGS,D06,Product,8800.0,9163.43,9139.85
+2024-04,5003,Professional Services COGS,COGS,D01,Engineering,29040.0,27275.1,26819.99
+2024-04,5003,Professional Services COGS,COGS,D02,Sales,9680.0,9492.5,9530.4
+2024-04,5003,Professional Services COGS,COGS,D05,Customer Success,48400.0,50852.74,51181.86
+2024-04,5003,Professional Services COGS,COGS,D06,Product,9680.0,9405.99,9360.54
+2024-05,5003,Professional Services COGS,COGS,D01,Engineering,27720.0,28212.11,28656.16
+2024-05,5003,Professional Services COGS,COGS,D02,Sales,9240.0,9526.3,9409.53
+2024-05,5003,Professional Services COGS,COGS,D05,Customer Success,46200.0,44487.03,43835.57
+2024-05,5003,Professional Services COGS,COGS,D06,Product,9240.0,9218.0,9238.69
+2024-06,5003,Professional Services COGS,COGS,D01,Engineering,26400.0,22977.22,23217.81
+2024-06,5003,Professional Services COGS,COGS,D02,Sales,8800.0,8439.42,8581.53
+2024-06,5003,Professional Services COGS,COGS,D05,Customer Success,44000.0,43555.48,43355.61
+2024-06,5003,Professional Services COGS,COGS,D06,Product,8800.0,8360.78,8450.97
+2024-07,5003,Professional Services COGS,COGS,D01,Engineering,23760.0,25311.44,25301.69
+2024-07,5003,Professional Services COGS,COGS,D02,Sales,7920.0,7466.93,7454.04
+2024-07,5003,Professional Services COGS,COGS,D05,Customer Success,39600.0,38902.97,39246.74
+2024-07,5003,Professional Services COGS,COGS,D06,Product,7920.0,7961.42,8013.35
+2024-08,5003,Professional Services COGS,COGS,D01,Engineering,25080.0,26525.89,26107.74
+2024-08,5003,Professional Services COGS,COGS,D02,Sales,8360.0,7879.85,7996.2
+2024-08,5003,Professional Services COGS,COGS,D05,Customer Success,41800.0,43744.81,44348.53
+2024-08,5003,Professional Services COGS,COGS,D06,Product,8360.0,8363.42,8311.1
+2024-09,5003,Professional Services COGS,COGS,D01,Engineering,29040.0,27899.88,28010.31
+2024-09,5003,Professional Services COGS,COGS,D02,Sales,9680.0,9858.93,9907.64
+2024-09,5003,Professional Services COGS,COGS,D05,Customer Success,48400.0,48785.38,48912.55
+2024-09,5003,Professional Services COGS,COGS,D06,Product,9680.0,9447.6,9395.61
+2024-10,5003,Professional Services COGS,COGS,D01,Engineering,29040.0,29121.08,28925.5
+2024-10,5003,Professional Services COGS,COGS,D02,Sales,9680.0,9530.81,9528.37
+2024-10,5003,Professional Services COGS,COGS,D05,Customer Success,48400.0,48619.77,49189.95
+2024-10,5003,Professional Services COGS,COGS,D06,Product,9680.0,9936.38,9990.39
+2024-11,5003,Professional Services COGS,COGS,D01,Engineering,27720.0,29478.58,29369.33
+2024-11,5003,Professional Services COGS,COGS,D02,Sales,9240.0,8782.5,8850.27
+2024-11,5003,Professional Services COGS,COGS,D05,Customer Success,46200.0,50141.85,48713.54
+2024-11,5003,Professional Services COGS,COGS,D06,Product,9240.0,8518.51,8616.37
+2024-12,5003,Professional Services COGS,COGS,D01,Engineering,30360.0,,29303.65
+2024-12,5003,Professional Services COGS,COGS,D02,Sales,10120.0,,10046.64
+2024-12,5003,Professional Services COGS,COGS,D05,Customer Success,50600.0,,49466.89
+2024-12,5003,Professional Services COGS,COGS,D06,Product,10120.0,,9857.96
+2024-01,6001,Salaries & Benefits,OpEx,D01,Engineering,108500.0,107841.25,109093.1
+2024-01,6001,Salaries & Benefits,OpEx,D02,Sales,62000.0,63459.03,63162.23
+2024-01,6001,Salaries & Benefits,OpEx,D03,Marketing,37200.0,37618.12,37748.47
+2024-01,6001,Salaries & Benefits,OpEx,D04,G&A,31000.0,30227.85,30213.67
+2024-01,6001,Salaries & Benefits,OpEx,D05,Customer Success,40300.0,39964.51,40155.16
+2024-01,6001,Salaries & Benefits,OpEx,D06,Product,31000.0,30388.68,30412.03
+2024-02,6001,Salaries & Benefits,OpEx,D01,Engineering,108500.0,105942.16,104582.93
+2024-02,6001,Salaries & Benefits,OpEx,D02,Sales,62000.0,64107.01,64745.69
+2024-02,6001,Salaries & Benefits,OpEx,D03,Marketing,37200.0,37731.24,37544.94
+2024-02,6001,Salaries & Benefits,OpEx,D04,G&A,31000.0,30140.79,29671.62
+2024-02,6001,Salaries & Benefits,OpEx,D05,Customer Success,40300.0,41750.15,41571.41
+2024-02,6001,Salaries & Benefits,OpEx,D06,Product,31000.0,31381.05,31852.0
+2024-03,6001,Salaries & Benefits,OpEx,D01,Engineering,108500.0,112027.82,112980.3
+2024-03,6001,Salaries & Benefits,OpEx,D02,Sales,62000.0,63561.48,63339.87
+2024-03,6001,Salaries & Benefits,OpEx,D03,Marketing,37200.0,35966.46,35840.84
+2024-03,6001,Salaries & Benefits,OpEx,D04,G&A,31000.0,30305.38,30207.91
+2024-03,6001,Salaries & Benefits,OpEx,D05,Customer Success,40300.0,41504.64,42366.59
+2024-03,6001,Salaries & Benefits,OpEx,D06,Product,31000.0,31756.86,31878.15
+2024-04,6001,Salaries & Benefits,OpEx,D01,Engineering,108500.0,108409.29,108875.5
+2024-04,6001,Salaries & Benefits,OpEx,D02,Sales,62000.0,62290.97,62932.74
+2024-04,6001,Salaries & Benefits,OpEx,D03,Marketing,37200.0,39101.17,39194.54
+2024-04,6001,Salaries & Benefits,OpEx,D04,G&A,31000.0,30266.45,30188.05
+2024-04,6001,Salaries & Benefits,OpEx,D05,Customer Success,40300.0,41181.92,41101.06
+2024-04,6001,Salaries & Benefits,OpEx,D06,Product,31000.0,30749.28,30727.26
+2024-05,6001,Salaries & Benefits,OpEx,D01,Engineering,108500.0,107555.26,107515.23
+2024-05,6001,Salaries & Benefits,OpEx,D02,Sales,62000.0,64724.97,65195.93
+2024-05,6001,Salaries & Benefits,OpEx,D03,Marketing,37200.0,38428.22,38448.18
+2024-05,6001,Salaries & Benefits,OpEx,D04,G&A,31000.0,32008.75,32243.26
+2024-05,6001,Salaries & Benefits,OpEx,D05,Customer Success,40300.0,42404.43,42370.2
+2024-05,6001,Salaries & Benefits,OpEx,D06,Product,31000.0,31026.04,31050.44
+2024-06,6001,Salaries & Benefits,OpEx,D01,Engineering,108500.0,111459.68,109232.49
+2024-06,6001,Salaries & Benefits,OpEx,D02,Sales,62000.0,61230.54,61791.61
+2024-06,6001,Salaries & Benefits,OpEx,D03,Marketing,37200.0,37682.36,37812.93
+2024-06,6001,Salaries & Benefits,OpEx,D04,G&A,31000.0,30838.62,31146.39
+2024-06,6001,Salaries & Benefits,OpEx,D05,Customer Success,40300.0,40456.36,39284.64
+2024-06,6001,Salaries & Benefits,OpEx,D06,Product,31000.0,31737.99,32400.8
+2024-07,6001,Salaries & Benefits,OpEx,D01,Engineering,108500.0,104948.92,104802.42
+2024-07,6001,Salaries & Benefits,OpEx,D02,Sales,62000.0,67189.12,67933.7
+2024-07,6001,Salaries & Benefits,OpEx,D03,Marketing,37200.0,35703.05,35331.77
+2024-07,6001,Salaries & Benefits,OpEx,D04,G&A,31000.0,29494.41,29675.14
+2024-07,6001,Salaries & Benefits,OpEx,D05,Customer Success,40300.0,42166.87,41722.68
+2024-07,6001,Salaries & Benefits,OpEx,D06,Product,31000.0,31981.66,31782.17
+2024-08,6001,Salaries & Benefits,OpEx,D01,Engineering,108500.0,111208.68,113337.25
+2024-08,6001,Salaries & Benefits,OpEx,D02,Sales,62000.0,63558.3,63437.11
+2024-08,6001,Salaries & Benefits,OpEx,D03,Marketing,37200.0,37181.78,37262.63
+2024-08,6001,Salaries & Benefits,OpEx,D04,G&A,31000.0,29887.4,30147.44
+2024-08,6001,Salaries & Benefits,OpEx,D05,Customer Success,40300.0,40422.2,40622.57
+2024-08,6001,Salaries & Benefits,OpEx,D06,Product,31000.0,30160.32,30205.69
+2024-09,6001,Salaries & Benefits,OpEx,D01,Engineering,108500.0,112732.02,113143.45
+2024-09,6001,Salaries & Benefits,OpEx,D02,Sales,62000.0,61635.3,63116.65
+2024-09,6001,Salaries & Benefits,OpEx,D03,Marketing,37200.0,35971.66,35950.93
+2024-09,6001,Salaries & Benefits,OpEx,D04,G&A,31000.0,30601.48,30663.02
+2024-09,6001,Salaries & Benefits,OpEx,D05,Customer Success,40300.0,40965.65,41396.06
+2024-09,6001,Salaries & Benefits,OpEx,D06,Product,31000.0,30300.98,30635.97
+2024-10,6001,Salaries & Benefits,OpEx,D01,Engineering,108500.0,104931.56,106177.13
+2024-10,6001,Salaries & Benefits,OpEx,D02,Sales,62000.0,62604.34,63004.21
+2024-10,6001,Salaries & Benefits,OpEx,D03,Marketing,37200.0,37564.51,37135.15
+2024-10,6001,Salaries & Benefits,OpEx,D04,G&A,31000.0,30371.39,30867.49
+2024-10,6001,Salaries & Benefits,OpEx,D05,Customer Success,40300.0,39540.69,39087.42
+2024-10,6001,Salaries & Benefits,OpEx,D06,Product,31000.0,31287.74,31382.43
+2024-11,6001,Salaries & Benefits,OpEx,D01,Engineering,108500.0,102215.31,101444.32
+2024-11,6001,Salaries & Benefits,OpEx,D02,Sales,62000.0,58509.49,58471.96
+2024-11,6001,Salaries & Benefits,OpEx,D03,Marketing,37200.0,36130.95,36249.73
+2024-11,6001,Salaries & Benefits,OpEx,D04,G&A,31000.0,30735.33,30834.1
+2024-11,6001,Salaries & Benefits,OpEx,D05,Customer Success,40300.0,40801.18,40973.33
+2024-11,6001,Salaries & Benefits,OpEx,D06,Product,31000.0,32829.44,33359.21
+2024-12,6001,Salaries & Benefits,OpEx,D01,Engineering,108500.0,,109484.17
+2024-12,6001,Salaries & Benefits,OpEx,D02,Sales,62000.0,,61697.25
+2024-12,6001,Salaries & Benefits,OpEx,D03,Marketing,37200.0,,37917.28
+2024-12,6001,Salaries & Benefits,OpEx,D04,G&A,31000.0,,31737.47
+2024-12,6001,Salaries & Benefits,OpEx,D05,Customer Success,40300.0,,39310.55
+2024-12,6001,Salaries & Benefits,OpEx,D06,Product,31000.0,,31370.39
+2024-01,6002,Sales Commissions,OpEx,D02,Sales,38080.0,39386.39,39662.56
+2024-01,6002,Sales Commissions,OpEx,D05,Customer Success,9520.0,9459.1,9430.95
+2024-02,6002,Sales Commissions,OpEx,D02,Sales,43520.0,43486.9,44085.15
+2024-02,6002,Sales Commissions,OpEx,D05,Customer Success,10880.0,10443.7,10428.03
+2024-03,6002,Sales Commissions,OpEx,D02,Sales,54400.0,54359.72,54427.98
+2024-03,6002,Sales Commissions,OpEx,D05,Customer Success,13600.0,13442.97,13419.7
+2024-04,6002,Sales Commissions,OpEx,D02,Sales,59840.0,60612.46,60621.9
+2024-04,6002,Sales Commissions,OpEx,D05,Customer Success,14960.0,14464.99,14306.41
+2024-05,6002,Sales Commissions,OpEx,D02,Sales,57120.0,58306.6,57466.96
+2024-05,6002,Sales Commissions,OpEx,D05,Customer Success,14280.0,15155.5,15397.16
+2024-06,6002,Sales Commissions,OpEx,D02,Sales,54400.0,54163.34,53704.6
+2024-06,6002,Sales Commissions,OpEx,D05,Customer Success,13600.0,13818.53,13681.53
+2024-07,6002,Sales Commissions,OpEx,D02,Sales,48960.0,50311.58,49228.18
+2024-07,6002,Sales Commissions,OpEx,D05,Customer Success,12240.0,12043.56,11966.61
+2024-08,6002,Sales Commissions,OpEx,D02,Sales,51680.0,52143.24,51453.34
+2024-08,6002,Sales Commissions,OpEx,D05,Customer Success,12920.0,12926.51,13138.77
+2024-09,6002,Sales Commissions,OpEx,D02,Sales,59840.0,60073.8,60680.44
+2024-09,6002,Sales Commissions,OpEx,D05,Customer Success,14960.0,14497.43,14397.67
+2024-10,6002,Sales Commissions,OpEx,D02,Sales,62560.0,62621.33,64031.84
+2024-10,6002,Sales Commissions,OpEx,D05,Customer Success,15640.0,15951.55,16108.16
+2024-11,6002,Sales Commissions,OpEx,D02,Sales,59840.0,63313.46,63107.8
+2024-11,6002,Sales Commissions,OpEx,D05,Customer Success,14960.0,15534.03,15145.77
+2024-12,6002,Sales Commissions,OpEx,D02,Sales,62560.0,,65426.43
+2024-12,6002,Sales Commissions,OpEx,D05,Customer Success,15640.0,,15205.34
+2024-01,6003,Marketing & Advertising,OpEx,D02,Sales,8550.0,9286.39,9133.59
+2024-01,6003,Marketing & Advertising,OpEx,D03,Marketing,39900.0,38675.31,39070.79
+2024-01,6003,Marketing & Advertising,OpEx,D04,G&A,2850.0,2949.44,3021.4
+2024-01,6003,Marketing & Advertising,OpEx,D05,Customer Success,2850.0,2870.9,2910.64
+2024-01,6003,Marketing & Advertising,OpEx,D06,Product,2850.0,3099.64,3117.12
+2024-02,6003,Marketing & Advertising,OpEx,D02,Sales,9975.0,9652.49,9709.9
+2024-02,6003,Marketing & Advertising,OpEx,D03,Marketing,46550.0,44986.44,45370.36
+2024-02,6003,Marketing & Advertising,OpEx,D04,G&A,3325.0,3245.28,3269.91
+2024-02,6003,Marketing & Advertising,OpEx,D05,Customer Success,3325.0,3042.52,3051.08
+2024-02,6003,Marketing & Advertising,OpEx,D06,Product,3325.0,3255.07,3258.46
+2024-03,6003,Marketing & Advertising,OpEx,D02,Sales,12825.0,12435.56,12427.78
+2024-03,6003,Marketing & Advertising,OpEx,D03,Marketing,59850.0,60210.04,59756.08
+2024-03,6003,Marketing & Advertising,OpEx,D04,G&A,4275.0,4333.44,4321.28
+2024-03,6003,Marketing & Advertising,OpEx,D05,Customer Success,4275.0,4595.83,4518.02
+2024-03,6003,Marketing & Advertising,OpEx,D06,Product,4275.0,4437.52,4433.16
+2024-04,6003,Marketing & Advertising,OpEx,D02,Sales,14250.0,13921.16,13783.54
+2024-04,6003,Marketing & Advertising,OpEx,D03,Marketing,66500.0,64110.22,63402.71
+2024-04,6003,Marketing & Advertising,OpEx,D04,G&A,4750.0,4843.46,4852.17
+2024-04,6003,Marketing & Advertising,OpEx,D05,Customer Success,4750.0,4499.16,4561.79
+2024-04,6003,Marketing & Advertising,OpEx,D06,Product,4750.0,5097.98,5144.8
+2024-05,6003,Marketing & Advertising,OpEx,D02,Sales,15675.0,16414.51,16156.72
+2024-05,6003,Marketing & Advertising,OpEx,D03,Marketing,73150.0,71777.19,71066.86
+2024-05,6003,Marketing & Advertising,OpEx,D04,G&A,5225.0,4866.95,4912.74
+2024-05,6003,Marketing & Advertising,OpEx,D05,Customer Success,5225.0,5507.96,5453.84
+2024-05,6003,Marketing & Advertising,OpEx,D06,Product,5225.0,5201.06,5189.38
+2024-06,6003,Marketing & Advertising,OpEx,D02,Sales,17100.0,17946.67,18045.39
+2024-06,6003,Marketing & Advertising,OpEx,D03,Marketing,79800.0,74710.59,73987.13
+2024-06,6003,Marketing & Advertising,OpEx,D04,G&A,5700.0,5563.34,5569.2
+2024-06,6003,Marketing & Advertising,OpEx,D05,Customer Success,5700.0,5701.2,5625.14
+2024-06,6003,Marketing & Advertising,OpEx,D06,Product,5700.0,5710.71,5676.37
+2024-07,6003,Marketing & Advertising,OpEx,D02,Sales,18525.0,18191.5,18249.67
+2024-07,6003,Marketing & Advertising,OpEx,D03,Marketing,86450.0,124912.82,122922.97
+2024-07,6003,Marketing & Advertising,OpEx,D04,G&A,6175.0,5911.3,5937.34
+2024-07,6003,Marketing & Advertising,OpEx,D05,Customer Success,6175.0,6139.83,6138.62
+2024-07,6003,Marketing & Advertising,OpEx,D06,Product,6175.0,6204.71,6238.99
+2024-08,6003,Marketing & Advertising,OpEx,D02,Sales,17100.0,17451.88,17490.96
+2024-08,6003,Marketing & Advertising,OpEx,D03,Marketing,79800.0,112395.47,113928.7
+2024-08,6003,Marketing & Advertising,OpEx,D04,G&A,5700.0,5443.58,5450.4
+2024-08,6003,Marketing & Advertising,OpEx,D05,Customer Success,5700.0,5350.22,5327.25
+2024-08,6003,Marketing & Advertising,OpEx,D06,Product,5700.0,5991.31,5998.64
+2024-09,6003,Marketing & Advertising,OpEx,D02,Sales,15675.0,15883.36,15969.65
+2024-09,6003,Marketing & Advertising,OpEx,D03,Marketing,73150.0,89247.43,89291.04
+2024-09,6003,Marketing & Advertising,OpEx,D04,G&A,5225.0,5549.19,5551.44
+2024-09,6003,Marketing & Advertising,OpEx,D05,Customer Success,5225.0,5249.18,5212.33
+2024-09,6003,Marketing & Advertising,OpEx,D06,Product,5225.0,5471.47,5435.2
+2024-10,6003,Marketing & Advertising,OpEx,D02,Sales,14250.0,14288.49,14088.08
+2024-10,6003,Marketing & Advertising,OpEx,D03,Marketing,66500.0,71981.59,73240.96
+2024-10,6003,Marketing & Advertising,OpEx,D04,G&A,4750.0,5083.51,5020.28
+2024-10,6003,Marketing & Advertising,OpEx,D05,Customer Success,4750.0,4702.7,4670.11
+2024-10,6003,Marketing & Advertising,OpEx,D06,Product,4750.0,4934.6,4899.15
+2024-11,6003,Marketing & Advertising,OpEx,D02,Sales,12825.0,13156.08,13273.82
+2024-11,6003,Marketing & Advertising,OpEx,D03,Marketing,59850.0,63126.5,62940.31
+2024-11,6003,Marketing & Advertising,OpEx,D04,G&A,4275.0,4110.0,4161.28
+2024-11,6003,Marketing & Advertising,OpEx,D05,Customer Success,4275.0,4392.31,4362.73
+2024-11,6003,Marketing & Advertising,OpEx,D06,Product,4275.0,4455.99,4468.42
+2024-12,6003,Marketing & Advertising,OpEx,D02,Sales,12825.0,,12610.73
+2024-12,6003,Marketing & Advertising,OpEx,D03,Marketing,59850.0,,62417.74
+2024-12,6003,Marketing & Advertising,OpEx,D04,G&A,4275.0,,4173.46
+2024-12,6003,Marketing & Advertising,OpEx,D05,Customer Success,4275.0,,4301.49
+2024-12,6003,Marketing & Advertising,OpEx,D06,Product,4275.0,,4329.19
+2024-01,6004,Travel & Entertainment,OpEx,D01,Engineering,3520.0,3272.37,3285.91
+2024-01,6004,Travel & Entertainment,OpEx,D02,Sales,6160.0,5868.45,5857.58
+2024-01,6004,Travel & Entertainment,OpEx,D03,Marketing,2640.0,2424.66,2421.51
+2024-01,6004,Travel & Entertainment,OpEx,D04,G&A,1760.0,1741.03,1741.79
+2024-01,6004,Travel & Entertainment,OpEx,D05,Customer Success,1760.0,1810.51,1807.85
+2024-01,6004,Travel & Entertainment,OpEx,D06,Product,1760.0,1865.77,1883.75
+2024-02,6004,Travel & Entertainment,OpEx,D01,Engineering,3520.0,3530.43,3608.47
+2024-02,6004,Travel & Entertainment,OpEx,D02,Sales,6160.0,6561.29,6524.71
+2024-02,6004,Travel & Entertainment,OpEx,D03,Marketing,2640.0,2494.26,2460.09
+2024-02,6004,Travel & Entertainment,OpEx,D04,G&A,1760.0,1640.08,1638.63
+2024-02,6004,Travel & Entertainment,OpEx,D05,Customer Success,1760.0,1756.09,1801.39
+2024-02,6004,Travel & Entertainment,OpEx,D06,Product,1760.0,1787.04,1772.68
+2024-03,6004,Travel & Entertainment,OpEx,D01,Engineering,4840.0,4833.67,4912.9
+2024-03,6004,Travel & Entertainment,OpEx,D02,Sales,8470.0,7769.55,7899.9
+2024-03,6004,Travel & Entertainment,OpEx,D03,Marketing,3630.0,3617.06,3597.04
+2024-03,6004,Travel & Entertainment,OpEx,D04,G&A,2420.0,2293.73,2306.78
+2024-03,6004,Travel & Entertainment,OpEx,D05,Customer Success,2420.0,2484.82,2525.28
+2024-03,6004,Travel & Entertainment,OpEx,D06,Product,2420.0,2455.49,2446.18
+2024-04,6004,Travel & Entertainment,OpEx,D01,Engineering,5280.0,5081.5,5071.16
+2024-04,6004,Travel & Entertainment,OpEx,D02,Sales,9240.0,14132.07,14049.87
+2024-04,6004,Travel & Entertainment,OpEx,D03,Marketing,3960.0,3792.22,3753.74
+2024-04,6004,Travel & Entertainment,OpEx,D04,G&A,2640.0,2633.38,2616.28
+2024-04,6004,Travel & Entertainment,OpEx,D05,Customer Success,2640.0,2740.86,2707.31
+2024-04,6004,Travel & Entertainment,OpEx,D06,Product,2640.0,2535.91,2536.77
+2024-05,6004,Travel & Entertainment,OpEx,D01,Engineering,4840.0,4937.58,4899.56
+2024-05,6004,Travel & Entertainment,OpEx,D02,Sales,8470.0,8290.35,8309.73
+2024-05,6004,Travel & Entertainment,OpEx,D03,Marketing,3630.0,3514.87,3460.18
+2024-05,6004,Travel & Entertainment,OpEx,D04,G&A,2420.0,2409.64,2417.61
+2024-05,6004,Travel & Entertainment,OpEx,D05,Customer Success,2420.0,2319.79,2339.13
+2024-05,6004,Travel & Entertainment,OpEx,D06,Product,2420.0,2366.41,2319.23
+2024-06,6004,Travel & Entertainment,OpEx,D01,Engineering,3960.0,3770.26,3784.36
+2024-06,6004,Travel & Entertainment,OpEx,D02,Sales,6930.0,7474.62,7566.38
+2024-06,6004,Travel & Entertainment,OpEx,D03,Marketing,2970.0,2974.19,2938.21
+2024-06,6004,Travel & Entertainment,OpEx,D04,G&A,1980.0,1924.58,1956.77
+2024-06,6004,Travel & Entertainment,OpEx,D05,Customer Success,1980.0,1996.95,2005.32
+2024-06,6004,Travel & Entertainment,OpEx,D06,Product,1980.0,1971.1,1957.2
+2024-07,6004,Travel & Entertainment,OpEx,D01,Engineering,3080.0,3052.78,3051.08
+2024-07,6004,Travel & Entertainment,OpEx,D02,Sales,5390.0,5522.41,5553.24
+2024-07,6004,Travel & Entertainment,OpEx,D03,Marketing,2310.0,2379.99,2381.8
+2024-07,6004,Travel & Entertainment,OpEx,D04,G&A,1540.0,1507.32,1515.44
+2024-07,6004,Travel & Entertainment,OpEx,D05,Customer Success,1540.0,1504.53,1490.68
+2024-07,6004,Travel & Entertainment,OpEx,D06,Product,1540.0,1523.06,1525.64
+2024-08,6004,Travel & Entertainment,OpEx,D01,Engineering,3520.0,3195.89,3150.71
+2024-08,6004,Travel & Entertainment,OpEx,D02,Sales,6160.0,5786.66,5780.22
+2024-08,6004,Travel & Entertainment,OpEx,D03,Marketing,2640.0,2784.34,2759.17
+2024-08,6004,Travel & Entertainment,OpEx,D04,G&A,1760.0,1875.81,1862.01
+2024-08,6004,Travel & Entertainment,OpEx,D05,Customer Success,1760.0,1742.47,1764.01
+2024-08,6004,Travel & Entertainment,OpEx,D06,Product,1760.0,1800.59,1820.24
+2024-09,6004,Travel & Entertainment,OpEx,D01,Engineering,5280.0,5345.74,5378.3
+2024-09,6004,Travel & Entertainment,OpEx,D02,Sales,9240.0,10377.95,10264.59
+2024-09,6004,Travel & Entertainment,OpEx,D03,Marketing,3960.0,4137.34,4124.25
+2024-09,6004,Travel & Entertainment,OpEx,D04,G&A,2640.0,2626.49,2658.35
+2024-09,6004,Travel & Entertainment,OpEx,D05,Customer Success,2640.0,2539.09,2542.69
+2024-09,6004,Travel & Entertainment,OpEx,D06,Product,2640.0,2470.36,2527.66
+2024-10,6004,Travel & Entertainment,OpEx,D01,Engineering,5280.0,5322.97,5343.91
+2024-10,6004,Travel & Entertainment,OpEx,D02,Sales,9240.0,8960.45,8977.66
+2024-10,6004,Travel & Entertainment,OpEx,D03,Marketing,3960.0,3734.72,3723.18
+2024-10,6004,Travel & Entertainment,OpEx,D04,G&A,2640.0,2571.72,2575.15
+2024-10,6004,Travel & Entertainment,OpEx,D05,Customer Success,2640.0,2525.79,2521.94
+2024-10,6004,Travel & Entertainment,OpEx,D06,Product,2640.0,2818.16,2838.12
+2024-11,6004,Travel & Entertainment,OpEx,D01,Engineering,4840.0,5010.69,5058.63
+2024-11,6004,Travel & Entertainment,OpEx,D02,Sales,8470.0,8467.3,8400.75
+2024-11,6004,Travel & Entertainment,OpEx,D03,Marketing,3630.0,3844.89,3793.71
+2024-11,6004,Travel & Entertainment,OpEx,D04,G&A,2420.0,2427.49,2382.92
+2024-11,6004,Travel & Entertainment,OpEx,D05,Customer Success,2420.0,2336.63,2348.5
+2024-11,6004,Travel & Entertainment,OpEx,D06,Product,2420.0,2567.44,2539.11
+2024-12,6004,Travel & Entertainment,OpEx,D01,Engineering,3960.0,,3789.49
+2024-12,6004,Travel & Entertainment,OpEx,D02,Sales,6930.0,,6983.86
+2024-12,6004,Travel & Entertainment,OpEx,D03,Marketing,2970.0,,3118.08
+2024-12,6004,Travel & Entertainment,OpEx,D04,G&A,1980.0,,1979.76
+2024-12,6004,Travel & Entertainment,OpEx,D05,Customer Success,1980.0,,2013.2
+2024-12,6004,Travel & Entertainment,OpEx,D06,Product,1980.0,,1983.24
+2024-01,6005,Software & Tools,OpEx,D01,Engineering,5400.0,5516.4,5510.94
+2024-01,6005,Software & Tools,OpEx,D02,Sales,2700.0,2587.98,2611.77
+2024-01,6005,Software & Tools,OpEx,D03,Marketing,2700.0,2679.44,2671.66
+2024-01,6005,Software & Tools,OpEx,D04,G&A,1800.0,1736.96,1741.6
+2024-01,6005,Software & Tools,OpEx,D05,Customer Success,2700.0,2550.66,2558.87
+2024-01,6005,Software & Tools,OpEx,D06,Product,2700.0,2800.03,2781.32
+2024-02,6005,Software & Tools,OpEx,D01,Engineering,5400.0,5812.43,5870.09
+2024-02,6005,Software & Tools,OpEx,D02,Sales,2700.0,2548.95,2544.49
+2024-02,6005,Software & Tools,OpEx,D03,Marketing,2700.0,2760.8,2739.94
+2024-02,6005,Software & Tools,OpEx,D04,G&A,1800.0,1753.15,1762.56
+2024-02,6005,Software & Tools,OpEx,D05,Customer Success,2700.0,2647.39,2623.6
+2024-02,6005,Software & Tools,OpEx,D06,Product,2700.0,2636.02,2636.76
+2024-03,6005,Software & Tools,OpEx,D01,Engineering,5400.0,5213.38,5212.9
+2024-03,6005,Software & Tools,OpEx,D02,Sales,2700.0,2705.24,2734.62
+2024-03,6005,Software & Tools,OpEx,D03,Marketing,2700.0,2610.26,2622.65
+2024-03,6005,Software & Tools,OpEx,D04,G&A,1800.0,1819.47,1819.01
+2024-03,6005,Software & Tools,OpEx,D05,Customer Success,2700.0,2694.57,2716.61
+2024-03,6005,Software & Tools,OpEx,D06,Product,2700.0,2674.19,2711.37
+2024-04,6005,Software & Tools,OpEx,D01,Engineering,5400.0,5203.97,5233.0
+2024-04,6005,Software & Tools,OpEx,D02,Sales,2700.0,2637.71,2637.98
+2024-04,6005,Software & Tools,OpEx,D03,Marketing,2700.0,2781.58,2745.09
+2024-04,6005,Software & Tools,OpEx,D04,G&A,1800.0,1836.07,1816.51
+2024-04,6005,Software & Tools,OpEx,D05,Customer Success,2700.0,2594.42,2586.5
+2024-04,6005,Software & Tools,OpEx,D06,Product,2700.0,2710.73,2694.21
+2024-05,6005,Software & Tools,OpEx,D01,Engineering,5400.0,5562.3,5551.9
+2024-05,6005,Software & Tools,OpEx,D02,Sales,2700.0,2519.7,2521.13
+2024-05,6005,Software & Tools,OpEx,D03,Marketing,2700.0,2758.68,2773.29
+2024-05,6005,Software & Tools,OpEx,D04,G&A,1800.0,1752.29,1751.05
+2024-05,6005,Software & Tools,OpEx,D05,Customer Success,2700.0,2761.62,2775.06
+2024-05,6005,Software & Tools,OpEx,D06,Product,2700.0,2617.57,2619.26
+2024-06,6005,Software & Tools,OpEx,D01,Engineering,5400.0,5010.15,4911.18
+2024-06,6005,Software & Tools,OpEx,D02,Sales,2700.0,2524.23,2500.52
+2024-06,6005,Software & Tools,OpEx,D03,Marketing,2700.0,2705.19,2701.29
+2024-06,6005,Software & Tools,OpEx,D04,G&A,1800.0,1818.7,1796.7
+2024-06,6005,Software & Tools,OpEx,D05,Customer Success,2700.0,2602.33,2617.94
+2024-06,6005,Software & Tools,OpEx,D06,Product,2700.0,2768.97,2811.36
+2024-07,6005,Software & Tools,OpEx,D01,Engineering,5400.0,5041.11,5102.55
+2024-07,6005,Software & Tools,OpEx,D02,Sales,2700.0,2692.86,2687.11
+2024-07,6005,Software & Tools,OpEx,D03,Marketing,2700.0,2569.21,2607.51
+2024-07,6005,Software & Tools,OpEx,D04,G&A,1800.0,1753.07,1755.68
+2024-07,6005,Software & Tools,OpEx,D05,Customer Success,2700.0,2705.12,2696.0
+2024-07,6005,Software & Tools,OpEx,D06,Product,2700.0,2607.08,2591.09
+2024-08,6005,Software & Tools,OpEx,D01,Engineering,5400.0,5316.94,5300.86
+2024-08,6005,Software & Tools,OpEx,D02,Sales,2700.0,2808.68,2797.78
+2024-08,6005,Software & Tools,OpEx,D03,Marketing,2700.0,2637.7,2642.2
+2024-08,6005,Software & Tools,OpEx,D04,G&A,1800.0,1860.17,1863.16
+2024-08,6005,Software & Tools,OpEx,D05,Customer Success,2700.0,2577.99,2578.07
+2024-08,6005,Software & Tools,OpEx,D06,Product,2700.0,2757.22,2769.27
+2024-09,6005,Software & Tools,OpEx,D01,Engineering,5400.0,5711.38,5779.38
+2024-09,6005,Software & Tools,OpEx,D02,Sales,2700.0,2433.06,2456.16
+2024-09,6005,Software & Tools,OpEx,D03,Marketing,2700.0,2613.94,2575.13
+2024-09,6005,Software & Tools,OpEx,D04,G&A,1800.0,1841.55,1794.52
+2024-09,6005,Software & Tools,OpEx,D05,Customer Success,2700.0,2678.07,2703.09
+2024-09,6005,Software & Tools,OpEx,D06,Product,2700.0,2740.08,2702.63
+2024-10,6005,Software & Tools,OpEx,D01,Engineering,5400.0,5269.54,5257.7
+2024-10,6005,Software & Tools,OpEx,D02,Sales,2700.0,2709.35,2677.65
+2024-10,6005,Software & Tools,OpEx,D03,Marketing,2700.0,2683.19,2634.84
+2024-10,6005,Software & Tools,OpEx,D04,G&A,1800.0,1884.08,1894.28
+2024-10,6005,Software & Tools,OpEx,D05,Customer Success,2700.0,2727.48,2748.19
+2024-10,6005,Software & Tools,OpEx,D06,Product,2700.0,2736.46,2720.68
+2024-11,6005,Software & Tools,OpEx,D01,Engineering,5400.0,5311.03,5173.42
+2024-11,6005,Software & Tools,OpEx,D02,Sales,2700.0,2647.34,2632.88
+2024-11,6005,Software & Tools,OpEx,D03,Marketing,2700.0,2653.28,2663.68
+2024-11,6005,Software & Tools,OpEx,D04,G&A,1800.0,1828.4,1801.36
+2024-11,6005,Software & Tools,OpEx,D05,Customer Success,2700.0,2654.53,2659.4
+2024-11,6005,Software & Tools,OpEx,D06,Product,2700.0,2731.3,2730.88
+2024-12,6005,Software & Tools,OpEx,D01,Engineering,5400.0,,5462.56
+2024-12,6005,Software & Tools,OpEx,D02,Sales,2700.0,,2706.46
+2024-12,6005,Software & Tools,OpEx,D03,Marketing,2700.0,,2647.45
+2024-12,6005,Software & Tools,OpEx,D04,G&A,1800.0,,1843.08
+2024-12,6005,Software & Tools,OpEx,D05,Customer Success,2700.0,,2691.44
+2024-12,6005,Software & Tools,OpEx,D06,Product,2700.0,,2698.53
+2024-01,6006,Depreciation & Amortization,OpEx,D01,Engineering,6250.0,6768.85,6705.68
+2024-01,6006,Depreciation & Amortization,OpEx,D02,Sales,3750.0,3880.67,3863.47
+2024-01,6006,Depreciation & Amortization,OpEx,D03,Marketing,3750.0,3701.1,3668.35
+2024-01,6006,Depreciation & Amortization,OpEx,D04,G&A,3750.0,3930.18,3923.38
+2024-01,6006,Depreciation & Amortization,OpEx,D05,Customer Success,3750.0,3688.79,3751.93
+2024-01,6006,Depreciation & Amortization,OpEx,D06,Product,3750.0,3444.28,3397.03
+2024-02,6006,Depreciation & Amortization,OpEx,D01,Engineering,6250.0,5997.98,5901.2
+2024-02,6006,Depreciation & Amortization,OpEx,D02,Sales,3750.0,3469.38,3520.42
+2024-02,6006,Depreciation & Amortization,OpEx,D03,Marketing,3750.0,3697.27,3689.53
+2024-02,6006,Depreciation & Amortization,OpEx,D04,G&A,3750.0,3752.76,3727.65
+2024-02,6006,Depreciation & Amortization,OpEx,D05,Customer Success,3750.0,4001.47,4043.08
+2024-02,6006,Depreciation & Amortization,OpEx,D06,Product,3750.0,3799.04,3776.03
+2024-03,6006,Depreciation & Amortization,OpEx,D01,Engineering,6250.0,6195.22,6308.35
+2024-03,6006,Depreciation & Amortization,OpEx,D02,Sales,3750.0,3874.41,3900.68
+2024-03,6006,Depreciation & Amortization,OpEx,D03,Marketing,3750.0,3418.33,3401.65
+2024-03,6006,Depreciation & Amortization,OpEx,D04,G&A,3750.0,3785.34,3867.0
+2024-03,6006,Depreciation & Amortization,OpEx,D05,Customer Success,3750.0,3865.63,3842.22
+2024-03,6006,Depreciation & Amortization,OpEx,D06,Product,3750.0,3528.21,3554.39
+2024-04,6006,Depreciation & Amortization,OpEx,D01,Engineering,6250.0,6535.94,6555.5
+2024-04,6006,Depreciation & Amortization,OpEx,D02,Sales,3750.0,3800.77,3850.25
+2024-04,6006,Depreciation & Amortization,OpEx,D03,Marketing,3750.0,3687.71,3745.29
+2024-04,6006,Depreciation & Amortization,OpEx,D04,G&A,3750.0,3844.92,3846.15
+2024-04,6006,Depreciation & Amortization,OpEx,D05,Customer Success,3750.0,4090.6,4059.78
+2024-04,6006,Depreciation & Amortization,OpEx,D06,Product,3750.0,3777.28,3794.65
+2024-05,6006,Depreciation & Amortization,OpEx,D01,Engineering,6250.0,6312.06,6269.28
+2024-05,6006,Depreciation & Amortization,OpEx,D02,Sales,3750.0,3681.1,3755.21
+2024-05,6006,Depreciation & Amortization,OpEx,D03,Marketing,3750.0,3622.52,3627.47
+2024-05,6006,Depreciation & Amortization,OpEx,D04,G&A,3750.0,3874.55,3860.4
+2024-05,6006,Depreciation & Amortization,OpEx,D05,Customer Success,3750.0,3621.59,3628.28
+2024-05,6006,Depreciation & Amortization,OpEx,D06,Product,3750.0,3760.73,3710.07
+2024-06,6006,Depreciation & Amortization,OpEx,D01,Engineering,6250.0,6130.59,6071.02
+2024-06,6006,Depreciation & Amortization,OpEx,D02,Sales,3750.0,3821.85,3867.73
+2024-06,6006,Depreciation & Amortization,OpEx,D03,Marketing,3750.0,3800.05,3775.09
+2024-06,6006,Depreciation & Amortization,OpEx,D04,G&A,3750.0,3905.63,3864.74
+2024-06,6006,Depreciation & Amortization,OpEx,D05,Customer Success,3750.0,3673.5,3693.21
+2024-06,6006,Depreciation & Amortization,OpEx,D06,Product,3750.0,3709.52,3753.5
+2024-07,6006,Depreciation & Amortization,OpEx,D01,Engineering,6250.0,6005.31,6048.49
+2024-07,6006,Depreciation & Amortization,OpEx,D02,Sales,3750.0,3683.36,3720.05
+2024-07,6006,Depreciation & Amortization,OpEx,D03,Marketing,3750.0,3806.6,3777.79
+2024-07,6006,Depreciation & Amortization,OpEx,D04,G&A,3750.0,3863.55,3808.62
+2024-07,6006,Depreciation & Amortization,OpEx,D05,Customer Success,3750.0,3611.68,3665.9
+2024-07,6006,Depreciation & Amortization,OpEx,D06,Product,3750.0,3880.44,3867.92
+2024-08,6006,Depreciation & Amortization,OpEx,D01,Engineering,6250.0,6588.91,6572.38
+2024-08,6006,Depreciation & Amortization,OpEx,D02,Sales,3750.0,3812.02,3862.65
+2024-08,6006,Depreciation & Amortization,OpEx,D03,Marketing,3750.0,4031.52,4053.94
+2024-08,6006,Depreciation & Amortization,OpEx,D04,G&A,3750.0,3633.93,3650.5
+2024-08,6006,Depreciation & Amortization,OpEx,D05,Customer Success,3750.0,3563.3,3640.45
+2024-08,6006,Depreciation & Amortization,OpEx,D06,Product,3750.0,3483.19,3460.78
+2024-09,6006,Depreciation & Amortization,OpEx,D01,Engineering,6250.0,6624.01,6685.47
+2024-09,6006,Depreciation & Amortization,OpEx,D02,Sales,3750.0,3848.15,3850.34
+2024-09,6006,Depreciation & Amortization,OpEx,D03,Marketing,3750.0,3741.66,3751.71
+2024-09,6006,Depreciation & Amortization,OpEx,D04,G&A,3750.0,3792.0,3849.96
+2024-09,6006,Depreciation & Amortization,OpEx,D05,Customer Success,3750.0,3581.18,3599.37
+2024-09,6006,Depreciation & Amortization,OpEx,D06,Product,3750.0,4116.86,4139.02
+2024-10,6006,Depreciation & Amortization,OpEx,D01,Engineering,6250.0,6282.31,6349.69
+2024-10,6006,Depreciation & Amortization,OpEx,D02,Sales,3750.0,3766.41,3752.66
+2024-10,6006,Depreciation & Amortization,OpEx,D03,Marketing,3750.0,3858.86,3826.48
+2024-10,6006,Depreciation & Amortization,OpEx,D04,G&A,3750.0,3822.15,3782.22
+2024-10,6006,Depreciation & Amortization,OpEx,D05,Customer Success,3750.0,3783.58,3709.18
+2024-10,6006,Depreciation & Amortization,OpEx,D06,Product,3750.0,3631.43,3706.1
+2024-11,6006,Depreciation & Amortization,OpEx,D01,Engineering,6250.0,6367.87,6297.62
+2024-11,6006,Depreciation & Amortization,OpEx,D02,Sales,3750.0,4032.3,4023.38
+2024-11,6006,Depreciation & Amortization,OpEx,D03,Marketing,3750.0,3951.81,3940.87
+2024-11,6006,Depreciation & Amortization,OpEx,D04,G&A,3750.0,3988.98,4001.24
+2024-11,6006,Depreciation & Amortization,OpEx,D05,Customer Success,3750.0,3673.32,3703.28
+2024-11,6006,Depreciation & Amortization,OpEx,D06,Product,3750.0,3601.56,3632.55
+2024-12,6006,Depreciation & Amortization,OpEx,D01,Engineering,6250.0,,6177.12
+2024-12,6006,Depreciation & Amortization,OpEx,D02,Sales,3750.0,,3737.47
+2024-12,6006,Depreciation & Amortization,OpEx,D03,Marketing,3750.0,,3771.19
+2024-12,6006,Depreciation & Amortization,OpEx,D04,G&A,3750.0,,3731.35
+2024-12,6006,Depreciation & Amortization,OpEx,D05,Customer Success,3750.0,,3870.55
+2024-12,6006,Depreciation & Amortization,OpEx,D06,Product,3750.0,,3786.82
+2024-01,6007,Rent & Facilities,OpEx,D01,Engineering,7000.0,6964.78,7015.96
+2024-01,6007,Rent & Facilities,OpEx,D02,Sales,5250.0,5261.7,5296.58
+2024-01,6007,Rent & Facilities,OpEx,D03,Marketing,5250.0,5479.78,5544.08
+2024-01,6007,Rent & Facilities,OpEx,D04,G&A,7000.0,6526.11,6537.92
+2024-01,6007,Rent & Facilities,OpEx,D05,Customer Success,5250.0,5571.21,5498.96
+2024-01,6007,Rent & Facilities,OpEx,D06,Product,5250.0,5216.82,5237.67
+2024-02,6007,Rent & Facilities,OpEx,D01,Engineering,7000.0,6880.47,6835.65
+2024-02,6007,Rent & Facilities,OpEx,D02,Sales,5250.0,5037.46,5010.83
+2024-02,6007,Rent & Facilities,OpEx,D03,Marketing,5250.0,4902.48,4931.23
+2024-02,6007,Rent & Facilities,OpEx,D04,G&A,7000.0,7230.49,7320.02
+2024-02,6007,Rent & Facilities,OpEx,D05,Customer Success,5250.0,5265.4,5266.52
+2024-02,6007,Rent & Facilities,OpEx,D06,Product,5250.0,4979.11,4994.49
+2024-03,6007,Rent & Facilities,OpEx,D01,Engineering,7000.0,6637.38,6750.36
+2024-03,6007,Rent & Facilities,OpEx,D02,Sales,5250.0,5179.49,5191.96
+2024-03,6007,Rent & Facilities,OpEx,D03,Marketing,5250.0,5600.49,5746.2
+2024-03,6007,Rent & Facilities,OpEx,D04,G&A,7000.0,6927.31,6966.48
+2024-03,6007,Rent & Facilities,OpEx,D05,Customer Success,5250.0,4934.34,4847.46
+2024-03,6007,Rent & Facilities,OpEx,D06,Product,5250.0,5198.39,5237.55
+2024-04,6007,Rent & Facilities,OpEx,D01,Engineering,7000.0,6923.64,6950.03
+2024-04,6007,Rent & Facilities,OpEx,D02,Sales,5250.0,4683.65,4744.06
+2024-04,6007,Rent & Facilities,OpEx,D03,Marketing,5250.0,5238.6,5273.87
+2024-04,6007,Rent & Facilities,OpEx,D04,G&A,7000.0,6935.34,6925.74
+2024-04,6007,Rent & Facilities,OpEx,D05,Customer Success,5250.0,5396.2,5330.13
+2024-04,6007,Rent & Facilities,OpEx,D06,Product,5250.0,5638.28,5626.49
+2024-05,6007,Rent & Facilities,OpEx,D01,Engineering,7000.0,7315.44,7253.22
+2024-05,6007,Rent & Facilities,OpEx,D02,Sales,5250.0,5193.53,5163.38
+2024-05,6007,Rent & Facilities,OpEx,D03,Marketing,5250.0,5017.63,5047.16
+2024-05,6007,Rent & Facilities,OpEx,D04,G&A,7000.0,7720.54,7849.47
+2024-05,6007,Rent & Facilities,OpEx,D05,Customer Success,5250.0,5262.44,5283.21
+2024-05,6007,Rent & Facilities,OpEx,D06,Product,5250.0,5252.93,5190.11
+2024-06,6007,Rent & Facilities,OpEx,D01,Engineering,7000.0,6993.24,7024.33
+2024-06,6007,Rent & Facilities,OpEx,D02,Sales,5250.0,5291.6,5354.92
+2024-06,6007,Rent & Facilities,OpEx,D03,Marketing,5250.0,5219.68,5187.85
+2024-06,6007,Rent & Facilities,OpEx,D04,G&A,7000.0,6839.37,6830.2
+2024-06,6007,Rent & Facilities,OpEx,D05,Customer Success,5250.0,5135.16,5135.91
+2024-06,6007,Rent & Facilities,OpEx,D06,Product,5250.0,5243.12,5201.97
+2024-07,6007,Rent & Facilities,OpEx,D01,Engineering,7000.0,6847.84,6892.23
+2024-07,6007,Rent & Facilities,OpEx,D02,Sales,5250.0,5100.3,5094.13
+2024-07,6007,Rent & Facilities,OpEx,D03,Marketing,5250.0,5272.35,5294.47
+2024-07,6007,Rent & Facilities,OpEx,D04,G&A,7000.0,6928.61,6867.12
+2024-07,6007,Rent & Facilities,OpEx,D05,Customer Success,5250.0,5565.84,5541.49
+2024-07,6007,Rent & Facilities,OpEx,D06,Product,5250.0,4693.3,4727.2
+2024-08,6007,Rent & Facilities,OpEx,D01,Engineering,7000.0,7305.62,7278.38
+2024-08,6007,Rent & Facilities,OpEx,D02,Sales,5250.0,5511.68,5606.86
+2024-08,6007,Rent & Facilities,OpEx,D03,Marketing,5250.0,4814.59,4795.35
+2024-08,6007,Rent & Facilities,OpEx,D04,G&A,7000.0,6904.05,6919.56
+2024-08,6007,Rent & Facilities,OpEx,D05,Customer Success,5250.0,5172.0,5220.23
+2024-08,6007,Rent & Facilities,OpEx,D06,Product,5250.0,4954.42,4884.15
+2024-09,6007,Rent & Facilities,OpEx,D01,Engineering,7000.0,6782.21,6662.79
+2024-09,6007,Rent & Facilities,OpEx,D02,Sales,5250.0,5016.78,4940.24
+2024-09,6007,Rent & Facilities,OpEx,D03,Marketing,5250.0,5617.98,5688.91
+2024-09,6007,Rent & Facilities,OpEx,D04,G&A,7000.0,7261.99,7221.91
+2024-09,6007,Rent & Facilities,OpEx,D05,Customer Success,5250.0,5517.03,5658.17
+2024-09,6007,Rent & Facilities,OpEx,D06,Product,5250.0,5401.55,5371.07
+2024-10,6007,Rent & Facilities,OpEx,D01,Engineering,7000.0,6683.87,6696.21
+2024-10,6007,Rent & Facilities,OpEx,D02,Sales,5250.0,5139.85,5219.11
+2024-10,6007,Rent & Facilities,OpEx,D03,Marketing,5250.0,5352.77,5460.15
+2024-10,6007,Rent & Facilities,OpEx,D04,G&A,7000.0,6657.8,6795.05
+2024-10,6007,Rent & Facilities,OpEx,D05,Customer Success,5250.0,5399.73,5464.98
+2024-10,6007,Rent & Facilities,OpEx,D06,Product,5250.0,5199.53,5252.78
+2024-11,6007,Rent & Facilities,OpEx,D01,Engineering,7000.0,6895.05,6935.91
+2024-11,6007,Rent & Facilities,OpEx,D02,Sales,5250.0,5399.3,5441.33
+2024-11,6007,Rent & Facilities,OpEx,D03,Marketing,5250.0,5343.3,5313.85
+2024-11,6007,Rent & Facilities,OpEx,D04,G&A,7000.0,6898.93,6842.48
+2024-11,6007,Rent & Facilities,OpEx,D05,Customer Success,5250.0,5493.46,5493.27
+2024-11,6007,Rent & Facilities,OpEx,D06,Product,5250.0,5022.98,5014.43
+2024-12,6007,Rent & Facilities,OpEx,D01,Engineering,7000.0,,6936.55
+2024-12,6007,Rent & Facilities,OpEx,D02,Sales,5250.0,,5323.12
+2024-12,6007,Rent & Facilities,OpEx,D03,Marketing,5250.0,,5350.31
+2024-12,6007,Rent & Facilities,OpEx,D04,G&A,7000.0,,7012.38
+2024-12,6007,Rent & Facilities,OpEx,D05,Customer Success,5250.0,,5405.14
+2024-12,6007,Rent & Facilities,OpEx,D06,Product,5250.0,,5130.12
+2024-01,6008,Legal & Professional Fees,OpEx,D01,Engineering,2800.0,2868.98,2863.42
+2024-01,6008,Legal & Professional Fees,OpEx,D02,Sales,2800.0,2866.43,2845.88
+2024-01,6008,Legal & Professional Fees,OpEx,D03,Marketing,2800.0,2765.33,2713.71
+2024-01,6008,Legal & Professional Fees,OpEx,D04,G&A,14000.0,14182.63,14170.9
+2024-01,6008,Legal & Professional Fees,OpEx,D05,Customer Success,2800.0,2659.88,2656.64
+2024-01,6008,Legal & Professional Fees,OpEx,D06,Product,2800.0,2903.49,2947.43
+2024-02,6008,Legal & Professional Fees,OpEx,D01,Engineering,2800.0,2779.29,2796.82
+2024-02,6008,Legal & Professional Fees,OpEx,D02,Sales,2800.0,2741.46,2713.38
+2024-02,6008,Legal & Professional Fees,OpEx,D03,Marketing,2800.0,2917.49,2971.58
+2024-02,6008,Legal & Professional Fees,OpEx,D04,G&A,14000.0,13605.57,13771.7
+2024-02,6008,Legal & Professional Fees,OpEx,D05,Customer Success,2800.0,2642.25,2657.63
+2024-02,6008,Legal & Professional Fees,OpEx,D06,Product,2800.0,2625.66,2619.71
+2024-03,6008,Legal & Professional Fees,OpEx,D01,Engineering,2800.0,2867.87,2840.35
+2024-03,6008,Legal & Professional Fees,OpEx,D02,Sales,2800.0,2656.59,2646.7
+2024-03,6008,Legal & Professional Fees,OpEx,D03,Marketing,2800.0,2996.54,3029.16
+2024-03,6008,Legal & Professional Fees,OpEx,D04,G&A,14000.0,12834.12,13075.99
+2024-03,6008,Legal & Professional Fees,OpEx,D05,Customer Success,2800.0,2990.0,3036.14
+2024-03,6008,Legal & Professional Fees,OpEx,D06,Product,2800.0,2823.63,2809.83
+2024-04,6008,Legal & Professional Fees,OpEx,D01,Engineering,2800.0,2789.17,2757.94
+2024-04,6008,Legal & Professional Fees,OpEx,D02,Sales,2800.0,2738.97,2742.83
+2024-04,6008,Legal & Professional Fees,OpEx,D03,Marketing,2800.0,2844.7,2794.39
+2024-04,6008,Legal & Professional Fees,OpEx,D04,G&A,14000.0,13978.92,14024.1
+2024-04,6008,Legal & Professional Fees,OpEx,D05,Customer Success,2800.0,2923.57,2919.25
+2024-04,6008,Legal & Professional Fees,OpEx,D06,Product,2800.0,2812.79,2799.68
+2024-05,6008,Legal & Professional Fees,OpEx,D01,Engineering,2800.0,2816.83,2771.91
+2024-05,6008,Legal & Professional Fees,OpEx,D02,Sales,2800.0,2759.28,2773.45
+2024-05,6008,Legal & Professional Fees,OpEx,D03,Marketing,2800.0,2793.62,2778.74
+2024-05,6008,Legal & Professional Fees,OpEx,D04,G&A,14000.0,14172.37,14006.57
+2024-05,6008,Legal & Professional Fees,OpEx,D05,Customer Success,2800.0,2608.46,2533.54
+2024-05,6008,Legal & Professional Fees,OpEx,D06,Product,2800.0,2649.0,2648.27
+2024-06,6008,Legal & Professional Fees,OpEx,D01,Engineering,2800.0,2883.25,2934.35
+2024-06,6008,Legal & Professional Fees,OpEx,D02,Sales,2800.0,2819.14,2865.97
+2024-06,6008,Legal & Professional Fees,OpEx,D03,Marketing,2800.0,2779.39,2766.69
+2024-06,6008,Legal & Professional Fees,OpEx,D04,G&A,14000.0,14010.32,13925.95
+2024-06,6008,Legal & Professional Fees,OpEx,D05,Customer Success,2800.0,2838.93,2852.24
+2024-06,6008,Legal & Professional Fees,OpEx,D06,Product,2800.0,2739.55,2712.2
+2024-07,6008,Legal & Professional Fees,OpEx,D01,Engineering,2800.0,2712.83,2721.02
+2024-07,6008,Legal & Professional Fees,OpEx,D02,Sales,2800.0,2821.93,2843.55
+2024-07,6008,Legal & Professional Fees,OpEx,D03,Marketing,2800.0,2690.42,2723.43
+2024-07,6008,Legal & Professional Fees,OpEx,D04,G&A,14000.0,14228.62,14214.37
+2024-07,6008,Legal & Professional Fees,OpEx,D05,Customer Success,2800.0,2609.31,2604.0
+2024-07,6008,Legal & Professional Fees,OpEx,D06,Product,2800.0,2915.27,2889.67
+2024-08,6008,Legal & Professional Fees,OpEx,D01,Engineering,2800.0,2852.93,2829.34
+2024-08,6008,Legal & Professional Fees,OpEx,D02,Sales,2800.0,2828.68,2822.27
+2024-08,6008,Legal & Professional Fees,OpEx,D03,Marketing,2800.0,2910.06,2920.75
+2024-08,6008,Legal & Professional Fees,OpEx,D04,G&A,14000.0,14932.67,15069.09
+2024-08,6008,Legal & Professional Fees,OpEx,D05,Customer Success,2800.0,2913.61,2890.21
+2024-08,6008,Legal & Professional Fees,OpEx,D06,Product,2800.0,2593.82,2632.54
+2024-09,6008,Legal & Professional Fees,OpEx,D01,Engineering,2800.0,2656.69,2649.49
+2024-09,6008,Legal & Professional Fees,OpEx,D02,Sales,2800.0,2730.02,2729.44
+2024-09,6008,Legal & Professional Fees,OpEx,D03,Marketing,2800.0,2802.92,2781.98
+2024-09,6008,Legal & Professional Fees,OpEx,D04,G&A,14000.0,14289.89,13943.47
+2024-09,6008,Legal & Professional Fees,OpEx,D05,Customer Success,2800.0,2718.72,2742.75
+2024-09,6008,Legal & Professional Fees,OpEx,D06,Product,2800.0,2820.92,2841.71
+2024-10,6008,Legal & Professional Fees,OpEx,D01,Engineering,2800.0,2715.4,2707.76
+2024-10,6008,Legal & Professional Fees,OpEx,D02,Sales,2800.0,2731.51,2733.34
+2024-10,6008,Legal & Professional Fees,OpEx,D03,Marketing,2800.0,2642.45,2656.08
+2024-10,6008,Legal & Professional Fees,OpEx,D04,G&A,14000.0,13482.99,13272.31
+2024-10,6008,Legal & Professional Fees,OpEx,D05,Customer Success,2800.0,2648.61,2634.6
+2024-10,6008,Legal & Professional Fees,OpEx,D06,Product,2800.0,2690.7,2712.07
+2024-11,6008,Legal & Professional Fees,OpEx,D01,Engineering,2800.0,2918.01,2881.41
+2024-11,6008,Legal & Professional Fees,OpEx,D02,Sales,2800.0,2693.67,2701.58
+2024-11,6008,Legal & Professional Fees,OpEx,D03,Marketing,2800.0,3094.83,3052.85
+2024-11,6008,Legal & Professional Fees,OpEx,D04,G&A,14000.0,22956.26,23063.33
+2024-11,6008,Legal & Professional Fees,OpEx,D05,Customer Success,2800.0,2820.7,2819.69
+2024-11,6008,Legal & Professional Fees,OpEx,D06,Product,2800.0,2703.86,2660.19
+2024-12,6008,Legal & Professional Fees,OpEx,D01,Engineering,2800.0,,2865.23
+2024-12,6008,Legal & Professional Fees,OpEx,D02,Sales,2800.0,,2758.86
+2024-12,6008,Legal & Professional Fees,OpEx,D03,Marketing,2800.0,,2754.63
+2024-12,6008,Legal & Professional Fees,OpEx,D04,G&A,14000.0,,14056.16
+2024-12,6008,Legal & Professional Fees,OpEx,D05,Customer Success,2800.0,,2864.32
+2024-12,6008,Legal & Professional Fees,OpEx,D06,Product,2800.0,,2743.11
