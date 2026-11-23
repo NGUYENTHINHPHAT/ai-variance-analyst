@@ -104,12 +104,15 @@ def build_variance_report(df: pd.DataFrame) -> pd.DataFrame:
     severity_order = {"CRITICAL": 0, "HIGH": 1, "MEDIUM": 2, "LOW": 3}
     all_flags["severity_rank"] = all_flags["severity"].map(severity_order)
 
+    # A row tripping several methods is kept once, under the first method in
+    # concat order (RULE_BASED, STATISTICAL, TREND). drop_duplicates keeps the
+    # first occurrence, so no sort may run before it. Then rank by severity
+    # (by rank, not alphabetically, which would put LOW before MEDIUM).
     report = (
         all_flags
-        .sort_values("severity_rank")
         .drop_duplicates(subset=["account_id", "department_id", "period"], keep="first")
+        .sort_values(["severity_rank", "abs_variance_pct"], ascending=[True, False], kind="stable")
         .drop(columns=["severity_rank"])
-        .sort_values(["severity", "abs_variance_pct"], ascending=[True, False])
         .reset_index(drop=True)
     )
 

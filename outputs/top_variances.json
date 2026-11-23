@@ -36,7 +36,7 @@
     "variance_pct": "+44.5%",
     "severity": "CRITICAL",
     "direction": "OVER_BUDGET",
-    "flag_type": "STATISTICAL"
+    "flag_type": "RULE_BASED"
   },
   {
     "account": "Marketing & Advertising",
@@ -88,7 +88,7 @@
     "variance_pct": "+24.4%",
     "severity": "HIGH",
     "direction": "OVER_BUDGET",
-    "flag_type": "STATISTICAL"
+    "flag_type": "RULE_BASED"
   },
   {
     "account": "Product Revenue - SaaS",
@@ -114,7 +114,7 @@
     "variance_pct": "+22.0%",
     "severity": "HIGH",
     "direction": "OVER_BUDGET",
-    "flag_type": "STATISTICAL"
+    "flag_type": "RULE_BASED"
   },
   {
     "account": "Product Revenue - SaaS",
@@ -130,29 +130,29 @@
     "flag_type": "RULE_BASED"
   },
   {
-    "account": "Software & Tools",
-    "account_type": "OpEx",
-    "department": "Sales",
-    "period": "2024-09",
-    "budget": "$2,700",
-    "actual": "$2,433",
-    "variance_amt": "$-267",
-    "variance_pct": "-9.9%",
-    "severity": "LOW",
-    "direction": "UNDER_BUDGET",
+    "account": "Third-Party Software Licenses",
+    "account_type": "COGS",
+    "department": "G&A",
+    "period": "2024-06",
+    "budget": "$4,200",
+    "actual": "$4,847",
+    "variance_amt": "$+647",
+    "variance_pct": "+15.4%",
+    "severity": "MEDIUM",
+    "direction": "OVER_BUDGET",
     "flag_type": "STATISTICAL"
   },
   {
-    "account": "Depreciation & Amortization",
-    "account_type": "OpEx",
-    "department": "Product",
+    "account": "Product Revenue - SaaS",
+    "account_type": "Revenue",
+    "department": "Sales",
     "period": "2024-09",
-    "budget": "$3,750",
-    "actual": "$4,117",
-    "variance_amt": "$+367",
-    "variance_pct": "+9.8%",
-    "severity": "LOW",
-    "direction": "OVER_BUDGET",
-    "flag_type": "STATISTICAL"
+    "budget": "$476,000",
+    "actual": "$404,343",
+    "variance_amt": "$-71,657",
+    "variance_pct": "-15.1%",
+    "severity": "MEDIUM",
+    "direction": "MISS",
+    "flag_type": "RULE_BASED"
   }
 ]

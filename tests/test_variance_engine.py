@@ -215,6 +215,23 @@ def test_build_variance_report_dedupes_row_flagged_by_multiple_methods():
 
     assert len(dup_rows) == 1
     assert dup_rows.iloc[0]["severity"] == classify_severity(0.50)
+    # Deterministic winner: rule-based beats statistical (sql/variance_flags.sql relies on this)
+    assert dup_rows.iloc[0]["flag_type"] == "RULE_BASED"
+
+
+def test_build_variance_report_orders_by_severity_rank_not_alphabetically():
+    # A LOW trend flag (three periods at +6%) and a MEDIUM rule flag (+15%).
+    # Sorting severity as text would put LOW ahead of MEDIUM.
+    rows = [
+        make_row(account_id="T", department_id="D1", period=f"2024-{m:02d}",
+                 variance_pct=0.06, abs_variance_pct=0.06, variance_amount=6_000.0)
+        for m in (1, 2, 3)
+    ] + [
+        make_row(account_id="M", department_id="D1", period="2024-03",
+                 variance_pct=0.15, abs_variance_pct=0.15, variance_amount=15_000.0),
+    ]
+    report = build_variance_report(make_df(rows))
+    assert list(report["severity"]) == ["MEDIUM", "LOW"]
 
 
 @pytest.mark.parametrize("account_type, variance_pct, expected_direction", [

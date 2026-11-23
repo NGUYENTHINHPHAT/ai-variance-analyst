@@ -13,6 +13,10 @@ env/
 # Data (chroma_db is rebuilt at runtime)
 **/chroma_db/
 
+# DuckDB ERP database (rebuilt with src/seed_erp_db.py)
+data/erp.duckdb
+data/erp.duckdb.*
+
 # Outputs (regenerate with generate_demo_outputs.py)
 # Uncomment below if you don't want to commit outputs:
 # outputs/
