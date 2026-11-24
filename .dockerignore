@@ -1,0 +1,25 @@
+# Local environments and tooling
+venv/
+.venv/
+env/
+.git/
+.github/
+.idea/
+.vscode/
+.claude/
+.pytest_cache/
+**/__pycache__/
+*.py[cod]
+.DS_Store
+
+# Secrets: the API key is entered in the app sidebar, never baked into the image
+.env
+
+# Rebuilt at runtime
+**/chroma_db/
+data/erp.duckdb*
+
+# Not needed to run the app
+notebooks/
+tests/
+eval/
