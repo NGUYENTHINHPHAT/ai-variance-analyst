@@ -211,7 +211,7 @@ current_period = df["period"][df["actual_amount"].notna()].max()
 
 
 # ── Header ────────────────────────────────────────────────────────────────────
-st.markdown("""
+st.markdown(f"""
 <div class="app-header" style="padding:1.2rem 1.5rem;">
   <span class="app-title">📊 AI Variance Analyst</span>
   <span style="color:#475569;margin:0 1rem;">|</span>
