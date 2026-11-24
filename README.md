@@ -124,12 +124,6 @@ ai-variance-analyst/
 ├── eval/
 │   └── eval_narrative.py           # LLM output groundedness + structure eval (calls Claude API)
 │
-├── tableau/
-│   ├── build_extract.py            # Builds the Tableau .hyper extract from variance_engine
-│   ├── extract/                    # Generated budget_variance.hyper (gitignored)
-│   └── dist/
-│       └── budget_variance.twbx    # Packaged Tableau workbook, ready to open
-│
 ├── rag_docs/                       # Company context documents for RAG
 │   ├── budget_assumptions_fy2024.md
 │   ├── company_overview.md
@@ -210,12 +204,6 @@ Open [http://localhost:8501](http://localhost:8501) in your browser.
 pytest tests/ -v
 ```
 No API key needed — see [Testing & Evaluation](#-testing--evaluation) below.
-
-### 9. (Optional) Build the Tableau extract
-```bash
-python tableau/build_extract.py
-```
-Or just open the pre-built `tableau/dist/budget_variance.twbx` directly — see [Tableau Dashboard](#-tableau-dashboard).
 
 ---
 
@@ -318,45 +306,6 @@ queries and expected source documents — is the natural next layer. See
 
 ---
 
-## 📊 Tableau Dashboard
-
-The same variance analysis the Streamlit app shows is also available as a Tableau extract, for
-audiences who'd rather work in Tableau than run a Python app — no server, no API key, no per-view
-LLM cost.
-
-`tableau/build_extract.py` reuses `variance_engine.build_variance_report()` directly — it doesn't
-re-derive the analysis — so the workbook always shows exactly the same numbers as the live app. It
-writes `tableau/extract/budget_variance.hyper` with two tables:
-
-| Table | Grain | Powers |
-|---|---|---|
-| `Extract` | period × account × department (wide) | KPI tiles, flagged-variance table, heatmap, severity mix |
-| `Trend` | period × account × department × metric_type (long) | Trend line chart, budget/actual/forecast comparison |
-
-`Trend` rows exist as `Actual` only for closed periods and `Forecast` only for open ones, so a
-Tableau line mark breaks cleanly at the actual/forecast boundary with no null-connect tricks.
-
-```bash
-python tableau/build_extract.py
-```
-
-A pre-built, packaged workbook is checked in at `tableau/dist/budget_variance.twbx` — open it
-directly in Tableau Desktop or Tableau Public, no build step required. It's self-contained (the
-extract is embedded) with seven worksheets — KPI Summary, Variance by Department, Flag Severity
-Mix, Variance Heatmap, Flagged Variances, Trend, Metric Totals — combined into one
-"Budget Variance Overview" dashboard.
-
-> **Note:** this workbook was hand-authored directly against the Tableau `.twb` XML schema (no
-> Tableau Desktop was available in the environment it was built in). Every field reference is
-> validated against the real `.hyper` schema, but visual rendering hasn't been confirmed inside
-> Tableau itself — treat it as a strong first draft, not a GUI-verified export.
-
-The Hyper extract is a snapshot, not a live connection — regenerate it (`python
-tableau/build_extract.py`) any time the underlying data changes. `*.hyper` files are gitignored as
-build artifacts.
-
----
-
 ## 🛠️ Tech Stack
 
 | Layer | Technology |
@@ -368,7 +317,6 @@ build artifacts.
 | Frontend | Streamlit, Plotly |
 | Storage | CSV / DuckDB-compatible format |
 | Testing | pytest (deterministic engine tests + eval-framework self-tests) |
-| BI extract | Tableau Hyper API (`tableauhyperapi`) |
 
 ---
 
@@ -383,7 +331,6 @@ Some ideas for further development:
 - **Multi-company**: Extend RAG index to support multiple subsidiaries or business units
 - **Forecast accuracy tracking**: Build a model that tracks how accurate monthly forecasts have been
 - **RAG retrieval eval**: Precision/recall@k against a hand-labeled query → expected-source-doc set
-- **Tableau Server/Cloud publishing**: Replace the manual `.hyper` snapshot with a scheduled extract refresh
 
 ---
 
@@ -399,7 +346,6 @@ Some ideas for further development:
 | **Production Engineering** | Modular codebase, caching, error handling, API key management |
 | **Executive Communication** | CFO-level report format, actionable recommendations |
 | **Testing & LLM Evaluation** | Deterministic regression tests + a groundedness eval that verifies the "no hallucination" claim numerically |
-| **BI / Analytics Integration** | Tableau Hyper extract reusing the same engine, so BI and app numbers never diverge |
 
 ---
 
