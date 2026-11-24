@@ -1,13 +1,13 @@
 {
-  "total_budget": 19820500.0,
-  "total_actual": 19661077.0,
-  "total_variance": -159423.0,
-  "total_variance_pct": -0.008,
-  "revenue_budget": 11590000.0,
-  "revenue_actual": 11292319.0,
-  "revenue_variance_pct": -0.0257,
-  "expense_budget": 8230500.0,
-  "expense_actual": 8368759.0,
-  "expense_variance_pct": 0.0168,
-  "forecast_vs_budget": -0.0078
+  "total_budget": 21977400.0,
+  "total_actual": 21865876.0,
+  "total_variance": -111524.0,
+  "total_variance_pct": -0.0051,
+  "revenue_budget": 12917000.0,
+  "revenue_actual": 12659744.0,
+  "revenue_variance_pct": -0.0199,
+  "expense_budget": 9060400.0,
+  "expense_actual": 9206131.0,
+  "expense_variance_pct": 0.0161,
+  "forecast_vs_budget": -0.004
 }

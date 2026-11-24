@@ -69,7 +69,7 @@ This system automates that workflow — ingesting structured financial data, det
 │                                 │
 │  Mock ERP (CSV / DuckDB)        │
 │  • budget.csv (828 rows)        │
-│  • actuals.csv (828 rows)       │
+│  • actuals.csv (759 rows)       │
 │  • forecast.csv (828 rows)      │
 │  • 14 GL accounts               │
 │  • 6 departments                │
@@ -242,12 +242,12 @@ The mock dataset includes realistic anomalies for demonstration:
 
 | Event | Period | Variance | Context |
 |---|---|---|---|
-| Marketing brand campaign overspend | Jul–Sep 2024 | +38–42% | Planned NovaSummit conference (expected) |
-| SaaS revenue miss (customer churn) | Jul–Sep 2024 | -15–21% | Enterprise customer M&A churn event |
-| Cloud infrastructure spike | Oct–Nov 2024 | +28–31% | Architecture migration side effect |
-| T&E spike — Sales SKO | Apr 2024 | +51% | Annual Sales Kickoff (expected) |
-| Legal fees spike | Nov 2024 | +66% | Strategic contract renegotiation |
-| PS Revenue beat | Oct–Nov 2024 | +19–27% | Backlog implementations completing early |
+| Marketing brand campaign overspend | Jul–Sep 2024 | +22–45% | Planned NovaSummit conference (expected) |
+| SaaS revenue miss (customer churn) | Jul–Sep 2024 | -15–23% | Enterprise customer M&A churn event |
+| Cloud infrastructure spike | Oct–Nov 2024 | +24–35% | Architecture migration side effect |
+| T&E spike — Sales SKO | Apr 2024 | +53% | Annual Sales Kickoff (expected) |
+| Legal fees spike | Nov 2024 | +64% | Strategic contract renegotiation |
+| PS Revenue beat | Oct–Nov 2024 | +9–30% | Backlog implementations completing early |
 
 This mix of **expected** and **unexpected** variances demonstrates the system's ability to distinguish between planned events and genuine surprises.
 

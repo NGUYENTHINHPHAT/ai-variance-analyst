@@ -15,7 +15,7 @@ np.random.seed(42)
 COMPANY = "NovaTech Solutions Inc."
 FISCAL_YEAR = 2024
 PERIODS = [f"2024-{str(m).zfill(2)}" for m in range(1, 13)]
-CURRENT_PERIOD = "2024-10"  # Analysis cutoff: Oct 2024 closed, Nov–Dec open
+CURRENT_PERIOD = "2024-11"  # Analysis cutoff: Jan–Nov 2024 closed, Dec open
 
 DEPARTMENTS = {
     "D01": "Engineering",
@@ -74,8 +74,7 @@ SEASONALITY = {
     "6008": [1.00] * 12,
 }
 
-# Dewnt)
-# how each account's total is split across departments
+# Department allocation: how each account's total is split across departments
 DEPT_WEIGHTS = {
     "4001": {"D01":0.0, "D02":0.5, "D03":0.2, "D04":0.0, "D05":0.2, "D06":0.1},
     "4002": {"D01":0.0, "D02":0.6, "D03":0.0, "D04":0.0, "D05":0.3, "D06":0.1},
@@ -146,7 +145,7 @@ def generate_actuals(budget_df):
         key = (row["account_id"], row["department_id"], period_idx)
         planted_var = anomalies.get(key, 0)
 
-        # Natural noise: ±5%
+        # Natural noise: mean 0, std dev 4%
         noise = np.random.normal(0, 0.04)
         total_var = planted_var + noise
 
