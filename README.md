@@ -10,406 +10,87 @@ app_file: app.py
 pinned: false
 ---
 
-# 📊 AI Variance Analyst — FP&A Copilot
+# AI Variance Analyst
 
-> **Live Demo:** https://huggingface.co/spaces/PhatNguyen39/ai-variance-analyst
+**Budget vs. actual analysis for FP&A teams: flags the variances that matter, then explains them in a CFO-ready report grounded in company context.**
 
-> **Automated budget vs. actual analysis powered by LLMs + RAG — no hallucination, full auditability.**
+**[▶ Live demo](https://huggingface.co/spaces/PhatNguyen39/ai-variance-analyst)** · [Sample AI report](outputs/sample_ai_report.md)
 
-A production-grade ML portfolio project demonstrating data engineering, statistical anomaly detection, Retrieval-Augmented Generation (RAG), and LLM-powered executive reporting for Finance & FP&A use cases.
+<!-- Screenshot: save a capture of the dashboard as docs/dashboard.png and uncomment the next line -->
+<!-- ![Variance dashboard](docs/dashboard.png) -->
 
----
+Every month-end, finance teams answer the same questions: *Why did marketing spike in Q3? What's driving the revenue miss? Which variances are expected and which are real problems?* This app automates that loop on a mock ERP for a fictional SaaS company (synthetic data, 14 GL accounts × 6 departments × FY2024).
 
-## 🎯 Problem Statement
+## Highlights
 
-Finance teams spend significant time each month answering the same questions:
-- *"Why did marketing spend spike in Q3?"*
-- *"What's driving the SaaS revenue miss?"*
-- *"Which variances are expected vs. actually concerning?"*
+- **SQL data layer (DuckDB):** actuals are extracted from journal-entry lines with month-end close controls (only posted entries in locked periods), and five data-quality checks run before any analysis.
+- **Three-method anomaly detection:** a materiality rule, per-account z-scores, and 3-month trends, implemented in both Python and SQL and tested to give identical results.
+- **Grounded LLM reports:** RAG over company documents (budget assumptions, seasonality, past variances) feeds Claude, which writes an executive summary, driver attribution, risks, and actions.
+- **Hallucination check you can run:** an eval extracts every `$` and `%` figure in a generated report and verifies it traces back to the source data.
+- **47 automated tests**, no API key needed.
 
-This system automates that workflow — ingesting structured financial data, detecting significant deviations statistically, grounding an LLM in company-specific context via RAG, and generating CFO-ready variance reports in seconds.
+## How it works
 
----
-
-## 🏗️ System Architecture
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                         STREAMLIT UI                            │
-│   Dashboard │ AI Report │ Drill-Down Analyst │ Trend Charts     │
-└──────────────────────────┬──────────────────────────────────────┘
-                           │
-          ┌────────────────┼──────────────────┐
-          ▼                ▼                  ▼
-┌─────────────────┐ ┌───────────────┐ ┌──────────────────┐
-│  VARIANCE       │ │  RAG PIPELINE │ │  LLM ANALYST     │
-│  ENGINE         │ │               │ │  (Claude API)    │
-│                 │ │ ┌───────────┐ │ │                  │
-│ • Rule-based    │ │ │ Chroma DB │ │ │ • System prompt  │
-│   flags (>10%)  │ │ │ (vector   │ │ │ • Grounded       │
-│ • Z-score       │ │ │  store)   │ │ │   prompting      │
-│   outliers      │ │ └─────┬─────┘ │ │ • Structured     │
-│ • Trend         │ │       │       │ │   output         │
-│   detection     │ │ Embed │       │ │ • No hallucin-   │
-│                 │ │ Query │       │ │   ation          │
-└────────┬────────┘ └───────┼───────┘ └──────────────────┘
-         │                  │
-         │          ┌───────┴──────────┐
-         │          │   RAG DOCUMENTS  │
-         │          │                  │
-         │          │ • Budget assump. │
-         │          │ • Company overv. │
-         │          │ • Hist. variances│
-         │          │ • Account defs.  │
-         │          │ • Seasonality    │
-         │          └──────────────────┘
-         │
-┌────────┴────────────────────────┐
-│         DATA LAYER              │
-│                                 │
-│  Mock ERP in DuckDB (SQL)       │
-│  • gl_entries (journal lines,   │
-│    POSTED / DRAFT)              │
-│  • budget / forecast targets    │
-│  • coa_mapping, departments     │
-│  • close_control_log            │
-│  • 14 GL accounts               │
-│  • 6 departments                │
-│  • 12 months FY2024             │
-│  • Planted anomalies for demo   │
-└─────────────────────────────────┘
+```mermaid
+flowchart LR
+    A[ERP database<br/>DuckDB] -->|SQL extract +<br/>data-quality checks| B[Variance engine<br/>rule · z-score · trend]
+    B -->|flagged variances<br/>as JSON| D[Claude]
+    C[Company docs<br/>ChromaDB RAG] -->|retrieved context| D
+    D --> E[Streamlit dashboard<br/>+ executive report]
 ```
 
----
+**Key design decisions**
 
-## 🔑 Key Technical Decisions
+- **SQL with close controls, not a flat file.** The extract counts only `POSTED` entries in `LOCKED` periods, maps GL codes to P&L lines, and handles the edge cases explicitly (nothing posted → 0, open month → no actual, zero budget → no divide-by-zero). Checks catch unmapped GL codes, unknown departments, drafts left in closed months, actuals with no budget, and duplicate postings. See [`sql/`](sql/).
+- **Detection tuned to avoid noise.** A variance is flagged if it is over 10% *and* over $5K, a z-score above 2 within its account, or 3 straight months moving the same way by more than 5%. Severity runs from LOW to CRITICAL.
+- **RAG instead of fine-tuning.** Budget assumptions and business events change every fiscal year; retrieval updates the context without retraining, and each explanation can be traced to a source document.
+- **Numbers never come from the model.** Figures are passed to the LLM as structured JSON, the prompt forbids inventing numbers, and the model must say so when the context doesn't explain a variance.
 
-### Why RAG instead of fine-tuning?
-The LLM needs company-specific context (budget assumptions, business events, seasonality patterns) that changes every fiscal year. RAG allows updating context without retraining. It also ensures auditability — every claim can be traced to a source document.
+## Demo scenarios
 
-### How hallucination is prevented
-- The system prompt explicitly forbids inventing numbers
-- All variance figures are injected as structured JSON (not described in natural language)
-- RAG context is retrieved per-variance, grounding explanations in documented company knowledge
-- Uncertainty is flagged explicitly when context doesn't explain a variance
+The synthetic data includes planted events, a mix of expected and unexpected, for the system to find and explain:
 
-### Statistical approach
-Variance detection combines three methods:
-1. **Rule-based**: |actual - budget| / budget > 10% AND > $5K
-2. **Statistical (Z-score)**: Per-account Z-score > 2.0 across all periods
-3. **Trend detection**: 3+ consecutive periods in same direction > 5%
+| Event | Period | Variance | Expected? |
+|---|---|---|---|
+| Marketing overspend (brand campaign + user conference) | Jul–Sep 2024 | +22–45% | Yes, planned |
+| SaaS revenue miss (enterprise customer churn) | Jul–Sep 2024 | −15–23% | No |
+| Cloud infrastructure spike (architecture migration) | Oct–Nov 2024 | +24–35% | No |
+| Travel spike (sales kickoff) | Apr 2024 | +53% | Yes, planned |
+| Legal fees spike (contract renegotiation) | Nov 2024 | +64% | No |
+| Professional services revenue beat | Oct–Nov 2024 | +9–30% | No |
 
-This avoids over-flagging noise while catching both magnitude-based and pattern-based anomalies.
+## Testing and evaluation
 
----
-
-## 🗄️ SQL Data Layer (DuckDB)
-
-The app doesn't read a flat CSV. The generated data is loaded into a small ERP-style DuckDB
-database (`src/seed_erp_db.py`, schema in `sql/schema.sql`), and the analysis table is pulled out
-with SQL — the same way an FP&A team pulls month-end numbers from a GL.
-
-| Table | Grain | Purpose |
-|---|---|---|
-| `gl_entries` | journal-entry line | Actuals as 2–3 POSTED lines per amount, plus DRAFT lines and partial December activity |
-| `budget_targets` / `forecast_targets` | period × GL code × department | Approved budget and latest forecast |
-| `coa_mapping` | GL code | Maps each GL code to its P&L category |
-| `departments` | department | Cost-center names |
-| `close_control_log` | period | Month-end close status: Jan–Nov `LOCKED`, Dec `OPEN` |
-
-**`sql/extract_variance_base.sql`** builds the budget vs. actual vs. forecast table the app runs on:
-- counts only `POSTED` entries in `LOCKED` periods, so drafts and the open month never leak in;
-- maps GL codes to P&L categories, and drops unmapped codes (the checks below report them);
-- handles the edge cases explicitly: nothing posted in a closed month → actual `0`; open month →
-  actual `NULL`; actuals with no budget line → budget `0` (via `FULL OUTER JOIN`); zero budget →
-  variance % `NULL` (`NULLIF`, no divide-by-zero).
-
-**`sql/variance_flags.sql`** re-implements the variance engine in SQL: the rule-based check, the
-per-account Z-score (`AVG` / `STDDEV_POP` window functions), the 3-period trend (`LAG`), and
-deduplication with `QUALIFY ROW_NUMBER()`. Thresholds are bound as parameters from the Python
-constants, and a test checks the SQL report matches `variance_engine.py` row for row.
-
-**`sql/checks/`** holds the data-quality checks that run before the analysis and are shown on the
-dashboard: unmapped GL codes, unknown departments, drafts left in closed periods, actuals with no
-budget, and possible duplicate postings. The seeded data deliberately leaves six stale drafts in
-closed months, so the drafts check has something to find.
+- **Unit tests (47):** threshold boundaries, z-score and trend detection, deduplication, severity ordering, and revenue beat/miss labeling, on hand-computed fixtures.
+- **SQL tests:** small hand-built ledgers check every extract rule and data-quality check; parity tests confirm the SQL pipeline matches the Python engine row for row on the full dataset.
+- **LLM groundedness eval** ([`eval/eval_narrative.py`](eval/eval_narrative.py)): checks that every cited figure matches the source data within rounding, and that all four report sections are present with the executive summary under 150 words. It calls the Claude API, so it runs manually rather than in CI; its parsing logic has its own unit tests.
 
 ```bash
-python src/seed_erp_db.py        # builds data/erp.duckdb from data/raw/
+pytest tests/          # no API key needed
 ```
 
----
+## Tech stack
 
-## 📁 Project Structure
+| Area | Tools |
+|---|---|
+| Data & SQL | DuckDB, pandas, NumPy |
+| Detection | SciPy, pandas, SQL window functions |
+| RAG | ChromaDB, sentence-transformers |
+| LLM | Anthropic Claude API |
+| App | Streamlit, Plotly |
+| Testing | pytest |
 
-```
-ai-variance-analyst/
-│
-├── app.py                          # Main Streamlit application
-├── generate_demo_outputs.py        # Pre-compute charts & reports for demo
-├── requirements.txt
-├── .env.example
-│
-├── src/
-│   ├── generate_data.py            # Mock ERP data generator
-│   ├── seed_erp_db.py              # Loads generated data into the DuckDB ERP database
-│   ├── sql_engine.py               # Runs the queries in sql/ (extract, flags, checks)
-│   ├── variance_engine.py          # Statistical variance detection
-│   ├── rag_pipeline.py             # ChromaDB + sentence-transformers RAG
-│   └── llm_analyst.py              # Claude API integration
-│
-├── sql/
-│   ├── schema.sql                  # ERP tables: GL entries, budget, forecast, COA, close log
-│   ├── extract_variance_base.sql   # Budget vs. actual vs. forecast (posted + locked only)
-│   ├── variance_flags.sql          # Rule / Z-score / trend flags with window functions
-│   └── checks/                     # Data-quality checks run before the analysis
-│
-├── tests/                          # Deterministic unit tests (pytest, no API calls)
-│   ├── test_variance_engine.py     # Flagging rules, thresholds, dedup, direction logic
-│   ├── test_eval_narrative.py      # Tests the eval framework's own parsing logic
-│   └── test_sql_layer.py           # SQL extract rules, data-quality checks, SQL vs. Python parity
-│
-├── eval/
-│   └── eval_narrative.py           # LLM output groundedness + structure eval (calls Claude API)
-│
-├── rag_docs/                       # Company context documents for RAG
-│   ├── budget_assumptions_fy2024.md
-│   ├── company_overview.md
-│   ├── historical_variances.md
-│   ├── account_definitions.md
-│   └── seasonality_patterns.md
-│
-├── data/
-│   ├── raw/                        # Generated CSVs (budget, actuals, forecast)
-│   └── processed/                  # Combined dataset + variance report
-│
-└── outputs/                        # Pre-computed demo artifacts
-    ├── variance_report_fy2024.csv
-    ├── summary_metrics.json
-    ├── top_variances.json
-    ├── sample_ai_report.md         # Full AI report (no API key needed to view)
-    ├── chart_heatmap.html
-    ├── chart_top_variances.html
-    └── chart_saas_revenue.html
-```
+## Run locally
 
----
-
-## 🚀 Quickstart
-
-### Prerequisites
-- Python 3.10+
-- An Anthropic API key ([get one here](https://console.anthropic.com))
-
-### 1. Clone the repository
 ```bash
-git clone https://github.com/PhatNguyen39/ai-variance-analyst.git
+git clone https://github.com/NGUYENTHINHPHAT/ai-variance-analyst.git
 cd ai-variance-analyst
-```
-
-### 2. Create and activate a virtual environment
-```bash
-python -m venv venv
-source venv/bin/activate        # macOS/Linux
-# venv\Scripts\activate         # Windows
-```
-
-### 3. Install dependencies
-```bash
 pip install -r requirements.txt
-```
-
-### 4. Set your API key
-```bash
-cp .env.example .env
-# Edit .env and add your key:
-#   ANTHROPIC_API_KEY=sk-ant-your-key-here
-
-# Or export directly:
-export ANTHROPIC_API_KEY=sk-ant-your-key-here
-```
-
-### 5. Generate mock ERP data
-```bash
-python src/generate_data.py
-```
-Output: `data/raw/` and `data/processed/erp_combined.csv`
-
-Then load it into the DuckDB ERP database:
-```bash
-python src/seed_erp_db.py
-```
-Output: `data/erp.duckdb` (the app also rebuilds this on startup)
-
-### 6. (Optional) Pre-generate demo outputs
-```bash
-python generate_demo_outputs.py
-```
-This creates static charts and a sample AI report in `outputs/` — useful for GitHub showcase without an API key.
-
-### 7. Launch the Streamlit app
-```bash
 streamlit run app.py
 ```
-Open [http://localhost:8501](http://localhost:8501) in your browser.
 
-### 8. (Optional) Run the test suite
-```bash
-pytest tests/ -v
-```
-No API key needed — see [Testing & Evaluation](#-testing--evaluation) below.
+The app generates the data and builds the database on startup. AI reports need an [Anthropic API key](https://console.anthropic.com), entered in the sidebar; the dashboard and charts work without one.
 
 ---
 
-## 📸 Demo Walkthrough
-
-### Tab 1 — Variance Dashboard
-- Color-coded severity table (CRITICAL / HIGH / MEDIUM / LOW)
-- Budget variance heatmap by account type and month
-- Severity distribution donut chart
-- Budget-to-Actual waterfall chart
-
-### Tab 2 — AI Executive Report
-1. Enter your API key in the sidebar
-2. Select number of top variances to analyze
-3. Click **"Generate Executive Report"**
-4. The system:
-   - Retrieves relevant context from the RAG index for each variance
-   - Sends grounded prompt to Claude
-   - Returns a structured Executive Summary, Driver Attribution, Risk Flags, and Recommended Actions
-
-### Tab 3 — Drill-Down Analyst
-- Select any account / department / period combination
-- Click **"Explain This Variance"** for a detailed AI explanation
-- Ask free-form questions to the FP&A Copilot chatbot
-
-### Tab 4 — Trend Charts
-- Budget vs Actual vs Forecast line charts per account
-- Monthly variance % bar chart
-- Full-year YTD variance comparison across all accounts
-
----
-
-## 🌱 Planted Anomalies (Demo Scenarios)
-
-The mock dataset includes realistic anomalies for demonstration:
-
-| Event | Period | Variance | Context |
-|---|---|---|---|
-| Marketing brand campaign overspend | Jul–Sep 2024 | +22–45% | Planned NovaSummit conference (expected) |
-| SaaS revenue miss (customer churn) | Jul–Sep 2024 | -15–23% | Enterprise customer M&A churn event |
-| Cloud infrastructure spike | Oct–Nov 2024 | +24–35% | Architecture migration side effect |
-| T&E spike — Sales SKO | Apr 2024 | +53% | Annual Sales Kickoff (expected) |
-| Legal fees spike | Nov 2024 | +64% | Strategic contract renegotiation |
-| PS Revenue beat | Oct–Nov 2024 | +9–30% | Backlog implementations completing early |
-
-This mix of **expected** and **unexpected** variances demonstrates the system's ability to distinguish between planned events and genuine surprises.
-
----
-
-## 🧪 Testing & Evaluation
-
-In financial AI, correctness is non-negotiable. This system is tested at two levels: first, a
-standard 47-case pytest suite that runs in seconds to guarantee precision on business logic,
-Z-score outliers, and percentage cutoffs. Second, an LLM groundedness eval that parses every
-number the model generates and verifies it against source JSON context to guarantee zero
-hallucinations.
-
-### Deterministic engine tests
-`variance_engine.py`'s flagging logic (rule-based %, Z-score outliers, trend detection, severity
-classification, direction/BEAT-MISS labeling) is pure functions over data — tested like any other
-code, with hand-computed synthetic fixtures and no network calls.
-
-```bash
-pytest tests/ -v
-```
-47 tests, runs in a couple seconds, no API key required. Covers exact threshold boundaries
-(10% / 20% / 30% severity cutoffs, the $5K minimum-dollar floor), Z-score outlier detection
-(hand-verified against `scipy.stats.zscore`), 3-consecutive-period trend firing, dedup when a row
-is flagged by multiple methods at once, and the Revenue BEAT/MISS direction flip.
-
-The SQL layer is tested the same way (`tests/test_sql_layer.py`): small hand-built ledgers check
-that drafts and open-period postings are excluded, zero-budget and zero-actual cases come out
-right, and each data-quality check fires (an unmapped GL code is dropped from the P&L and logs a
-warning). Parity tests then seed a full database from `data/raw/` and check that the SQL extract
-and SQL flags match the Python pipeline exactly.
-
-### LLM narrative groundedness eval
-This README claims *"no hallucination, full auditability."* `eval/eval_narrative.py` is what
-actually tests that claim rather than leaving it asserted: it extracts every `$` amount and `%`
-figure Claude cites in a generated report, and checks each one traces back to the
-`variance_data` / `summary_metrics` JSON that was actually in its prompt (within a small rounding
-tolerance). A number that matches nothing in the source data is flagged as a hallucination
-candidate. It also checks structural compliance — all four required report sections present,
-Executive Summary under the prompt's own 150-word limit.
-
-```bash
-export ANTHROPIC_API_KEY=sk-ant-your-key-here
-python eval/eval_narrative.py
-```
-This calls the real Claude API (a handful of requests) and depends on live data, so it's a manual
-script rather than a CI gate — run it after touching `llm_analyst.py`'s prompts or system rules.
-Its own parsing/matching logic is unit-tested separately in `tests/test_eval_narrative.py` (no API
-key needed), so a bug in the checker can't silently make every groundedness score meaningless.
-
-### Results
-- **Core Engine**: Passes 100% of the unit test suite (33/33 tests), verifying that all financial
-  rules, trend detections, and variance thresholds perform flawlessly without computational drift.
-- **AI Report Generator**: Achieves zero hallucination candidates on the narrative groundedness
-  evaluation, confirming that 100% of financial figures cited in the final reports trace back to
-  verified JSON data sources.
-
-### Not yet covered
-RAG retrieval quality (`rag_pipeline.py`) — precision/recall@k against a hand-labeled set of
-queries and expected source documents — is the natural next layer. See
-[Extending This Project](#-extending-this-project).
-
----
-
-## 🛠️ Tech Stack
-
-| Layer | Technology |
-|---|---|
-| Data generation | Python, pandas, numpy |
-| Statistical detection | scipy (Z-score), pandas |
-| Vector store / RAG | ChromaDB, sentence-transformers |
-| LLM | Anthropic Claude (claude-sonnet-4-20250514) |
-| Frontend | Streamlit, Plotly |
-| Storage | CSV (generator output) loaded into DuckDB |
-| Data layer | DuckDB, SQL (CTEs, window functions, data-quality checks) |
-| Testing | pytest (deterministic engine tests + eval-framework self-tests) |
-
----
-
-## 💡 Extending This Project
-
-Some ideas for further development:
-
-- **Connect real ERP data**: Replace `generate_data.py` with a NetSuite/SAP API connector
-- **MLflow tracking**: Log variance detection model performance over time
-- **Slack/email alerts**: Auto-notify department heads when their accounts exceed thresholds
-- **Multi-company**: Extend RAG index to support multiple subsidiaries or business units
-- **Forecast accuracy tracking**: Build a model that tracks how accurate monthly forecasts have been
-- **RAG retrieval eval**: Precision/recall@k against a hand-labeled query → expected-source-doc set
-
----
-
-## 🎓 What This Demonstrates
-
-| Skill | How It's Shown |
-|---|---|
-| **Data Engineering** | ERP schema design, multi-table joins, fiscal period modeling |
-| **SQL** | DuckDB extract with close/posting controls, window-function anomaly detection, data-quality checks, parity-tested against Python |
-| **Statistical ML** | Multi-method anomaly detection (rule + Z-score + trend) |
-| **LLM Grounding / RAG** | ChromaDB vector store, context retrieval, hallucination prevention |
-| **Prompt Engineering** | Structured system prompt with strict output format requirements |
-| **Financial Domain Knowledge** | GL account modeling, FP&A reporting conventions, GAAP terminology |
-| **Production Engineering** | Modular codebase, caching, error handling, API key management |
-| **Executive Communication** | CFO-level report format, actionable recommendations |
-| **Testing & LLM Evaluation** | Deterministic regression tests + a groundedness eval that verifies the "no hallucination" claim numerically |
-
----
-
-## 📄 License
-
-MIT License — free to use, modify, and distribute.
+MIT License
