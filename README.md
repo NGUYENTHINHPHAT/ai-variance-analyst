@@ -63,7 +63,7 @@ The synthetic data includes planted events, a mix of expected and unexpected, fo
 
 - **Unit tests (47):** threshold boundaries, z-score and trend detection, deduplication, severity ordering, and revenue beat/miss labeling, on hand-computed fixtures.
 - **SQL tests:** small hand-built ledgers check every extract rule and data-quality check; parity tests confirm the SQL pipeline matches the Python engine row for row on the full dataset.
-- **LLM groundedness eval** ([`eval/eval_narrative.py`](eval/eval_narrative.py)): checks that every cited figure matches the source data within rounding, and that all four report sections are present with the executive summary under 150 words. It calls the Claude API, so it runs manually rather than in CI; its parsing logic has its own unit tests.
+- **LLM groundedness eval** ([`eval/eval_narrative.py`](eval/eval_narrative.py)): checks that every cited figure matches the source data within rounding, and that all four report sections are present with the executive summary under 150 words. It calls the Claude API, so it runs manually rather than in CI; its parsing logic has its own unit tests. **Latest run (2026-11-24): 0 untraceable figures.**
 
 ```bash
 pytest tests/          # no API key needed
