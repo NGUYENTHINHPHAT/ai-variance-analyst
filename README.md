@@ -67,10 +67,12 @@ This system automates that workflow — ingesting structured financial data, det
 ┌────────┴────────────────────────┐
 │         DATA LAYER              │
 │                                 │
-│  Mock ERP (CSV / DuckDB)        │
-│  • budget.csv (828 rows)        │
-│  • actuals.csv (759 rows)       │
-│  • forecast.csv (828 rows)      │
+│  Mock ERP in DuckDB (SQL)       │
+│  • gl_entries (journal lines,   │
+│    POSTED / DRAFT)              │
+│  • budget / forecast targets    │
+│  • coa_mapping, departments     │
+│  • close_control_log            │
 │  • 14 GL accounts               │
 │  • 6 departments                │
 │  • 12 months FY2024             │
@@ -101,6 +103,43 @@ This avoids over-flagging noise while catching both magnitude-based and pattern-
 
 ---
 
+## 🗄️ SQL Data Layer (DuckDB)
+
+The app doesn't read a flat CSV. The generated data is loaded into a small ERP-style DuckDB
+database (`src/seed_erp_db.py`, schema in `sql/schema.sql`), and the analysis table is pulled out
+with SQL — the same way an FP&A team pulls month-end numbers from a GL.
+
+| Table | Grain | Purpose |
+|---|---|---|
+| `gl_entries` | journal-entry line | Actuals as 2–3 POSTED lines per amount, plus DRAFT lines and partial December activity |
+| `budget_targets` / `forecast_targets` | period × GL code × department | Approved budget and latest forecast |
+| `coa_mapping` | GL code | Maps each GL code to its P&L category |
+| `departments` | department | Cost-center names |
+| `close_control_log` | period | Month-end close status: Jan–Nov `LOCKED`, Dec `OPEN` |
+
+**`sql/extract_variance_base.sql`** builds the budget vs. actual vs. forecast table the app runs on:
+- counts only `POSTED` entries in `LOCKED` periods, so drafts and the open month never leak in;
+- maps GL codes to P&L categories, and drops unmapped codes (the checks below report them);
+- handles the edge cases explicitly: nothing posted in a closed month → actual `0`; open month →
+  actual `NULL`; actuals with no budget line → budget `0` (via `FULL OUTER JOIN`); zero budget →
+  variance % `NULL` (`NULLIF`, no divide-by-zero).
+
+**`sql/variance_flags.sql`** re-implements the variance engine in SQL: the rule-based check, the
+per-account Z-score (`AVG` / `STDDEV_POP` window functions), the 3-period trend (`LAG`), and
+deduplication with `QUALIFY ROW_NUMBER()`. Thresholds are bound as parameters from the Python
+constants, and a test checks the SQL report matches `variance_engine.py` row for row.
+
+**`sql/checks/`** holds the data-quality checks that run before the analysis and are shown on the
+dashboard: unmapped GL codes, unknown departments, drafts left in closed periods, actuals with no
+budget, and possible duplicate postings. The seeded data deliberately leaves six stale drafts in
+closed months, so the drafts check has something to find.
+
+```bash
+python src/seed_erp_db.py        # builds data/erp.duckdb from data/raw/
+```
+
+---
+
 ## 📁 Project Structure
 
 ```
@@ -113,13 +152,22 @@ ai-variance-analyst/
 │
 ├── src/
 │   ├── generate_data.py            # Mock ERP data generator
+│   ├── seed_erp_db.py              # Loads generated data into the DuckDB ERP database
+│   ├── sql_engine.py               # Runs the queries in sql/ (extract, flags, checks)
 │   ├── variance_engine.py          # Statistical variance detection
 │   ├── rag_pipeline.py             # ChromaDB + sentence-transformers RAG
 │   └── llm_analyst.py              # Claude API integration
 │
+├── sql/
+│   ├── schema.sql                  # ERP tables: GL entries, budget, forecast, COA, close log
+│   ├── extract_variance_base.sql   # Budget vs. actual vs. forecast (posted + locked only)
+│   ├── variance_flags.sql          # Rule / Z-score / trend flags with window functions
+│   └── checks/                     # Data-quality checks run before the analysis
+│
 ├── tests/                          # Deterministic unit tests (pytest, no API calls)
 │   ├── test_variance_engine.py     # Flagging rules, thresholds, dedup, direction logic
-│   └── test_eval_narrative.py      # Tests the eval framework's own parsing logic
+│   ├── test_eval_narrative.py      # Tests the eval framework's own parsing logic
+│   └── test_sql_layer.py           # SQL extract rules, data-quality checks, SQL vs. Python parity
 │
 ├── eval/
 │   └── eval_narrative.py           # LLM output groundedness + structure eval (calls Claude API)
@@ -186,6 +234,12 @@ export ANTHROPIC_API_KEY=sk-ant-your-key-here
 python src/generate_data.py
 ```
 Output: `data/raw/` and `data/processed/erp_combined.csv`
+
+Then load it into the DuckDB ERP database:
+```bash
+python src/seed_erp_db.py
+```
+Output: `data/erp.duckdb` (the app also rebuilds this on startup)
 
 ### 6. (Optional) Pre-generate demo outputs
 ```bash
@@ -256,7 +310,7 @@ This mix of **expected** and **unexpected** variances demonstrates the system's 
 ## 🧪 Testing & Evaluation
 
 In financial AI, correctness is non-negotiable. This system is tested at two levels: first, a
-standard 33-case pytest suite that runs in seconds to guarantee precision on business logic,
+standard 47-case pytest suite that runs in seconds to guarantee precision on business logic,
 Z-score outliers, and percentage cutoffs. Second, an LLM groundedness eval that parses every
 number the model generates and verifies it against source JSON context to guarantee zero
 hallucinations.
@@ -269,10 +323,16 @@ code, with hand-computed synthetic fixtures and no network calls.
 ```bash
 pytest tests/ -v
 ```
-33 tests, runs in a couple seconds, no API key required. Covers exact threshold boundaries
+47 tests, runs in a couple seconds, no API key required. Covers exact threshold boundaries
 (10% / 20% / 30% severity cutoffs, the $5K minimum-dollar floor), Z-score outlier detection
 (hand-verified against `scipy.stats.zscore`), 3-consecutive-period trend firing, dedup when a row
 is flagged by multiple methods at once, and the Revenue BEAT/MISS direction flip.
+
+The SQL layer is tested the same way (`tests/test_sql_layer.py`): small hand-built ledgers check
+that drafts and open-period postings are excluded, zero-budget and zero-actual cases come out
+right, and each data-quality check fires (an unmapped GL code is dropped from the P&L and logs a
+warning). Parity tests then seed a full database from `data/raw/` and check that the SQL extract
+and SQL flags match the Python pipeline exactly.
 
 ### LLM narrative groundedness eval
 This README claims *"no hallucination, full auditability."* `eval/eval_narrative.py` is what
@@ -315,7 +375,8 @@ queries and expected source documents — is the natural next layer. See
 | Vector store / RAG | ChromaDB, sentence-transformers |
 | LLM | Anthropic Claude (claude-sonnet-4-20250514) |
 | Frontend | Streamlit, Plotly |
-| Storage | CSV / DuckDB-compatible format |
+| Storage | CSV (generator output) loaded into DuckDB |
+| Data layer | DuckDB, SQL (CTEs, window functions, data-quality checks) |
 | Testing | pytest (deterministic engine tests + eval-framework self-tests) |
 
 ---
@@ -325,7 +386,6 @@ queries and expected source documents — is the natural next layer. See
 Some ideas for further development:
 
 - **Connect real ERP data**: Replace `generate_data.py` with a NetSuite/SAP API connector
-- **Add DuckDB**: Replace CSV reads with SQL queries for better performance at scale
 - **MLflow tracking**: Log variance detection model performance over time
 - **Slack/email alerts**: Auto-notify department heads when their accounts exceed thresholds
 - **Multi-company**: Extend RAG index to support multiple subsidiaries or business units
@@ -339,6 +399,7 @@ Some ideas for further development:
 | Skill | How It's Shown |
 |---|---|
 | **Data Engineering** | ERP schema design, multi-table joins, fiscal period modeling |
+| **SQL** | DuckDB extract with close/posting controls, window-function anomaly detection, data-quality checks, parity-tested against Python |
 | **Statistical ML** | Multi-method anomaly detection (rule + Z-score + trend) |
 | **LLM Grounding / RAG** | ChromaDB vector store, context retrieval, hallucination prevention |
 | **Prompt Engineering** | Structured system prompt with strict output format requirements |

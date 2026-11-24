@@ -22,8 +22,10 @@ sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "src
 import subprocess
 
 from variance_engine import (
-    load_data, build_variance_report, compute_summary_metrics, get_top_variances
+    build_variance_report, compute_summary_metrics, get_top_variances
 )
+from seed_erp_db import build_database
+from sql_engine import connect, load_variance_base, run_data_quality_checks, read_sql
 from rag_pipeline import FinancialRAG
 from llm_analyst import VarianceAnalyst
 
@@ -126,11 +128,18 @@ def load_all():
     # torn reads locally under concurrent regeneration.
     subprocess.run([sys.executable, "src/generate_data.py"], check=True)
 
-    df = load_data("data/processed/erp_combined.csv")
+    # Load the generated data into the mock ERP database, then read the
+    # analysis table back out through SQL (posted entries in locked periods only).
+    con = connect(build_database())
+    try:
+        dq_results = run_data_quality_checks(con)
+        df = load_variance_base(con)
+    finally:
+        con.close()
     report = build_variance_report(df)
     metrics = compute_summary_metrics(df)
     rag = FinancialRAG(docs_dir="rag_docs", persist_dir="data/chroma_db")
-    return df, report, metrics, rag
+    return df, report, metrics, rag, dq_results
 
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
@@ -186,11 +195,11 @@ with st.sidebar:
 
 # ── Load data ─────────────────────────────────────────────────────────────────
 try:
-    df, report, metrics, rag = load_all()
+    df, report, metrics, rag, dq_results = load_all()
     DATA_OK = True
 except FileNotFoundError:
     DATA_OK = False
-    st.error("⚠️ Data not found. Run `python src/generate_data.py` first to generate mock ERP data.")
+    st.error("⚠️ Data not found. Run `python src/generate_data.py` and `python src/seed_erp_db.py` first.")
     st.stop()
 
 # Apply filters
@@ -391,6 +400,22 @@ with tab1:
         showlegend=False,
     )
     st.plotly_chart(fig_wf, use_container_width=True)
+
+    # ── Data quality checks (run in SQL before the variance analysis)
+    n_failed = sum(not r.passed for r in dq_results)
+    dq_label = ("✅ Data quality: all checks passed" if n_failed == 0
+                else f"⚠️ Data quality: {n_failed} of {len(dq_results)} checks found issues")
+    with st.expander(dq_label):
+        st.caption("Run against the ERP database (DuckDB) before the variance analysis. "
+                   "Queries live in sql/checks/.")
+        for r in dq_results:
+            icon = "✅" if r.passed else ("❌" if r.check.severity == "ERROR" else "⚠️")
+            status = "passed" if r.passed else f"{r.issue_count} issue(s)"
+            st.markdown(f"{icon} **{r.check.name}** — {r.check.description}: {status}")
+            if not r.passed:
+                st.dataframe(r.rows, use_container_width=True, hide_index=True)
+        if st.toggle("Show the extract SQL"):
+            st.code(read_sql("extract_variance_base.sql"), language="sql")
 
 
 # ═══════════════════════════════════════════════════════════════════════════════
