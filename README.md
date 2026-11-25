@@ -93,4 +93,4 @@ The app generates the data and builds the database on startup. AI reports need a
 
 ---
 
-MIT License
+[MIT License](LICENSE)
