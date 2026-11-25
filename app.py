@@ -6,6 +6,7 @@ Streamlit Dashboard with LLM-powered variance analysis
 import os
 import sys
 import json
+import re
 import warnings
 warnings.filterwarnings("ignore")
 
@@ -118,9 +119,19 @@ def style_chart(fig, height):
     )
     return fig
 
+def report_markdown(text: str) -> str:
+    """Prepare report text for st.markdown.
+
+    Streamlit renders text between two $ signs as a LaTeX formula, which
+    mangles any report with dollar amounts in it; escape them. Also shrink
+    the report's ## section headings so they don't dwarf the page title.
+    """
+    text = re.sub(r"(?<!\\)\$", r"\\$", text)
+    return re.sub(r"^#{1,3} ", "#### ", text, flags=re.MULTILINE)
+
 def show_ai_text(text: str):
     with st.container(border=True):
-        st.markdown(text)
+        st.markdown(report_markdown(text))
 
 
 # ── Load data ─────────────────────────────────────────────────────────────────
@@ -350,7 +361,7 @@ with tab2:
         if os.path.exists(sample_path):
             with st.expander("Preview the report format (pre-written example, not live output)"):
                 with open(sample_path) as f:
-                    st.markdown(f.read())
+                    st.markdown(report_markdown(f.read()))
     else:
         col_btn, col_info = st.columns([2, 3])
         with col_btn:
